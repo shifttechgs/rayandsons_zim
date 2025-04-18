@@ -24,9 +24,9 @@
                                         <a href="service.html" class="th-btn style3" data-ani="slideinup" data-ani-delay="1s">
                                             <i class="fas fa-headset"></i> Emergency Plumbing? Call Now</i>
                                         </a>
-                                        <a href="service.html" class="th-btn style3" data-ani="slideinup" data-ani-delay="1s">
-                                           Explore Services  <i class="fa fa-arrow-right"></i>
-                                        </a>
+{{--                                        <a href="service.html" class="th-btn style3" data-ani="slideinup" data-ani-delay="1s">--}}
+{{--                                           Explore Services  <i class="fa fa-arrow-right"></i>--}}
+{{--                                        </a>--}}
 
 
 

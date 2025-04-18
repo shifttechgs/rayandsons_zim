@@ -1,7 +1,7 @@
 <div class="th-menu-wrapper">
     <div class="th-menu-area text-center">
-        <button class="th-menu-toggle"><i class="fal fa-times"></i></button>
-        <div class="mobile-logo"><a href="home-handyman.html"><img src="assets/img/logo.svg" alt="Rakar"></a></div>
+        <button class="th-menu-toggle"><i class="fa fa-times"></i></button>
+        <div class="mobile-logo"><a href="home-handyman.html"><img src="assets/img/logo/rayandsons_logo.png" alt="Ray"></a></div>
         <div class="th-mobile-menu">
             <ul>
                 <li class="menu-item-has-children"><a href="home-handyman.html">Home</a>
