@@ -152,12 +152,9 @@
                                 </ul>
                             </nav>
                             <div class="header-button">
-                                <form action="#" class="header-search"><input type="text"
-                                                                              placeholder="Search Services...">
-                                    <button type="button" class="icon-btn"><i class="fal fa-search"></i></button>
-                                </form>
+
                                 <button type="button" class="th-menu-toggle d-block d-lg-none"><i
-                                        class="far fa-bars"></i></button>
+                                        class="fa fa-bars"></i></button>
                             </div>
                         </div>
                     </div>
