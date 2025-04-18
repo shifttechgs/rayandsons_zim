@@ -25,7 +25,7 @@
                                             <i class="fas fa-headset"></i> Emergency Plumbing? Call Now</i>
                                         </a>
                                         <a href="service.html" class="th-btn style3" data-ani="slideinup" data-ani-delay="1s">
-                                            <i class="fas fa-search"></i> Explore Services</i>
+                                           Explore Services  <i class="fa fa-arrow-right"></i>
                                         </a>
 
 
@@ -127,54 +127,109 @@
         </div>
     </div>
 </div>
-    <section class="overflow-hidden space" style="background-color: whitesmoke" id="service-sec">
+    <section class="overflow-hidden space" style="background-color: #F8F8F8;"  id="service-sec">
 
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-xl-8 col-md-10">
                     <div class="title-area text-center"><span class="sub-title"><img
                                 src="assets/img/theme-img/title_icon.svg" alt="Icon">Our Services</span>
-                        <h4 class="sec-title">Services we offer</h4>
-                       </div>
+                        <h2 class="sec-title">What services we offer</h2>
+                        <p class="sec-text">Welcome to Rakar renovation, we provide a robust synopsis for high level
+                            overviews. Organically grow the holistic world view of disruptive innovation via workplace
+                            diversity and empowerment.</p></div>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-md-4">
-                    <div class="service-card">
-                        <div class="box-number">01</div>
-                        <div class="box-icon"><img src="assets/img/icon/service_card_1.svg" alt="Icon"></div>
-                        <p class="box-subtitle">Plumbing Services</p>
-                        <h3 class="box-title"><a href="service-details.html">Plumbing Installations</a></h3>
-                        <p class="box-text">Our Repair all Services best offers quality help programs for corporate
-                            zone studying.</p><a href="service-details.html" class="th-btn btn-sm">Read More<i
-                                class="fa fa-arrow-right ms-2"></i></a></div>
+            <div class="slider-area">
+                <div class="swiper th-slider has-shadow" id="serviceSlider1"
+                     data-slider-options='{"loop":false,"slidesPerGroup":"2","breakpoints":{"0":{"slidesPerView":1},"576":{"slidesPerView":"1"},"768":{"slidesPerView":"2"},"992":{"slidesPerView":"2"},"1200":{"slidesPerView":"3"},"1300":{"slidesPerView":"4"}}}'>
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="service-card">
+                                <div class="box-number">01</div>
+                                <div class="box-icon"><img src="assets/img/icon/service_card_1.svg" alt="Icon"></div>
+                                <p class="box-subtitle">Service And Repairs</p>
+                                <h3 class="box-title"><a href="service-details.html">Plumbing Services</a></h3>
+                                <p class="box-text">Our Repair all Services best offers quality help programs for corporate
+                                    zone studying.</p><a href="service-details.html" class="th-btn btn-sm">Read More<i
+                                        class="far fa-arrow-right ms-2"></i></a></div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="service-card">
+                                <div class="box-number">02</div>
+                                <div class="box-icon"><img src="assets/img/icon/service_card_2.svg" alt="Icon"></div>
+                                <p class="box-subtitle">Service And Repairs</p>
+                                <h3 class="box-title"><a href="service-details.html">Wall Painting</a></h3>
+                                <p class="box-text">Our Repair all Services best offers quality help programs for corporate
+                                    zone studying.</p><a href="service-details.html" class="th-btn btn-sm">Read More<i
+                                        class="far fa-arrow-right ms-2"></i></a></div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="service-card">
+                                <div class="box-number">03</div>
+                                <div class="box-icon"><img src="assets/img/icon/service_card_3.svg" alt="Icon"></div>
+                                <p class="box-subtitle">Service And Repairs</p>
+                                <h3 class="box-title"><a href="service-details.html">Light Fixture Install</a></h3>
+                                <p class="box-text">Our Repair all Services best offers quality help programs for corporate
+                                    zone studying.</p><a href="service-details.html" class="th-btn btn-sm">Read More<i
+                                        class="far fa-arrow-right ms-2"></i></a></div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="service-card">
+                                <div class="box-number">04</div>
+                                <div class="box-icon"><img src="assets/img/icon/service_card_4.svg" alt="Icon"></div>
+                                <p class="box-subtitle">Service And Repairs</p>
+                                <h3 class="box-title"><a href="service-details.html">Painting Services</a></h3>
+                                <p class="box-text">Our Repair all Services best offers quality help programs for corporate
+                                    zone studying.</p><a href="service-details.html" class="th-btn btn-sm">Read More<i
+                                        class="far fa-arrow-right ms-2"></i></a></div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="service-card">
+                                <div class="box-number">05</div>
+                                <div class="box-icon"><img src="assets/img/icon/service_card_5.svg" alt="Icon"></div>
+                                <p class="box-subtitle">Service And Repairs</p>
+                                <h3 class="box-title"><a href="service-details.html">Exterior Painting</a></h3>
+                                <p class="box-text">Our Repair all Services best offers quality help programs for corporate
+                                    zone studying.</p><a href="service-details.html" class="th-btn btn-sm">Read More<i
+                                        class="far fa-arrow-right ms-2"></i></a></div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="service-card">
+                                <div class="box-number">06</div>
+                                <div class="box-icon"><img src="assets/img/icon/service_card_6.svg" alt="Icon"></div>
+                                <p class="box-subtitle">Service And Repairs</p>
+                                <h3 class="box-title"><a href="service-details.html">Home Appliance</a></h3>
+                                <p class="box-text">Our Repair all Services best offers quality help programs for corporate
+                                    zone studying.</p><a href="service-details.html" class="th-btn btn-sm">Read More<i
+                                        class="far fa-arrow-right ms-2"></i></a></div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="service-card">
+                                <div class="box-number">07</div>
+                                <div class="box-icon"><img src="assets/img/icon/service_card_7.svg" alt="Icon"></div>
+                                <p class="box-subtitle">Service And Repairs</p>
+                                <h3 class="box-title"><a href="service-details.html">Furniture Assembly</a></h3>
+                                <p class="box-text">Our Repair all Services best offers quality help programs for corporate
+                                    zone studying.</p><a href="service-details.html" class="th-btn btn-sm">Read More<i
+                                        class="far fa-arrow-right ms-2"></i></a></div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="service-card">
+                                <div class="box-number">08</div>
+                                <div class="box-icon"><img src="assets/img/icon/service_card_8.svg" alt="Icon"></div>
+                                <p class="box-subtitle">Service And Repairs</p>
+                                <h3 class="box-title"><a href="service-details.html">AC Installation</a></h3>
+                                <p class="box-text">Our Repair all Services best offers quality help programs for corporate
+                                    zone studying.</p><a href="service-details.html" class="th-btn btn-sm">Read More<i
+                                        class="far fa-arrow-right ms-2"></i></a></div>
+                        </div>
+                    </div>
+                    <div class="slider-pagination"></div>
                 </div>
-                <div class="col-md-4">
-                    <div class="service-card">
-                        <div class="box-number">02</div>
-                        <div class="box-icon"><img src="assets/img/icon/service_card_1.svg" alt="Icon"></div>
-                        <p class="box-subtitle">Plumbing Services</p>
-                        <h3 class="box-title"><a href="service-details.html">Drainage Services</a></h3>
-                        <p class="box-text">Our Repair all Services best offers quality help programs for corporate
-                            zone studying.</p><a href="service-details.html" class="th-btn btn-sm">Read More<i
-                                class="fa fa-arrow-right ms-2"></i></a></div>
-                </div>
-                <div class="col-md-4">
-                    <div class="service-card">
-                        <div class="box-number">03</div>
-                        <div class="box-icon"><img src="assets/img/icon/service_card_1.svg" alt="Icon"></div>
-                        <p class="box-subtitle">Plumbing Services</p>
-                        <h3 class="box-title"><a href="service-details.html">Plumbing Maintenance</a></h3>
-                        <p class="box-text">Our Repair all Services best offers quality help programs for corporate
-                            zone studying.</p><a href="service-details.html" class="th-btn btn-sm">Read More<i
-                                class="fa fa-arrow-right ms-2"></i></a></div>
-                </div>
-
             </div>
-
         </div>
     </section>
-
 <section class="cta-sec1" data-bg-src="assets/img/bg/pattern_bg_3.png">
     <div class="cta-img1"><img src="assets/img/normal/cta_1.png" alt="CTA"></div>
     <div class="cta-content"><h5 class="sec-title text-white mb-37">Need a Fix? Get Reliable Emergency Plumbing Service with Fair rates.</h5>
