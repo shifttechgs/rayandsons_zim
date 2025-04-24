@@ -163,9 +163,7 @@
                                     <div class="choose-feature">
                                         <div class="box-icon"><img src="assets/img/icon/choose_feature_4.svg" alt="Icon"></div>
                                         <h3 class="box-title">Boiler and water heater installations</h3></div>
-                                    <div class="choose-feature">
-                                        <div class="box-icon"><img src="assets/img/icon/choose_feature_4.svg" alt="Icon"></div>
-                                        <h3 class="box-title">and other professional services</h3></div>
+                                    
                                 </div>
 
                             </div>
