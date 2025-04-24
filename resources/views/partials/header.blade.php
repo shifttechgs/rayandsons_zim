@@ -71,8 +71,15 @@
 
                                     </li>
                                     <li><a href="#">About Us</a></li>
-                                    <li ><a href="{{ route('our_services.index') }}">Our Services</a>
-
+{{--                                    <li ><a href="{{ route('our_services.index') }}">Our Services</a>--}}
+{{--                                    <li ><a href="{{ route('our_services.index') }}">Our Services</a>--}}
+                                    <li class="menu-item-has-children"><a href="#">Our Plumbing Services</a>
+                                        <ul class="sub-menu">
+                                            <li><a href="{{ route('plumbing-installations.index') }}">Plumbing Installations</a></li>
+                                            <li><a href="{{ route('drainage-services.index') }}">Drainage Services</a></li>
+                                            <li><a href="{{ route('plumbing-maintenances.index') }}">Plumbing Maintenance</a></li>
+                                        </ul>
+                                    </li>
                                     </li>
 
 

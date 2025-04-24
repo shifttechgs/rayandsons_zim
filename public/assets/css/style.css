@@ -36,6 +36,10 @@
     --ripple-ani-duration: 5s
 }
 
+.tab-btn.active {
+    background-color: #04425b;
+    color: white !important;
+}
 .home-electrician {
     --body-bg: #fff;
     --theme-color: #FA2D39;
@@ -7523,9 +7527,9 @@ ul.widget_rss, ul.wp-block-rss, ol.widget_rss, ol.wp-block-rss {
     padding: 210px 0 125px 0;
     overflow: hidden;
     text-align: center;
-    max-width: 1832px;
+    /*max-width: 1832px;*/
     margin: 0 auto;
-    border-radius: 24px
+    border-radius: 10px
 }
 
 @media (max-width: 1299px) {
@@ -15966,7 +15970,7 @@ span.select2-selection.select2-selection--single:focus {
 .choose-feature {
     background-color: var(--white-color);
     box-shadow: 0px 10px 50px rgba(204, 204, 204, 0.32);
-    border-radius: 12px;
+    border-radius: 10px;
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -15975,7 +15979,7 @@ span.select2-selection.select2-selection--single:focus {
     -webkit-align-items: center;
     -ms-flex-align: center;
     align-items: center;
-    gap: 18px;
+    gap: 10px;
     padding: 24px;
     text-align: left
 }
@@ -16015,7 +16019,7 @@ span.select2-selection.select2-selection--single:focus {
 
 .choose-feature .box-title {
     margin: -0.24em 0;
-    max-width: 190px
+    max-width: 370px
 }
 
 .choose-feature:hover .box-icon img {
@@ -18515,7 +18519,9 @@ span.select2-selection.select2-selection--single:focus {
     background-color: var(--white-color)
 }
 
+
 .process-card .box-title {
+    font-size: 18px;
     margin-bottom: 4px
 }
 

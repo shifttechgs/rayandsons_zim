@@ -34,6 +34,10 @@
     <link rel="stylesheet" href="assets/css/fontawesome.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+
+
+    </style>
 </head>
 <body>
 
@@ -49,6 +53,40 @@
 <script src="assets/js/vendor/jquery-3.7.1.min.js"></script>
 <script src="assets/js/app.min.js"></script>
 <script src="assets/js/main.js"></script>
+<script>
+    function activateTab(tabId) {
+        // Remove 'active' class from all buttons
+        document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+
+        // Hide all tab contents
+        document.querySelectorAll('.tab-content').forEach(content => content.style.display = 'none');
+
+        // Add 'active' to selected button
+        const activeBtn = document.querySelector(`.tab-btn[data-tab="${tabId}"]`);
+        const activeContent = document.getElementById(tabId);
+
+        if (activeBtn && activeContent) {
+            activeBtn.classList.add('active');
+            activeContent.style.display = 'block';
+        }
+    }
+
+    // On click switch
+    document.querySelectorAll('.tab-btn').forEach(btn => {
+        btn.addEventListener('click', () => {
+            const tabId = btn.getAttribute('data-tab');
+            activateTab(tabId);
+        });
+    });
+
+    // On page load - detect ?tab=value in URL
+    window.addEventListener('DOMContentLoaded', () => {
+        const urlParams = new URLSearchParams(window.location.search);
+        const tab = urlParams.get('tab') || 'residential'; // default to residential
+        activateTab(tab);
+    });
+</script>
+
 </body>
 
 </html>

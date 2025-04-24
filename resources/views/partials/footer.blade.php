@@ -1,4 +1,4 @@
-<footer class="footer-wrapper footer-layout1" data-bg-src="assets/img/bg/footer_bg_3.png">
+<footer class="footer-wrapper footer-layout4" >
 
     <div class="footer-contact-area">
         <div class="container">
