@@ -1,7 +1,7 @@
 @extends("layouts.master")
 @section("content")
 
-    <div class="th-hero-wrapper hero-1 slider-area" id="hero" style="background-color: #F8F8F8;">
+    <div class="th-hero-wrapper hero-1 slider-area" id="hero" data-bg-src="assets/img/hero/ray_hero.jpg" >
 
         <div class="swiper th-slider" id="heroSlide1" data-slider-options='{"effect":"fade","autoHeight":true}'>
             <div class="swiper-wrapper">
@@ -21,25 +21,48 @@
                                         <p class="hero-text" data-ani="slideinup" style="color:#04425b" data-ani-delay="0.8s">
                                             Trusted by property owners since 2006 — from emergency repairs to full installations, Ray & Sons delivers fast, professional service you can count on.
                                         </p>
-                                        <a href="service.html" class="th-btn style3" data-ani="slideinup" data-ani-delay="1s">
-                                            <i class="fas fa-headset"></i> Emergency Plumbing? Call Now</i>
-                                        </a>
 {{--                                        <a href="service.html" class="th-btn style3" data-ani="slideinup" data-ani-delay="1s">--}}
-{{--                                           Explore Services  <i class="fa fa-arrow-right"></i>--}}
+{{--                                            <i class="fas fa-headset"></i> Emergency Plumbing? Call Now</i>--}}
 {{--                                        </a>--}}
+{{--                                        <a href="service.html" class="th-btn style3" data-ani="slideinup" data-ani-delay="1s">--}}
+{{--                                            <i class="fas fa-search"></i> Explore Services</i>--}}
+{{--                                        </a>--}}
+
+                                        <div class="btn-group" data-ani="slideinup" data-ani-delay="0.8s">
+
+                                            <a href="service.html" class="th-btn style3" data-ani="slideinup" data-ani-delay="1s">
+                                                <i class="fas fa-headset"></i> Emergency Plumbing? Call Now</i>
+                                            </a>
+
+                                            <a href="service.html" class="th-btn style2" style="color: #04425b">Explore Our
+                                                Services<i class="fas fa-arrow-right ms-2"></i></a>
+
+                                           </div>
 
 
 
                                         <div class="hero-social-proof mt-4 d-flex align-items-center gap-4" data-ani="fadeinup" data-ani-delay="1.2s">
-                                            <div class="d-flex align-items-center">
-                                                <div class="box-review text-gold" style="color: gold">
-                                                    <i class="fa-sharp fa-solid fa-star"></i><i class="fa-sharp fa-solid fa-star"></i><i
-                                                        class="fa-sharp fa-solid fa-star"></i><i class="fa-sharp fa-solid fa-star"></i><i
-                                                        class="fa-sharp fa-solid fa-star"></i>
+                                            <div class="row align-items-center">
+                                                <!-- Left: Stacked Avatars -->
+                                                <div class="col-auto">
+                                                    <div class="d-flex">
+                                                        <img src="assets/img/testimonial/testi_1_2.jpg" class="rounded-circle" style="width:40px; height:40px; margin-right: -10px; border: 2px solid #fff;" alt="User">
+                                                        <img src="assets/img/testimonial/testi_1_1.jpg" class="rounded-circle" style="width:40px; height:40px; margin-right: -10px; border: 2px solid #fff;" alt="User">
+                                                        <img src="assets/img/testimonial/testi_2_3.jpg" class="rounded-circle" style="width:40px; height:40px; margin-right: -10px; border: 2px solid #fff;" alt="User">
+                                                        <img src="assets/img/testimonial/testi_2_4.jpg" class="rounded-circle" style="width:40px; height:40px; border: 2px solid #fff;" alt="User">
+                                                    </div>
                                                 </div>
-                                                <span class="ms-2 fw-bold" style="color:#04425b">4.9/5 </span>
 
-                                                <p class="m-0" style="color:#04425b"> Trusted by 10,000+ happy clients</p>
+                                                <!-- Right: Rating & Text -->
+                                                <div class="col ps-3">
+                                                    <div class="d-flex flex-column">
+                                                        <div class="d-flex align-items-center text-warning">
+                                                            <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
+                                                            <span class="ms-2 fw-bold text-dark">4.9 Rating</span>
+                                                        </div>
+                                                        <p class="mb-0 text-muted">Trusted by 5000+ Customers</p>
+                                                    </div>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
@@ -47,22 +70,31 @@
 
                                 <!-- Right Side: Form -->
                                 <div class="col-xl-5 col-lg-6">
-                                    <div class="hero-form p-4 p-md-5 color-theme  shadow-lg" style="border-radius: 10px" data-ani="slideinright" data-ani-delay="0.2s">
+                                    <div class="hero-form p-4 p-md-5 color-theme  shadow-lg" style="border-radius: 10px; background-color: #F8F8F8;" data-ani="slideinright" data-ani-delay="0.2s">
                                         <h3 class="mb-4">Get Instant Quote</h3>
                                         <form action="https://html.themeholy.com/rakar/demo/mail.php" method="POST" class="input-light ajax-contact">
                                             <div class="row">
-                                                <div class="form-group col-md-12 mb-3">
+                                                <div class="form-group col-md-6 mb-3">
                                                     <input type="text" class="form-control rounded-3" name="name" id="name" placeholder="Your Name">
                                                     <i class="fal fa-user"></i>
+                                                </div>
+
+                                                <div class="form-group col-md-6 mb-4">
+                                                    <input type="tel" class="form-control rounded-3" name="number" id="number" placeholder="Phone Number">
+                                                    <i class="fal fa-phone"></i>
                                                 </div>
                                                 <div class="form-group col-md-12 mb-3">
                                                     <input type="email" class="form-control rounded-3" name="email" id="email" placeholder="Email Address">
                                                     <i class="fal fa-envelope"></i>
                                                 </div>
-                                                <div class="form-group col-md-12 mb-4">
-                                                    <input type="tel" class="form-control rounded-3" name="number" id="number" placeholder="Phone Number">
-                                                    <i class="fal fa-phone"></i>
-                                                </div>
+                                                <div class="form-group col-md-12 mb-4" >
+                                                    <select name="subject" id="subject" class="form-select form-control rounded-3">
+                                                        <option value="" disabled="disabled" selected="selected" hidden>Select Service
+                                                        </option>
+                                                        <option value="General Query">General Query</option>
+                                                        <option value="Help Support">Help Support</option>
+                                                        <option value="Sales Support">Sales Support</option>
+                                                    </select> <i class="fal fa-chevron-down"></i></div>
                                                 <div class="form-btn col-12">
                                                     <a class="th-btn style3">Get Quote Now<i class="fa fa-arrow-right ms-2"></i></a>
 
@@ -135,95 +167,54 @@
                     <div class="title-area text-center"><span class="sub-title"><img
                                 src="assets/img/theme-img/title_icon.svg" alt="Icon">Our Services</span>
                         <h2 class="sec-title">What services we offer</h2>
-                        <p class="sec-text">Welcome to Rakar renovation, we provide a robust synopsis for high level
-                            overviews. Organically grow the holistic world view of disruptive innovation via workplace
-                            diversity and empowerment.</p></div>
+                        <p class="sec-text">Ray & Sons is a professional plumbing company that offers an extensive range of general and specialist plumbing services.</p></div>
                 </div>
             </div>
-            <div class="slider-area">
-                <div class="swiper th-slider has-shadow" id="serviceSlider1"
+            <div class="slider-area ">
+                <div class="swiper th-slider has-shadow justify-content-center" id="serviceSlider1"
                      data-slider-options='{"loop":false,"slidesPerGroup":"2","breakpoints":{"0":{"slidesPerView":1},"576":{"slidesPerView":"1"},"768":{"slidesPerView":"2"},"992":{"slidesPerView":"2"},"1200":{"slidesPerView":"3"},"1300":{"slidesPerView":"4"}}}'>
                     <div class="swiper-wrapper">
                         <div class="swiper-slide">
                             <div class="service-card">
                                 <div class="box-number">01</div>
                                 <div class="box-icon"><img src="assets/img/icon/service_card_1.svg" alt="Icon"></div>
-                                <p class="box-subtitle">Service And Repairs</p>
-                                <h3 class="box-title"><a href="service-details.html">Plumbing Services</a></h3>
+                                <p class="box-subtitle">Plumbing Services.</p>
+                                <h3 class="box-title"><a href="service-details.html">Plumbing Installations</a></h3>
                                 <p class="box-text">Our Repair all Services best offers quality help programs for corporate
                                     zone studying.</p><a href="service-details.html" class="th-btn btn-sm">Read More<i
-                                        class="far fa-arrow-right ms-2"></i></a></div>
+                                        class="fa fa-arrow-right ms-2"></i></a></div>
                         </div>
                         <div class="swiper-slide">
                             <div class="service-card">
                                 <div class="box-number">02</div>
                                 <div class="box-icon"><img src="assets/img/icon/service_card_2.svg" alt="Icon"></div>
-                                <p class="box-subtitle">Service And Repairs</p>
-                                <h3 class="box-title"><a href="service-details.html">Wall Painting</a></h3>
+                                <p class="box-subtitle">Plumbing Services</p>
+                                <h3 class="box-title"><a href="service-details.html">Drainage Services </a></h3>
                                 <p class="box-text">Our Repair all Services best offers quality help programs for corporate
                                     zone studying.</p><a href="service-details.html" class="th-btn btn-sm">Read More<i
-                                        class="far fa-arrow-right ms-2"></i></a></div>
+                                        class="fa fa-arrow-right ms-2"></i></a></div>
                         </div>
                         <div class="swiper-slide">
                             <div class="service-card">
                                 <div class="box-number">03</div>
                                 <div class="box-icon"><img src="assets/img/icon/service_card_3.svg" alt="Icon"></div>
-                                <p class="box-subtitle">Service And Repairs</p>
-                                <h3 class="box-title"><a href="service-details.html">Light Fixture Install</a></h3>
+                                <p class="box-subtitle">Plumbing Services</p>
+                                <h3 class="box-title"><a href="service-details.html">Plumbing Maintenance</a></h3>
                                 <p class="box-text">Our Repair all Services best offers quality help programs for corporate
                                     zone studying.</p><a href="service-details.html" class="th-btn btn-sm">Read More<i
-                                        class="far fa-arrow-right ms-2"></i></a></div>
+                                        class="fa fa-arrow-right ms-2"></i></a></div>
                         </div>
                         <div class="swiper-slide">
                             <div class="service-card">
                                 <div class="box-number">04</div>
                                 <div class="box-icon"><img src="assets/img/icon/service_card_4.svg" alt="Icon"></div>
-                                <p class="box-subtitle">Service And Repairs</p>
-                                <h3 class="box-title"><a href="service-details.html">Painting Services</a></h3>
+                                <p class="box-subtitle">Plumbing Services</p>
+                                <h3 class="box-title"><a href="service-details.html">Emergency Plumbing</a></h3>
                                 <p class="box-text">Our Repair all Services best offers quality help programs for corporate
                                     zone studying.</p><a href="service-details.html" class="th-btn btn-sm">Read More<i
-                                        class="far fa-arrow-right ms-2"></i></a></div>
+                                        class="fa fa-arrow-right ms-2"></i></a></div>
                         </div>
-                        <div class="swiper-slide">
-                            <div class="service-card">
-                                <div class="box-number">05</div>
-                                <div class="box-icon"><img src="assets/img/icon/service_card_5.svg" alt="Icon"></div>
-                                <p class="box-subtitle">Service And Repairs</p>
-                                <h3 class="box-title"><a href="service-details.html">Exterior Painting</a></h3>
-                                <p class="box-text">Our Repair all Services best offers quality help programs for corporate
-                                    zone studying.</p><a href="service-details.html" class="th-btn btn-sm">Read More<i
-                                        class="far fa-arrow-right ms-2"></i></a></div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="service-card">
-                                <div class="box-number">06</div>
-                                <div class="box-icon"><img src="assets/img/icon/service_card_6.svg" alt="Icon"></div>
-                                <p class="box-subtitle">Service And Repairs</p>
-                                <h3 class="box-title"><a href="service-details.html">Home Appliance</a></h3>
-                                <p class="box-text">Our Repair all Services best offers quality help programs for corporate
-                                    zone studying.</p><a href="service-details.html" class="th-btn btn-sm">Read More<i
-                                        class="far fa-arrow-right ms-2"></i></a></div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="service-card">
-                                <div class="box-number">07</div>
-                                <div class="box-icon"><img src="assets/img/icon/service_card_7.svg" alt="Icon"></div>
-                                <p class="box-subtitle">Service And Repairs</p>
-                                <h3 class="box-title"><a href="service-details.html">Furniture Assembly</a></h3>
-                                <p class="box-text">Our Repair all Services best offers quality help programs for corporate
-                                    zone studying.</p><a href="service-details.html" class="th-btn btn-sm">Read More<i
-                                        class="far fa-arrow-right ms-2"></i></a></div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="service-card">
-                                <div class="box-number">08</div>
-                                <div class="box-icon"><img src="assets/img/icon/service_card_8.svg" alt="Icon"></div>
-                                <p class="box-subtitle">Service And Repairs</p>
-                                <h3 class="box-title"><a href="service-details.html">AC Installation</a></h3>
-                                <p class="box-text">Our Repair all Services best offers quality help programs for corporate
-                                    zone studying.</p><a href="service-details.html" class="th-btn btn-sm">Read More<i
-                                        class="far fa-arrow-right ms-2"></i></a></div>
-                        </div>
+
                     </div>
                     <div class="slider-pagination"></div>
                 </div>
@@ -371,7 +362,6 @@
             </div>
         </div>
     </section>
-
     <section class="space" id="testi-sec">
         <div class="container">
             <div class="row justify-content-between align-items-center">
@@ -479,8 +469,6 @@
             </div>
         </div>
     </section>
-
-
     <div class="video-sec2" data-bg-src="assets/img/normal/video_2.jpg">
         <div class="container">
             <div class="video-content2"><a href="https://www.youtube.com/watch?v=_sI_Ps7JSEk"
@@ -639,7 +627,6 @@
             </div>
         </div>
     </div>
-
     <div class="overflow-hidden space" >
         <div class="container">
             <div class="row flex-row-reverse align-items-center">
