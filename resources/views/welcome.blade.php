@@ -1,7 +1,7 @@
 @extends("layouts.master")
 @section("content")
 
-    <div class="th-hero-wrapper hero-1 slider-area" id="hero" data-bg-src="assets/img/hero/ray_hero.jpg" >
+    <div class="th-hero-wrapper hero-1 slider-area" id="hero" data-bg-src="assets/img/hero/back2.png" >
 
         <div class="swiper th-slider" id="heroSlide1" data-slider-options='{"effect":"fade","autoHeight":true}'>
             <div class="swiper-wrapper">
@@ -14,11 +14,11 @@
                                     <div class="hero-style1">
 
                                         <h1 class="sec-title">
-                                            <span class="title1" data-ani="slideinup" data-ani-delay="0.2s">Reliable Plumbing Solutions, <br></span>
-                                            <span class="title2" data-ani="slideinup" data-ani-delay="0.4s">Right When You Need Them.</span>
+                                            <span class="title1" style="color: white" data-ani="slideinup" data-ani-delay="0.2s">Reliable Plumbing Solutions, <br></span>
+                                            <span class="title2" style="color: white" data-ani="slideinup" data-ani-delay="0.4s">Right When You Need Them.</span>
 
                                         </h1>
-                                        <p class="hero-text" data-ani="slideinup" style="color:#04425b" data-ani-delay="0.8s">
+                                        <p class="" style="color: white" data-ani="slideinup" style="color:#04425b" data-ani-delay="0.8s">
                                             Trusted by property owners since 2006 — from emergency repairs to full installations, Ray & Sons delivers fast, professional service you can count on.
                                         </p>
 {{--                                        <a href="service.html" class="th-btn style3" data-ani="slideinup" data-ani-delay="1s">--}}
@@ -34,7 +34,7 @@
                                                 <i class="fas fa-headset"></i> Emergency Plumbing? Call Now</i>
                                             </a>
 
-                                            <a href="service.html" class="th-btn style2" style="color: #04425b">Explore Our
+                                            <a href="service.html" class="th-btn style3"  data-ani="slideinup" data-ani-delay="1s">Explore Our
                                                 Services<i class="fas fa-arrow-right ms-2"></i></a>
 
                                            </div>
@@ -60,7 +60,7 @@
                                                             <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
                                                             <span class="ms-2 fw-bold text-dark">4.9 Rating</span>
                                                         </div>
-                                                        <p class="mb-0 text-muted">Trusted by 5000+ Customers</p>
+                                                        <p class="mb-0 text-muted" style="color: white">Trusted by 5000+ Customers</p>
                                                     </div>
                                                 </div>
                                             </div>
@@ -119,8 +119,8 @@
             <div class="col-xl-6 mb-35 mb-xl-0">
                 <div class="img-box4" >
                     <div class="comparison-img"  style="border-radius: 10px">
-                        <div class="img background-img" data-bg-src="assets/img/normal/before_1.jpg"></div>
-                        <div class="img foreground-img" data-bg-src="assets/img/normal/after_1.jpg"></div>
+                        <div class="img background-img" data-bg-src="assets/img/normal/water-pipe-tubing.jpg"></div>
+                        <div class="img foreground-img" data-bg-src="assets/img/normal/sanflo-pump-installations.jpg"></div>
                         <input type="range" min="1" max="100" value="50" class="compslider" name="compslider"
                                id="compslider">
                         <div class="slider-button" style="left: calc(50% - 28px);"></div>
@@ -146,13 +146,14 @@
                         </ul>
                     </div>
                     <div class="btn-group mt-30 justify-content-center">
-                        <a href="about.html" class="th-btn style3">Discover
-                        More <i class="fa fa-arrow-right" style="color: white"></i></a>
+
                         <div class="call-btn">
                             <div class="play-btn"><i class="fal fa-phone"></i></div>
                             <div class="media-body"><p class="box-label">Call Us 24/7</p><h6 class="box-link"><a
                                     href="tel:+27 785 575 211">+27 785 575 211</a></h6></div>
                         </div>
+                        <a href="about.html" class="th-btn style3">Get Instant Quote
+                             <i class="fa fa-arrow-right" style="color: white"></i></a>
                     </div>
                 </div>
             </div>
@@ -175,39 +176,49 @@
                      data-slider-options='{"loop":false,"slidesPerGroup":"2","breakpoints":{"0":{"slidesPerView":1},"576":{"slidesPerView":"1"},"768":{"slidesPerView":"2"},"992":{"slidesPerView":"2"},"1200":{"slidesPerView":"3"},"1300":{"slidesPerView":"4"}}}'>
                     <div class="swiper-wrapper">
                         <div class="swiper-slide">
-                            <div class="service-card">
+                            <div class="service-card" style="height: 380px">
                                 <div class="box-number">01</div>
-                                <div class="box-icon"><img src="assets/img/icon/service_card_1.svg" alt="Icon"></div>
+{{--                                <div class="box-icon"><img src="assets/img/icon/service_card_1.svg" alt="Icon"></div>--}}
+                                <div class="box-icon">
+                                    <img src="assets/img/icon/plumber.png" class="colored-icon" style="height: 40px" alt="Icon">
+                                </div>
+
                                 <p class="box-subtitle">Plumbing Services.</p>
-                                <h3 class="box-title"><a href="service-details.html">Plumbing Installations</a></h3>
+                                <h3 class="box-title"><a href="{{ route('plumbing-installations.index') }}">Plumbing Installations</a></h3>
                                 <p class="box-text">Our Repair all Services best offers quality help programs for corporate
-                                    zone studying.</p><a href="service-details.html" class="th-btn btn-sm">Read More<i
+                                    zone studying.</p><a href="{{ route('plumbing-installations.index') }}" class="th-btn btn-sm">Read More<i
                                         class="fa fa-arrow-right ms-2"></i></a></div>
                         </div>
                         <div class="swiper-slide">
-                            <div class="service-card">
+                            <div class="service-card" style="height: 380px">
                                 <div class="box-number">02</div>
-                                <div class="box-icon"><img src="assets/img/icon/service_card_2.svg" alt="Icon"></div>
+                                <div class="box-icon">
+                                    <img src="assets/img/icon/plumber.png" class="colored-icon" style="height: 40px" alt="Icon">
+                                </div>
                                 <p class="box-subtitle">Plumbing Services</p>
-                                <h3 class="box-title"><a href="service-details.html">Drainage Services </a></h3>
+                                <h3 class="box-title"><a href="{{ route('drainage-services.index') }}">Drainage Services </a></h3>
                                 <p class="box-text">Our Repair all Services best offers quality help programs for corporate
-                                    zone studying.</p><a href="service-details.html" class="th-btn btn-sm">Read More<i
+                                    zone studying.</p><a href="{{ route('drainage-services.index') }}" class="th-btn btn-sm">Read More<i
                                         class="fa fa-arrow-right ms-2"></i></a></div>
                         </div>
                         <div class="swiper-slide">
-                            <div class="service-card">
+                            <div class="service-card" style="height: 380px">
                                 <div class="box-number">03</div>
-                                <div class="box-icon"><img src="assets/img/icon/service_card_3.svg" alt="Icon"></div>
+                                <div class="box-icon">
+                                    <img src="assets/img/icon/plumber.png" class="colored-icon" style="height: 40px" alt="Icon">
+                                </div>
                                 <p class="box-subtitle">Plumbing Services</p>
-                                <h3 class="box-title"><a href="service-details.html">Plumbing Maintenance</a></h3>
+                                <h3 class="box-title"><a href="{{ route('plumbing-maintenances.index') }}">Plumbing Maintenance</a></h3>
                                 <p class="box-text">Our Repair all Services best offers quality help programs for corporate
-                                    zone studying.</p><a href="service-details.html" class="th-btn btn-sm">Read More<i
+                                    zone studying.</p><a href="{{ route('plumbing-maintenances.index') }}" class="th-btn btn-sm">Read More<i
                                         class="fa fa-arrow-right ms-2"></i></a></div>
                         </div>
                         <div class="swiper-slide">
-                            <div class="service-card">
+                            <div class="service-card" style="height: 380px">
                                 <div class="box-number">04</div>
-                                <div class="box-icon"><img src="assets/img/icon/service_card_4.svg" alt="Icon"></div>
+                                <div class="box-icon">
+                                    <img src="assets/img/icon/plumber.png" class="colored-icon" style="height: 40px" alt="Icon">
+                                </div>
                                 <p class="box-subtitle">Plumbing Services</p>
                                 <h3 class="box-title"><a href="service-details.html">Emergency Plumbing</a></h3>
                                 <p class="box-text">Our Repair all Services best offers quality help programs for corporate
@@ -246,7 +257,7 @@
                         <h4 class="sec-title">Our Recent Projects</h4></div>
                 </div>
                 <div class="col-md-auto">
-                    <div class="sec-btn mt-n3 mt-md-0"><a href="project.html" class="th-btn style4">View All Projects<i
+                    <div class="sec-btn mt-n3 mt-md-0"><a href="{{ route('our-works.index') }}" class="th-btn style4">View All Projects<i
                                 class="fa fa-arrow-right ms-2"></i></a></div>
                 </div>
             </div>
@@ -371,7 +382,7 @@
                         <h4 class="sec-title">What our clients say</h4></div>
                 </div>
                 <div class="col-md-auto">
-                    <div class="sec-btn mt-n3 mt-md-0"><a href="testimonial.html" class="th-btn style4">View All Reviews<i
+                    <div class="sec-btn mt-n3 mt-md-0"><a href="testimonial.html" class="th-btn style4">Rate Our Services<i
                                 class="fa fa-arrow-right ms-2"></i></a></div>
                 </div>
             </div>
@@ -480,30 +491,30 @@
             <div class="container">
                 <div class="counter-card-wrap style2">
                     <div class="counter-card">
-                        <div class="box-icon"><img src="assets/img/icon/counter_card_5.svg" alt="Icon"></div>
-                        <div class="media-body"><h2 class="box-number text-white"><span class="counter-number">1250</span>+
-                            </h2>
+                        <div class="box-icon"><img src="assets/img/icon/completed-task.png" class="colored-icon" style="height: 55px" alt="Icon"></div>
+                        <div class="media-body"><h4 class="box-number text-white"><span class="counter-number">1250</span>+
+                            </h4>
                             <p class="box-text text-white">Completed Projects</p></div>
                     </div>
                     <div class="divider"></div>
                     <div class="counter-card">
-                        <div class="box-icon"><img src="assets/img/icon/counter_card_2.svg" alt="Icon"></div>
-                        <div class="media-body"><h2 class="box-number text-white"><span class="counter-number">180</span>+
-                            </h2>
+                        <div class="box-icon"><img src="assets/img/icon/review.png" class="colored-icon" style="height: 55px" alt="Icon"></div>
+                        <div class="media-body"><h4 class="box-number text-white"><span class="counter-number">180</span>+
+                            </h4>
                             <p class="box-text text-white">Happy Clients</p></div>
                     </div>
                     <div class="divider"></div>
                     <div class="counter-card">
-                        <div class="box-icon"><img src="assets/img/icon/counter_card_3.svg" alt="Icon"></div>
-                        <div class="media-body"><h2 class="box-number text-white"><span class="counter-number">85</span>+
-                            </h2>
+                        <div class="box-icon"><img src="assets/img/icon/team.png" class="colored-icon" style="height: 55px" alt="Icon"></div>
+                        <div class="media-body"><h4 class="box-number text-white"><span class="counter-number">85</span>+
+                            </h4>
                             <p class="box-text text-white">Expert Team</p></div>
                     </div>
                     <div class="divider"></div>
                     <div class="counter-card">
-                        <div class="box-icon"><img src="assets/img/icon/counter_card_4.svg" alt="Icon"></div>
-                        <div class="media-body"><h2 class="box-number text-white"><span class="counter-number">158</span>+
-                            </h2>
+                        <div class="box-icon"><img src="assets/img/icon/award.png " class="colored-icon" style="height: 55px" alt="Icon"></div>
+                        <div class="media-body"><h4 class="box-number text-white"><span class="counter-number">158</span>+
+                            </h4>
                             <p class="box-text text-white">Awards Won</p></div>
                     </div>
                     <div class="divider"></div>

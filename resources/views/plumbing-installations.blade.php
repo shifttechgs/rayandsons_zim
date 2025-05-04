@@ -163,7 +163,7 @@
                                     <div class="choose-feature">
                                         <div class="box-icon"><img src="assets/img/icon/choose_feature_4.svg" alt="Icon"></div>
                                         <h3 class="box-title">Boiler and water heater installations</h3></div>
-                                    
+
                                 </div>
 
                             </div>
@@ -247,17 +247,12 @@
                             </div>
                         </div>
                     </div>
-
-
-
-
-
                 </div>
                 <div class="col-xxl-4 col-lg-5">
                     <aside class="sidebar-area">
                         <div class="widget widget_tag_cloud"><h3 class="widget_title">Featured Installations </h3>
                             <div class="tagcloud">
-                                <a class="th-btn style4 tab-btn active" style="color: white" data-tab="residential" href="javascript:void(0)">Residential</a>
+                                <a class="th-btn style4 tab-btn " style="color: white" data-tab="residential" href="javascript:void(0)">Residential</a>
                                 <a class="tab-btn" data-tab="industrial" href="javascript:void(0)">Industrial</a>
                                 <a class="tab-btn" data-tab="commercial" href="javascript:void(0)">Commercial</a>
                             </div>
@@ -742,5 +737,39 @@
             </div>
         </div>
     </div>
+
+    <script>
+        function activateTab(tabId) {
+            // Remove 'active' class from all buttons
+            document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+
+            // Hide all tab contents
+            document.querySelectorAll('.tab-content').forEach(content => content.style.display = 'none');
+
+            // Add 'active' to selected button
+            const activeBtn = document.querySelector(`.tab-btn[data-tab="${tabId}"]`);
+            const activeContent = document.getElementById(tabId);
+
+            if (activeBtn && activeContent) {
+                activeBtn.classList.add('active');
+                activeContent.style.display = 'block';
+            }
+        }
+
+        // On click switch
+        document.querySelectorAll('.tab-btn').forEach(btn => {
+            btn.addEventListener('click', () => {
+                const tabId = btn.getAttribute('data-tab');
+                activateTab(tabId);
+            });
+        });
+
+        // On page load - detect ?tab=value in URL
+        window.addEventListener('DOMContentLoaded', () => {
+            const urlParams = new URLSearchParams(window.location.search);
+            const tab = urlParams.get('tab') || 'residential'; // default to residential
+            activateTab(tab);
+        });
+    </script>
 
 @endsection

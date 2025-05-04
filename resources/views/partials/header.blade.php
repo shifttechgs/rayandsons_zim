@@ -67,10 +67,11 @@
                         <div class="menu-area ">
                             <nav class="main-menu d-none d-lg-inline-block">
                                 <ul>
-                                    <li><a href="#">Home</a>
+                                    <li><a href="{{ route('home') }}">Home</a></li>
+
 
                                     </li>
-                                    <li><a href="#">About Us</a></li>
+                                    <li><a href="{{ route('about-us.index') }}">About Us</a></li>
 {{--                                    <li ><a href="{{ route('our_services.index') }}">Our Services</a>--}}
 {{--                                    <li ><a href="{{ route('our_services.index') }}">Our Services</a>--}}
                                     <li class="menu-item-has-children"><a href="#">Our Plumbing Services</a>
@@ -83,11 +84,11 @@
                                     </li>
 
 
-                                    <li ><a href="#">Our Works</a>
+                                    <li ><a href="{{ route('our-works.index') }}">Our Works</a>
 
                                     </li>
 
-                                    <li ><a href="#">Talk to Us</a>
+                                    <li ><a href="{{ route('contact-us.index') }}">Talk to Us</a>
 
                                     </li>
                                 </ul>
