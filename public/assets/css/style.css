@@ -8557,7 +8557,7 @@ ul.comment-list:has(>.th-comment-item ~ .th-comment-item):first-child > .th-post
     position: relative;
     z-index: 2;
     overflow: hidden;
-    height: 750px;
+    /*height: 750px;*/
 }
 
 .th-hero-bg {
