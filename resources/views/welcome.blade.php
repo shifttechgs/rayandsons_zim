@@ -119,8 +119,8 @@
             <div class="col-xl-6 mb-35 mb-xl-0">
                 <div class="img-box4" >
                     <div class="comparison-img"  style="border-radius: 10px">
-                        <div class="img background-img" data-bg-src="assets/img/normal/water-pipe-tubing.jpg"></div>
-                        <div class="img foreground-img" data-bg-src="assets/img/normal/sanflo-pump-installations.jpg"></div>
+                        <div class="img background-img" data-bg-src="assets/img/normal/doing_job.jpg"></div>
+                        <div class="img foreground-img" data-bg-src="assets/img/normal/assessing_job.jpg"></div>
                         <input type="range" min="1" max="100" value="50" class="compslider" name="compslider"
                                id="compslider">
                         <div class="slider-button" style="left: calc(50% - 28px);"></div>
@@ -644,8 +644,8 @@
                 <div class="col-xl-6 mb-35 mb-xl-0">
                     <div class="img-box4">
                         <div class="comparison-img"  style="border-radius: 10px">
-                            <div class="img background-img" data-bg-src="assets/img/normal/before_1.jpg"></div>
-                            <div class="img foreground-img" data-bg-src="assets/img/normal/after_1.jpg"></div>
+                            <div class="img background-img" data-bg-src="assets/img/normal/doing_job.jpg"></div>
+                            <div class="img foreground-img" data-bg-src="assets/img/normal/assessing_job.jpg"></div>
                             <input type="range" min="1" max="100" value="50" class="compslider" name="compslider"
                                    id="compslider">
                             <div class="slider-button" style="left: calc(50% - 28px);"></div>
