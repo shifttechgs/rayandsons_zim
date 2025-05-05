@@ -8553,13 +8553,7 @@ ul.comment-list:has(>.th-comment-item ~ .th-comment-item):first-child > .th-post
     }
 }
 
-textarea.form-control {
-    height: 40px;
-    resize: vertical; /* or 'none' to prevent resizing */
-    padding: 10px;
-    font-size: 14px;
-    line-height: 1.5;
-}
+
 /*!
 WhatsApp Added
 */

@@ -72,7 +72,8 @@
                                 <div class="col-xl-5 col-lg-6">
                                     <div class="hero-form p-4 p-md-5 color-theme  shadow-lg" style="border-radius: 10px; background-color: #F8F8F8;" data-ani="slideinright" data-ani-delay="0.2s">
                                         <h3 class="mb-4">Get Instant Quote</h3>
-                                        <form action="https://html.themeholy.com/rakar/demo/mail.php" method="POST" class="input-light ajax-contact">
+                                        <form method="POST" action="{{ url('/instantQuote') }}" class="input-light ajax-contact">
+                                            @csrf
                                             <div class="row">
                                                 <div class="form-group col-md-6 mb-3">
                                                     <input type="text" class="form-control rounded-3" name="name" id="name" placeholder="Your Name">
@@ -80,7 +81,7 @@
                                                 </div>
 
                                                 <div class="form-group col-md-6 mb-4">
-                                                    <input type="tel" class="form-control rounded-3" name="number" id="number" placeholder="Phone Number">
+                                                    <input type="tel" class="form-control rounded-3" name="phoneNumber" id="number" placeholder="Phone Number">
                                                     <i class="fal fa-phone"></i>
                                                 </div>
                                                 <div class="form-group col-md-6 mb-3">
@@ -88,25 +89,25 @@
                                                     <i class="fal fa-envelope"></i>
                                                 </div>
                                                 <div class="form-group col-md-6 mb-4" >
-                                                    <select name="subject" id="subject" class="form-select form-control rounded-3">
+                                                    <select name="service" id="subject" class="form-select form-control rounded-3">
                                                         <option value="" disabled="disabled" selected="selected" hidden>Select Service
                                                         </option>
-                                                        <option value="General Query">Plumbing Installations</option>
-                                                        <option value="Help Support">Drainage Services</option>
-                                                        <option value="Sales Support">Plumbing Maintenances</option>
+                                                        <option value="Plumbing Installations">Plumbing Installations</option>
+                                                        <option value="Drainage Services">Drainage Services</option>
+                                                        <option value="Plumbing Maintenances">Plumbing Maintenances</option>
                                                     </select> <i class="fal fa-chevron-down"></i></div>
                                                 <div class="form-group col-md-12 mb-3">
-    <textarea
-        name="email"
-        id="email"
-        class="form-control rounded-3"
-        placeholder="Enter your email here..."
-       >
-    </textarea>
+                                                   <textarea rows="2"
+                                                    name="comment"
+                                                    id="comment"
+                                                    class="form-control rounded-3"
+                                                    placeholder="Enter your comment here..."
+                                                   >
+                                                </textarea>
                                                 </div>
 
                                                 <div class="form-btn col-12">
-                                                    <a class="th-btn style3">Get Quote Now<i class="fa fa-arrow-right ms-2"></i></a>
+                                                    <button class="th-btn style3" type="submit">Get Quote Now<i class="fa fa-arrow-right ms-2"></i></button>
 
                                                 </div>
                                             </div>
