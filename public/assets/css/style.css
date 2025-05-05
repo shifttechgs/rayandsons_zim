@@ -8553,6 +8553,60 @@ ul.comment-list:has(>.th-comment-item ~ .th-comment-item):first-child > .th-post
     }
 }
 
+textarea.form-control {
+    height: 40px;
+    resize: vertical; /* or 'none' to prevent resizing */
+    padding: 10px;
+    font-size: 14px;
+    line-height: 1.5;
+}
+/*!
+WhatsApp Added
+*/
+.chat{font-size: 12px;
+    font-weight: 600;
+    background-color: #25d366;
+    border-radius: 12px;
+    line-height: 14px;
+    margin-left: -28px;
+    width: 120px;
+    padding: 4px;}
+.floating{
+    position:fixed;
+    width:60px;
+    height:60px;
+    bottom:60px;
+    right:55px;
+    background-color:#25d366;
+    color:#FFF;
+    border-radius:50px;
+    text-align:center;
+    font-size:30px;
+    box-shadow: 2px 2px 3px #999;
+    z-index:100;
+}
+
+.float-button{
+    margin-top: 7px;
+    font-size: 50px !important;
+    margin-left: 2px;
+}
+.emergency, .emergency .btn  {background-color: #DF265E}
+.emergency:hover a, .emergency .btn:hover {background-color: #7F3E71 !important; }
+@media only screen
+and (max-width : 800px) {
+    .emergency a  {color: #fff !important; font-weight: 800 !important; text-align:center}
+}
+.banner-text {
+    text-shadow: 2px 2px 2px #000;
+}
+
+/*!
+WhatsApp End
+*/
+
+
+
 .th-hero-wrapper {
     position: relative;
     z-index: 2;

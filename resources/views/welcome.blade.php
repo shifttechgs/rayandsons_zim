@@ -30,11 +30,11 @@
 
                                         <div class="btn-group" data-ani="slideinup" data-ani-delay="0.8s">
 
-                                            <a href="service.html" class="th-btn style3" data-ani="slideinup" data-ani-delay="1s">
+                                            <a href="{{ route('contact-us.index') }}" class="th-btn style3" data-ani="slideinup" data-ani-delay="1s">
                                                 <i class="fas fa-headset"></i> Emergency Plumbing? Call Now</i>
                                             </a>
 
-                                            <a href="service.html" class="th-btn style3"  data-ani="slideinup" data-ani-delay="1s">Explore Our
+                                            <a href="{{ route('plumbing-installations.index') }}" class="th-btn style3"  data-ani="slideinup" data-ani-delay="1s">Explore Our
                                                 Services<i class="fas fa-arrow-right ms-2"></i></a>
 
                                            </div>
@@ -83,18 +83,28 @@
                                                     <input type="tel" class="form-control rounded-3" name="number" id="number" placeholder="Phone Number">
                                                     <i class="fal fa-phone"></i>
                                                 </div>
-                                                <div class="form-group col-md-12 mb-3">
+                                                <div class="form-group col-md-6 mb-3">
                                                     <input type="email" class="form-control rounded-3" name="email" id="email" placeholder="Email Address">
                                                     <i class="fal fa-envelope"></i>
                                                 </div>
-                                                <div class="form-group col-md-12 mb-4" >
+                                                <div class="form-group col-md-6 mb-4" >
                                                     <select name="subject" id="subject" class="form-select form-control rounded-3">
                                                         <option value="" disabled="disabled" selected="selected" hidden>Select Service
                                                         </option>
-                                                        <option value="General Query">General Query</option>
-                                                        <option value="Help Support">Help Support</option>
-                                                        <option value="Sales Support">Sales Support</option>
+                                                        <option value="General Query">Plumbing Installations</option>
+                                                        <option value="Help Support">Drainage Services</option>
+                                                        <option value="Sales Support">Plumbing Maintenances</option>
                                                     </select> <i class="fal fa-chevron-down"></i></div>
+                                                <div class="form-group col-md-12 mb-3">
+    <textarea
+        name="email"
+        id="email"
+        class="form-control rounded-3"
+        placeholder="Enter your email here..."
+       >
+    </textarea>
+                                                </div>
+
                                                 <div class="form-btn col-12">
                                                     <a class="th-btn style3">Get Quote Now<i class="fa fa-arrow-right ms-2"></i></a>
 

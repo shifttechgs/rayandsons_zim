@@ -99,9 +99,12 @@
         </div>
     </div>
 </footer>
-<div class="scroll-top">
-    <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
-        <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98"
-              style="transition: stroke-dashoffset 10ms linear 0s; stroke-dasharray: 307.919, 307.919; stroke-dashoffset: 307.919;"></path>
-    </svg>
-</div>
+{{--<div class="scroll-top">--}}
+{{--    <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">--}}
+{{--        <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98"--}}
+{{--              style="transition: stroke-dashoffset 10ms linear 0s; stroke-dasharray: 307.919, 307.919; stroke-dashoffset: 307.919;"></path>--}}
+{{--    </svg>--}}
+{{--</div>--}}
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<a href="https://api.whatsapp.com/send?phone=+27718159118&amp;text=Hi%20Ray.%20I%20am%20on%20your%20website%20and%20need%20some%20help." class="floating" target="_blank"> <i class="fa fa-whatsapp float-button"></i> <div class="chat">Chat With Our Friendly Plumber</div> </a></body>
+

@@ -4,20 +4,17 @@
         <div class="mobile-logo"><a href="home-handyman.html"><img src="assets/img/logo/rayandsons_logo.png" alt="Ray"></a></div>
         <div class="th-mobile-menu">
             <ul>
-                <li><a href="#">Home</a>
-
+                <li><a href="{{ route('home') }}">Home</a></li>
+                <li><a href="{{ route('about-us.index') }}">About Us</a></li>
+                <li class="menu-item-has-children"><a href="#">Our Plumbing Services</a>
+                    <ul class="sub-menu">
+                        <li><a href="{{ route('plumbing-installations.index') }}">Plumbing Installations</a></li>
+                        <li><a href="{{ route('drainage-services.index') }}">Drainage Services</a></li>
+                        <li><a href="{{ route('plumbing-maintenances.index') }}">Plumbing Maintenance</a></li>
+                    </ul>
                 </li>
-                <li><a href="#">About Us</a></li>
-                <li ><a href="#">Our Services</a>
-
-                </li>
-
-
-                <li ><a href="#">Our Works</a>
-
-                </li>
-
-                <li ><a href="#">Talk to Us</a>
+                <li ><a href="{{ route('our-works.index') }}">Our Works</a></li>
+                <li ><a href="{{ route('contact-us.index') }}">Talk to Us</a></li>
 
                 </li>
             </ul>
@@ -60,7 +57,7 @@
             <div class="container">
                 <div class="row align-items-center justify-content-between">
                     <div class="col-auto">
-                        <div class="header-logo"><a href="home-handyman.html"><img src="assets/img/logo/rayandsons_logo.png"
+                        <div class="header-logo"><a href="{{ route('home') }}"><img src="assets/img/logo/rayandsons_logo.png"
                                                                                    alt="Ray and Sons"></a></div>
                     </div>
                     <div class="col">
@@ -68,12 +65,7 @@
                             <nav class="main-menu d-none d-lg-inline-block">
                                 <ul>
                                     <li><a href="{{ route('home') }}">Home</a></li>
-
-
-                                    </li>
                                     <li><a href="{{ route('about-us.index') }}">About Us</a></li>
-{{--                                    <li ><a href="{{ route('our_services.index') }}">Our Services</a>--}}
-{{--                                    <li ><a href="{{ route('our_services.index') }}">Our Services</a>--}}
                                     <li class="menu-item-has-children"><a href="#">Our Plumbing Services</a>
                                         <ul class="sub-menu">
                                             <li><a href="{{ route('plumbing-installations.index') }}">Plumbing Installations</a></li>
@@ -81,16 +73,8 @@
                                             <li><a href="{{ route('plumbing-maintenances.index') }}">Plumbing Maintenance</a></li>
                                         </ul>
                                     </li>
-                                    </li>
-
-
-                                    <li ><a href="{{ route('our-works.index') }}">Our Works</a>
-
-                                    </li>
-
-                                    <li ><a href="{{ route('contact-us.index') }}">Talk to Us</a>
-
-                                    </li>
+                                    <li ><a href="{{ route('our-works.index') }}">Our Works</a></li>
+                                    <li ><a href="{{ route('contact-us.index') }}">Talk to Us</a></li>
                                 </ul>
                             </nav>
                             <div class="header-button">
@@ -103,7 +87,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-auto d-none d-xxl-block"><a href="contact.html" class="th-btn style3">Get Instant Quote<i
+                    <div class="col-auto d-none d-xxl-block"><a href="{{ route('contact-us.index') }}" class="th-btn style3">Get Instant Quote<i
                                 class="fas fa-arrow-right ms-2"></i></a></div>
                 </div>
             </div>
