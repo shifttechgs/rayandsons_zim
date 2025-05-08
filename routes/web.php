@@ -32,17 +32,17 @@ Route::get('reboot',function(){
     dd('system rebooted!');
 });
 
-// Route::get('/test-mail', function () {
-//     $data = [
-//         'firstname' => 'Test User',
-//         'email' => 'test@example.com',
-//         'phoneNumber' => '123456789',
-//
-//         'service' => 'Delivery',
-//         'comment' => 'This is a test message.',
-//     ];
-//
-//     Mail::to('info@shifttechgs.com')->send(new ContactFormMail($data));
-//
-//     return 'Test email sent!';
-// });
+Route::get('/test-mail', function () {
+    $data = [
+        'firstname' => 'Test User',
+        'email' => 'test@example.com',
+        'phoneNumber' => '123456789',
+
+        'service' => 'Delivery',
+        'comment' => 'This is a test message.',
+    ];
+
+    Mail::to('info@shifttechgs.com')->send(new ContactFormMail($data));
+
+    return 'Test email sent!';
+});
