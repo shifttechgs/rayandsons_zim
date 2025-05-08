@@ -1,7 +1,7 @@
 <div class="th-menu-wrapper">
     <div class="th-menu-area text-center">
         <button class="th-menu-toggle"><i class="fa fa-times"></i></button>
-        <div class="mobile-logo"><a href="home-handyman.html"><img src="assets/img/logo/rayandsons_logo.png" alt="Ray"></a></div>
+        <div class="mobile-logo"><a href="{{ route('home') }}"><img src="assets/img/logo/rayandsons_logo.png" alt="Ray"></a></div>
         <div class="th-mobile-menu">
             <ul>
                 <li><a href="{{ route('home') }}">Home</a></li>
@@ -37,7 +37,7 @@
                     <div class="header-links">
                         <ul>
                             <li class="d-none d-md-inline-block">
-                                <i class="fas fa-envelope" style="color:  whitesmoke"></i> <a href="mailto:info@rayandsons.co.za">info@rayandsons.co.za</a>
+                                <i class="fas fa-envelope" style="color:  whitesmoke"></i> <a href="mailto:info@rayandsons.co.za">info@rayandsons.co.zw</a>
                             </li>
                             <li>
                                 <i class="fas fa-headset" style="color:  whitesmoke"></i> <a href="tel:1234567890">Emergency? Call Now</a>

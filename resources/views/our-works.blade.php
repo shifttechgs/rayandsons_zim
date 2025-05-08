@@ -5,7 +5,7 @@
             <div class="breadcumb-content"><h1 class="breadcumb-title">Ray and Sons Plumbing Works</h1>
                 <ul class="breadcumb-menu">
                     <li><a href="home-handyman.html">Home</a></li>
-                    <li>About Us</li>
+                    <li>Our Works</li>
                 </ul>
             </div>
         </div>
@@ -133,6 +133,19 @@
             </div>
         </div>
     </div>
+<section class="cta-sec1" data-bg-src="assets/img/bg/pattern_bg_3.png">
+    <div class="cta-img1"><img src="assets/img/normal/cta_1.png" alt="CTA"></div>
+    <div class="cta-content"><h5 class="sec-title text-white mb-37">Need a Fix? Get Reliable Emergency Plumbing Service with Fair rates.</h5>
+        <div class="btn-group justify-content-center"><a href="contact.html" class="th-btn style3">Get Instant Quote <i
+                class="fa fa-arrow-right"></i></a>
+            <div class="call-btn">
+                <div class="play-btn"><i class="fal fa-phone"></i></div>
+                <div class="media-body"><p class="box-label text-white">Call Us 24/7</p><h6 class="box-link text-white">
+                    <a href="tel:+27 785 575 211">+27 785 575 211</a></h6></div>
+            </div>
+        </div>
+    </div>
+</section>
 
 
 @endsection

@@ -9,21 +9,16 @@
     ---
 
     # Name:
-    {{ $data['first_name'] }}
+    {{ $data['fullname'] }}
     # Email:
     {{ $data['email'] }}
     # Phone:
-    {{ $data['phone'] }}
-    # Company Size:
-    {{ $data['company_size'] ?? 'Not specified' }}
-    # Budget:
-    {{ $data['budget'] ?? 'Not specified' }}
-    # Source:
-    {{ $data['source'] ?? 'Not specified' }}
+    {{ $data['phoneNumber'] }}
+
     # Service:
     {{ $data['service'] ?? 'Not specified' }}
     # Message:
-    {{ $data['message'] }}
+    {{ $data['comment'] }}
 
     Thank you,
     # {{ config('app.name') }}

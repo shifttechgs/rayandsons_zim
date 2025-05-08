@@ -20,23 +20,22 @@
                     <div class="team-contact">
                         <div class="icon-btn"><i class="fas fa-location-dot"></i></div>
                         <div class="media-body"><h5 class="box-title">Our Address</h5>
-                            <p class="box-text">2690 Hiltona Street Victoria Road, New York, Canada</p></div>
+                            <p class="box-text">45 Workington Rd, Harare Zimbabwe</p></div>
                     </div>
                 </div>
                 <div class="col-xl-4 col-md-6">
                     <div class="team-contact">
                         <div class="icon-btn"><i class="fas fa-phone"></i></div>
                         <div class="media-body"><h5 class="box-title">Phone Number</h5>
-                            <p class="box-text"><a href="tel:+01234567890">+01 234 567 890</a> <a href="tel:+09876543210">+09
-                                    876 543 210</a></p></div>
+                            <p class="box-text"><a href="tel:+01234567890">+27 785 575 211</a> <a href="tel:+09876543210">+27 785 575 211</a></p></div>
                     </div>
                 </div>
                 <div class="col-xl-4 col-md-6">
                     <div class="team-contact">
                         <div class="icon-btn"><i class="fas fa-envelope"></i></div>
                         <div class="media-body"><h5 class="box-title">Email Address</h5>
-                            <p class="box-text"><a href="mailto:support24@rakar.com">support24@rakar.com</a> <a
-                                    href="mailto:contact@rakar.com">contact@rakar.com</a></p></div>
+                            <p class="box-text"><a href="mailto:info@rayandsons.co.zw">info@rayandsons.co.zw</a> <a
+                                    href="mailto:contracts@rayandsons.co.zw">contracts@rayandsons.co.zw</a></p></div>
                     </div>
                 </div>
             </div>
@@ -46,30 +45,35 @@
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-xl-6 text-center text-xl-start">
-                    <form action="https://html.themeholy.com/rakar/demo/mail.php" method="POST"
-                          class="contact-form ajax-contact"><h2 class="sec-title">Get an Instant Quote</h2>
+                      <form method="POST" action="{{ url('/instantQuote') }}" class="input-light contact-form ">
+                                                                                            @csrf
+
+                          <h2 class="sec-title">Get an Instant Quote</h2>
                         <div class="row">
-                            <div class="form-group col-md-6"><input type="text" class="form-control" name="name" id="name"
+                            <div class="form-group col-md-6"><input type="text" class="form-control" name="fullname" id="fullname"
                                                                     placeholder="Your Name"> <i class="fal fa-user"></i>
                             </div>
                             <div class="form-group col-md-6"><input type="email" class="form-control" name="email"
                                                                     id="email" placeholder="Email Address"> <i
                                     class="fal fa-envelope"></i></div>
-                            <div class="form-group col-md-6"><input type="tel" class="form-control" name="number"
-                                                                    id="number" placeholder="Phone Number"> <i
+                            <div class="form-group col-md-6"><input type="tel" class="form-control" name="phoneNumber"
+                                                                    id="phoneNumber" placeholder="Phone Number"> <i
                                     class="fal fa-phone"></i></div>
-                            <div class="form-group col-md-6"><select name="subject" id="subject" class="form-select">
-                                    <option value="" disabled="disabled" selected="selected" hidden>Select Subject</option>
-                                    <option value="General Query">General Query</option>
-                                    <option value="Help Support">Help Support</option>
-                                    <option value="Sales Support">Sales Support</option>
-                                </select> <i class="fal fa-chevron-down"></i></div>
-                            <div class="form-group col-12"><textarea name="message" id="message" cols="30" rows="3"
+                            <div class="form-group col-md-6">
+                               <select name="service" id="service" class="form-select form-control rounded-3">
+                                                                                                                   <option value="" disabled="disabled" selected="selected" hidden>Select Service
+                                                                                                                   </option>
+                                                                                                                   <option value="Plumbing Installations">Plumbing Installations</option>
+                                                                                                                   <option value="Drainage Services">Drainage Services</option>
+                                                                                                                   <option value="Plumbing Maintenances">Plumbing Maintenances</option>
+                                                                                                               </select> <i class="fal fa-chevron-down"></i></div>
+                            <div class="form-group col-12"><textarea name="comment" id="comment" cols="30" rows="2"
                                                                      class="form-control"
                                                                      placeholder="Your Message"></textarea> <i
                                     class="fal fa-pencil"></i></div>
                             <div class="form-btn col-12">
-                                <button class="th-btn">Get Quote<i class="fas fa-paper-plane ms-2"></i></button>
+                              <button class="th-btn style3" type="submit">Get Quote Now<i class="fa fa-arrow-right ms-2"></i></button>
+
                             </div>
                         </div>
                         <p class="form-messages mb-0 mt-3"></p></form>

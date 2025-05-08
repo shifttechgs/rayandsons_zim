@@ -58,7 +58,7 @@
                                                     <div class="d-flex flex-column">
                                                         <div class="d-flex align-items-center text-warning">
                                                             <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
-                                                            <span class="ms-2 fw-bold text-dark">4.9 Rating</span>
+                                                            <span class="ms-2 text-muted " style="color: white">4.9 Rating</span>
                                                         </div>
                                                         <p class="mb-0 text-muted" style="color: white">Trusted by 5000+ Customers</p>
                                                     </div>
@@ -72,16 +72,16 @@
                                 <div class="col-xl-5 col-lg-6">
                                     <div class="hero-form p-4 p-md-5 color-theme  shadow-lg" style="border-radius: 10px; background-color: #F8F8F8;" data-ani="slideinright" data-ani-delay="0.2s">
                                         <h3 class="mb-4">Get Instant Quote</h3>
-                                        <form method="POST" action="{{ url('/instantQuote') }}" class="input-light ajax-contact">
+                                        <form method="POST" action="{{ url('/instantQuote') }}" class="input-light ">
                                             @csrf
                                             <div class="row">
                                                 <div class="form-group col-md-6 mb-3">
-                                                    <input type="text" class="form-control rounded-3" name="name" id="name" placeholder="Your Name">
+                                                    <input type="text" class="form-control rounded-3" name="fullname" id="fullname" placeholder="Your Name">
                                                     <i class="fal fa-user"></i>
                                                 </div>
 
                                                 <div class="form-group col-md-6 mb-4">
-                                                    <input type="tel" class="form-control rounded-3" name="phoneNumber" id="number" placeholder="Phone Number">
+                                                    <input type="tel" class="form-control rounded-3" name="phoneNumber" id="phoneNumber" placeholder="Phone Number">
                                                     <i class="fal fa-phone"></i>
                                                 </div>
                                                 <div class="form-group col-md-6 mb-3">
@@ -89,7 +89,7 @@
                                                     <i class="fal fa-envelope"></i>
                                                 </div>
                                                 <div class="form-group col-md-6 mb-4" >
-                                                    <select name="service" id="subject" class="form-select form-control rounded-3">
+                                                    <select name="service" id="service" class="form-select form-control rounded-3">
                                                         <option value="" disabled="disabled" selected="selected" hidden>Select Service
                                                         </option>
                                                         <option value="Plumbing Installations">Plumbing Installations</option>
@@ -97,13 +97,9 @@
                                                         <option value="Plumbing Maintenances">Plumbing Maintenances</option>
                                                     </select> <i class="fal fa-chevron-down"></i></div>
                                                 <div class="form-group col-md-12 mb-3">
-                                                   <textarea rows="2"
-                                                    name="comment"
-                                                    id="comment"
-                                                    class="form-control rounded-3"
-                                                    placeholder="Enter your comment here..."
-                                                   >
-                                                </textarea>
+                                                   <textarea rows="2" name="comment" id="comment" class="form-control rounded-3" placeholder="Enter your comment here..."></textarea>
+
+
                                                 </div>
 
                                                 <div class="form-btn col-12">
@@ -111,7 +107,7 @@
 
                                                 </div>
                                             </div>
-                                            <p class="form-messages mb-0 mt-3"></p>
+                                            <!--<p class="form-messages mb-0 mt-3"></p>-->
                                         </form>
                                     </div>
                                 </div>
@@ -119,6 +115,52 @@
                             </div> <!-- row -->
                         </div> <!-- container -->
                     </div> <!-- hero-inner -->
+                </div>
+            </div>
+        </div>
+    </div>
+	<div class="bg-title space-extra" data-bg-src="assets/img/bg/brand_bg_1.png">
+        <div class="container">
+
+            <div class="swiper th-slider" id="brandSlider2"
+                 data-slider-options='{"spaceBetween":45,"breakpoints":{"0":{"slidesPerView":2},"576":{"slidesPerView":"2"},"768":{"slidesPerView":"3"},"992":{"slidesPerView":"4"},"1200":{"slidesPerView":"4"},"1300":{"slidesPerView":"5"},"1500":{"slidesPerView":"6"}}}'>
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="brand-card"><img src="assets/img/brand/brand_2_1.svg" alt="Brand Logo"></div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="brand-card"><img src="assets/img/brand/brand_2_2.svg" alt="Brand Logo"></div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="brand-card"><img src="assets/img/brand/brand_2_3.svg" alt="Brand Logo"></div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="brand-card"><img src="assets/img/brand/brand_2_4.svg" alt="Brand Logo"></div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="brand-card"><img src="assets/img/brand/brand_2_5.svg" alt="Brand Logo"></div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="brand-card"><img src="assets/img/brand/brand_2_6.svg" alt="Brand Logo"></div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="brand-card"><img src="assets/img/brand/brand_2_1.svg" alt="Brand Logo"></div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="brand-card"><img src="assets/img/brand/brand_2_2.svg" alt="Brand Logo"></div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="brand-card"><img src="assets/img/brand/brand_2_3.svg" alt="Brand Logo"></div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="brand-card"><img src="assets/img/brand/brand_2_4.svg" alt="Brand Logo"></div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="brand-card"><img src="assets/img/brand/brand_2_5.svg" alt="Brand Logo"></div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="brand-card"><img src="assets/img/brand/brand_2_6.svg" alt="Brand Logo"></div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -144,7 +186,7 @@
                                                                                alt="shape">Who we are</span>
                         <h4 class="sec-title">Residential & Commercial Plumbing Service Provider.</h4>
                         <p class="sec-text">Ray & Sons is a professional plumbing company that offers an extensive range
-                            of general and specialist plumbing services to clients across the greater Cape Town area.
+                            of general and specialist plumbing services to clients across the greater Harare area.
                            </p></div>
                     <div class="checklist list-two-column">
                         <ul>
@@ -163,7 +205,7 @@
                             <div class="media-body"><p class="box-label">Call Us 24/7</p><h6 class="box-link"><a
                                     href="tel:+27 785 575 211">+27 785 575 211</a></h6></div>
                         </div>
-                        <a href="about.html" class="th-btn style3">Get Instant Quote
+                        <a href="{{ route('contact-us.index') }}" class="th-btn style3">Get Instant Quote
                              <i class="fa fa-arrow-right" style="color: white"></i></a>
                     </div>
                 </div>
@@ -178,7 +220,7 @@
                 <div class="col-xl-8 col-md-10">
                     <div class="title-area text-center"><span class="sub-title"><img
                                 src="assets/img/theme-img/title_icon.svg" alt="Icon">Our Services</span>
-                        <h2 class="sec-title">What services we offer</h2>
+                        <h2 class="sec-title">Plumbing services we offer</h2>
                         <p class="sec-text">Ray & Sons is a professional plumbing company that offers an extensive range of general and specialist plumbing services.</p></div>
                 </div>
             </div>
@@ -243,6 +285,8 @@
             </div>
         </div>
     </section>
+
+
 <section class="cta-sec1" data-bg-src="assets/img/bg/pattern_bg_3.png">
     <div class="cta-img1"><img src="assets/img/normal/cta_1.png" alt="CTA"></div>
     <div class="cta-content"><h5 class="sec-title text-white mb-37">Need a Fix? Get Reliable Emergency Plumbing Service with Fair rates.</h5>
@@ -258,7 +302,9 @@
 </section>
 
 
-    <section class="overflow-hidden space " style="background-color: #F8F8F8;">
+
+
+    <section class="overflow-hidden space " style="background-color: #F8F8F8;" >
 
         <div class="container">
             <div class="row justify-content-between align-items-center">
@@ -384,411 +430,6 @@
             </div>
         </div>
     </section>
-    <section class="space" id="testi-sec">
-        <div class="container">
-            <div class="row justify-content-between align-items-center">
-                <div class="col-md">
-                    <div class="title-area text-center text-md-start"><span class="sub-title"><img
-                                src="assets/img/theme-img/title_icon.svg" alt="shape">Testimonial</span>
-                        <h4 class="sec-title">What our clients say</h4></div>
-                </div>
-                <div class="col-md-auto">
-                    <div class="sec-btn mt-n3 mt-md-0"><a href="testimonial.html" class="th-btn style4">Rate Our Services<i
-                                class="fa fa-arrow-right ms-2"></i></a></div>
-                </div>
-            </div>
-            <div class="slider-area">
-                <div class="swiper th-slider has-shadow" id="testiSlider1"
-                     data-slider-options='{"breakpoints":{"0":{"slidesPerView":1},"576":{"slidesPerView":"1"},"768":{"slidesPerView":"1"},"992":{"slidesPerView":"2"},"1200":{"slidesPerView":"2"}}}'>
-                    <div class="swiper-wrapper">
-                        <div class="swiper-slide">
-                            <div class="testi-card">
-                                <div class="box-img"><img src="assets/img/testimonial/testi_b_1.jpg" alt="Image"></div>
-                                <div class="box-content">
-                                    <div class="box-review"><i class="fa-sharp fa-solid fa-star"></i><i
-                                            class="fa-sharp fa-solid fa-star"></i><i
-                                            class="fa-sharp fa-solid fa-star"></i><i
-                                            class="fa-sharp fa-solid fa-star"></i><i class="fa-sharp fa-solid fa-star"></i>
-                                    </div>
-                                    <p class="box-text">Rakar has most quality services by subtle craftmens, Diam id semper
-                                        tellus. Est aliquam sit est ac. Felis diam nunc nibh blandit risus ndrerit sed
-                                        consectetur quis leo on the  praesent scelerisque.</p>
-                                    <div class="box-profile">
-                                        <div class="box-avater"><img src="assets/img/testimonial/testi_1_1.jpg"
-                                                                     alt="Avater"></div>
-                                        <div class="media-body"><h3 class="box-title">Sumaiya Zara</h3>
-                                            <p class="box-desig">CEO Of Company</p></div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="testi-card">
-                                <div class="box-img"><img src="assets/img/testimonial/testi_b_2.jpg" alt="Image"></div>
-                                <div class="box-content">
-                                    <div class="box-review"><i class="fa-sharp fa-solid fa-star"></i><i
-                                            class="fa-sharp fa-solid fa-star"></i><i
-                                            class="fa-sharp fa-solid fa-star"></i><i
-                                            class="fa-sharp fa-solid fa-star"></i><i class="fa-sharp fa-solid fa-star"></i>
-                                    </div>
-                                    <p class="box-text">The most quality services by subtle craftmens, Diam id semper
-                                        tellus. Est aliquam sit est ac. Felis diam nunc nibh blandit risus ndrerit sed
-                                        consectetur quis leo on the  praesent in Rakar.</p>
-                                    <div class="box-profile">
-                                        <div class="box-avater"><img src="assets/img/testimonial/testi_1_2.jpg"
-                                                                     alt="Avater"></div>
-                                        <div class="media-body"><h3 class="box-title">Alex Simon</h3>
-                                            <p class="box-desig">Managing Director</p></div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="testi-card">
-                                <div class="box-img"><img src="assets/img/testimonial/testi_b_1.jpg" alt="Image"></div>
-                                <div class="box-content">
-                                    <div class="box-review"><i class="fa-sharp fa-solid fa-star"></i><i
-                                            class="fa-sharp fa-solid fa-star"></i><i
-                                            class="fa-sharp fa-solid fa-star"></i><i
-                                            class="fa-sharp fa-solid fa-star"></i><i class="fa-sharp fa-solid fa-star"></i>
-                                    </div>
-                                    <p class="box-text">Rakar has most quality services by subtle craftmens, Diam id semper
-                                        tellus. Est aliquam sit est ac. Felis diam nunc nibh blandit risus ndrerit sed
-                                        consectetur quis leo on the  praesent scelerisque.</p>
-                                    <div class="box-profile">
-                                        <div class="box-avater"><img src="assets/img/testimonial/testi_1_1.jpg"
-                                                                     alt="Avater"></div>
-                                        <div class="media-body"><h3 class="box-title">Agelina Margret</h3>
-                                            <p class="box-desig">CEO Of Company</p></div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="testi-card">
-                                <div class="box-img"><img src="assets/img/testimonial/testi_b_2.jpg" alt="Image"></div>
-                                <div class="box-content">
-                                    <div class="box-review"><i class="fa-sharp fa-solid fa-star"></i><i
-                                            class="fa-sharp fa-solid fa-star"></i><i
-                                            class="fa-sharp fa-solid fa-star"></i><i
-                                            class="fa-sharp fa-solid fa-star"></i><i class="fa-sharp fa-solid fa-star"></i>
-                                    </div>
-                                    <p class="box-text">The most quality services by subtle craftmens, Diam id semper
-                                        tellus. Est aliquam sit est ac. Felis diam nunc nibh blandit risus ndrerit sed
-                                        consectetur quis leo on the  praesent in Rakar.</p>
-                                    <div class="box-profile">
-                                        <div class="box-avater"><img src="assets/img/testimonial/testi_1_2.jpg"
-                                                                     alt="Avater"></div>
-                                        <div class="media-body"><h3 class="box-title">Robert Danials</h3>
-                                            <p class="box-desig">Managing Director</p></div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="slider-pagination"></div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <div class="video-sec2" data-bg-src="assets/img/normal/video_2.jpg">
-        <div class="container">
-            <div class="video-content2"><a href="https://www.youtube.com/watch?v=_sI_Ps7JSEk"
-                                           class="play-btn style3 popup-video"><i class="fa-sharp fa-solid fa-play"></i></a>
-                <h4 class="sec-title text-white"><span class="text-theme">20 Years</span> of Experience in All Residential, Industrial and Commercial Plumbing & Drain Services and Maintenance
-                   </h4>
-        </div>
-        <div class="">
-            <div class="container">
-                <div class="counter-card-wrap style2">
-                    <div class="counter-card">
-                        <div class="box-icon"><img src="assets/img/icon/completed-task.png" class="colored-icon" style="height: 55px" alt="Icon"></div>
-                        <div class="media-body"><h4 class="box-number text-white"><span class="counter-number">1250</span>+
-                            </h4>
-                            <p class="box-text text-white">Completed Projects</p></div>
-                    </div>
-                    <div class="divider"></div>
-                    <div class="counter-card">
-                        <div class="box-icon"><img src="assets/img/icon/review.png" class="colored-icon" style="height: 55px" alt="Icon"></div>
-                        <div class="media-body"><h4 class="box-number text-white"><span class="counter-number">180</span>+
-                            </h4>
-                            <p class="box-text text-white">Happy Clients</p></div>
-                    </div>
-                    <div class="divider"></div>
-                    <div class="counter-card">
-                        <div class="box-icon"><img src="assets/img/icon/team.png" class="colored-icon" style="height: 55px" alt="Icon"></div>
-                        <div class="media-body"><h4 class="box-number text-white"><span class="counter-number">85</span>+
-                            </h4>
-                            <p class="box-text text-white">Expert Team</p></div>
-                    </div>
-                    <div class="divider"></div>
-                    <div class="counter-card">
-                        <div class="box-icon"><img src="assets/img/icon/award.png " class="colored-icon" style="height: 55px" alt="Icon"></div>
-                        <div class="media-body"><h4 class="box-number text-white"><span class="counter-number">158</span>+
-                            </h4>
-                            <p class="box-text text-white">Awards Won</p></div>
-                    </div>
-                    <div class="divider"></div>
-                </div>
-            </div>
-        </div>
-    </div>
-    </div>
-    <div class="overflow-hidden space-bottom">
-        <div class="shape-mockup moving d-none d-xxl-block" data-bottom="0%" data-right="0%"><img
-                src="assets/img/shape/man_shape_2.png" alt="shape"></div>
-        <div class="container">
-            <div class="contact-area area-rounded">
-                <div class="row">
-                    <div class="col-xl-5 mb-35 mb-xl-0">
-                        <div class="contact-media-area">
 
-                            <div class="contact-media-wrap"><h3 class="box-title">Quick Contact</h3>
-                                <div class="contact-media">
-                                    <div class="icon-btn"><i class="fas fa-location-dot" style="color: white"></i></div>
-                                    <div class="media-body"><p class="box-text">45 Workington Rd, Harare, Zimbabwe</p></div>
-                                </div>
-                                <div class="contact-media">
-                                    <div class="icon-btn"><i class="fas fa-phone-volume" style="color: white"></i></div>
-                                    <div class="media-body"><h4 class="box-label">Call Us:</h4>
-                                        <p class="box-text"><a href="tel:+27 785 575 211">+27 785 575 211</a></p></div>
-                                </div>
-                                <div class="contact-media">
-                                    <div class="icon-btn"><i class="fas fa-envelope" style="color: white"></i></div>
-                                    <div class="media-body"><h4 class="box-label">Email Us:</h4>
-                                        <p class="box-text"><a href="info@rayandsons.co.za">info@rayandsons.co.za</a></p>
-                                    </div>
-                                </div>
-                            </div>
-                            <h6 class="contact-info-text">We will get back to you within 24 hours, or Call us everyday,
-                                08:00AM - 18:00PM</h6></div>
-                    </div>
-                    <div class="col-xl-7 text-center text-xl-start">
-                        <div class="ps-xxl-4 ms-xl-3">
-                            <div class="title-area"><span class="sub-title"><span class="line"></span> <img
-                                        src="assets/img/theme-img/title_icon3.svg" alt="shape">Need a Fix? Book a Plumber Today!</span>
-                                <h2 class="sec-title">Request instant quote</h2></div>
-                            <form action="https://html.themeholy.com/rakar/demo/mail.php" method="POST"
-                                  class="contact-form2 ajax-contact">
-                                <div class="row">
-                                    <div class="form-group col-md-6"><input type="text" class="form-control" name="name"
-                                                                            id="name" placeholder="Your Name"> <i
-                                            class="fal fa-user"></i></div>
-                                    <div class="form-group col-md-6"><input type="email" class="form-control" name="email"
-                                                                            id="email" placeholder="Email Address"> <i
-                                            class="fal fa-envelope"></i></div>
-                                    <div class="form-group col-md-6"><input type="tel" class="form-control" name="number"
-                                                                            id="number" placeholder="Phone Number"> <i
-                                            class="fal fa-phone"></i></div>
-                                    <div class="form-group col-md-6"><select name="subject" id="subject"
-                                                                             class="form-select">
-                                            <option value="" disabled="disabled" selected="selected" hidden>Select Subject
-                                            </option>
-                                            <option value="General Query">General Query</option>
-                                            <option value="Help Support">Help Support</option>
-                                            <option value="Sales Support">Sales Support</option>
-                                        </select> <i class="fal fa-chevron-down"></i></div>
-                                    <div class="form-group col-12"><textarea name="message" id="message" cols="30" rows="3"
-                                                                             class="form-control"
-                                                                             placeholder="Your Message"></textarea> <i
-                                            class="fal fa-pencil"></i></div>
-                                    <div class="form-btn col-12">
-                                        <button class="th-btn">Get Quote Now<i class="fas fa-arrow-right ms-2"></i>
-                                        </button>
-                                    </div>
-                                </div>
-                                <p class="form-messages mb-0 mt-3"></p></form>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="bg-title space-extra" data-bg-src="assets/img/bg/brand_bg_1.png">
-        <div class="container"><h2 class="sec-title text-white text-center mb-35">our trusted Clients</h2>
-            <div class="swiper th-slider" id="brandSlider2"
-                 data-slider-options='{"spaceBetween":45,"breakpoints":{"0":{"slidesPerView":2},"576":{"slidesPerView":"2"},"768":{"slidesPerView":"3"},"992":{"slidesPerView":"4"},"1200":{"slidesPerView":"4"},"1300":{"slidesPerView":"5"},"1500":{"slidesPerView":"6"}}}'>
-                <div class="swiper-wrapper">
-                    <div class="swiper-slide">
-                        <div class="brand-card"><img src="assets/img/brand/brand_2_1.svg" alt="Brand Logo"></div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="brand-card"><img src="assets/img/brand/brand_2_2.svg" alt="Brand Logo"></div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="brand-card"><img src="assets/img/brand/brand_2_3.svg" alt="Brand Logo"></div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="brand-card"><img src="assets/img/brand/brand_2_4.svg" alt="Brand Logo"></div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="brand-card"><img src="assets/img/brand/brand_2_5.svg" alt="Brand Logo"></div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="brand-card"><img src="assets/img/brand/brand_2_6.svg" alt="Brand Logo"></div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="brand-card"><img src="assets/img/brand/brand_2_1.svg" alt="Brand Logo"></div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="brand-card"><img src="assets/img/brand/brand_2_2.svg" alt="Brand Logo"></div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="brand-card"><img src="assets/img/brand/brand_2_3.svg" alt="Brand Logo"></div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="brand-card"><img src="assets/img/brand/brand_2_4.svg" alt="Brand Logo"></div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="brand-card"><img src="assets/img/brand/brand_2_5.svg" alt="Brand Logo"></div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="brand-card"><img src="assets/img/brand/brand_2_6.svg" alt="Brand Logo"></div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="overflow-hidden space" >
-        <div class="container">
-            <div class="row flex-row-reverse align-items-center">
-                <div class="col-xl-6 mb-35 mb-xl-0">
-                    <div class="img-box4">
-                        <div class="comparison-img"  style="border-radius: 10px">
-                            <div class="img background-img" data-bg-src="assets/img/normal/doing_job.jpg"></div>
-                            <div class="img foreground-img" data-bg-src="assets/img/normal/assessing_job.jpg"></div>
-                            <input type="range" min="1" max="100" value="50" class="compslider" name="compslider"
-                                   id="compslider">
-                            <div class="slider-button" style="left: calc(50% - 28px);"></div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl-6 text-center text-xl-start">
-                    <div class="pe-xxl-5">
-                        <div class="title-area mb-37"><span class="sub-title"><img src="assets/img/theme-img/title_icon.svg"
-                                                                                   alt="shape">FAQ</span>
-                            <h4 class="sec-title">Answers to Common Plumbing Concerns</h4>
-                        </div>
-                        <div class="accordion-1 accordion load-more-active" id="faqAccordion">
-                            <div class="accordion-card active">
-                                <div class="accordion-header" id="collapse-item-1">
-                                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
-                                            data-bs-target="#collapse-1" aria-expanded="true" aria-controls="collapse-1">Q1. How
-                                        do I start the process of renovation a home?
-                                    </button>
-                                </div>
-                                <div id="collapse-1" class="accordion-collapse collapse show" aria-labelledby="collapse-item-1"
-                                     data-bs-parent="#faqAccordion">
-                                    <div class="accordion-body"><p class="faq-text">The open-concept layout seamlessly connects
-                                            the living room with the fully equipped kitchen, boasting top-of-the-line appliances and
-                                            all the essentials for preparing delicious meals.</p></div>
-                                </div>
-                            </div>
-                            <div class="accordion-card">
-                                <div class="accordion-header" id="collapse-item-2">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                            data-bs-target="#collapse-2" aria-expanded="false" aria-controls="collapse-2">Q2.
-                                        What factors should I consider when choosing a neighborhood?
-                                    </button>
-                                </div>
-                                <div id="collapse-2" class="accordion-collapse collapse" aria-labelledby="collapse-item-2"
-                                     data-bs-parent="#faqAccordion">
-                                    <div class="accordion-body"><p class="faq-text">The open-concept layout seamlessly connects
-                                            the living room with the fully equipped kitchen, boasting top-of-the-line appliances and
-                                            all the essentials for preparing delicious meals.</p></div>
-                                </div>
-                            </div>
-                            <div class="accordion-card">
-                                <div class="accordion-header" id="collapse-item-3">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                            data-bs-target="#collapse-3" aria-expanded="false" aria-controls="collapse-3">Q3.
-                                        How can I determine the right price for selling my property?
-                                    </button>
-                                </div>
-                                <div id="collapse-3" class="accordion-collapse collapse" aria-labelledby="collapse-item-3"
-                                     data-bs-parent="#faqAccordion">
-                                    <div class="accordion-body"><p class="faq-text">The open-concept layout seamlessly connects
-                                            the living room with the fully equipped kitchen, boasting top-of-the-line appliances and
-                                            all the essentials for preparing delicious meals.</p></div>
-                                </div>
-                            </div>
-                            <div class="accordion-card">
-                                <div class="accordion-header" id="collapse-item-4">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                            data-bs-target="#collapse-4" aria-expanded="false" aria-controls="collapse-4">Q4.
-                                        What are closing costs and who is responsible for paying them?
-                                    </button>
-                                </div>
-                                <div id="collapse-4" class="accordion-collapse collapse" aria-labelledby="collapse-item-4"
-                                     data-bs-parent="#faqAccordion">
-                                    <div class="accordion-body"><p class="faq-text">The open-concept layout seamlessly connects
-                                            the living room with the fully equipped kitchen, boasting top-of-the-line appliances and
-                                            all the essentials for preparing delicious meals.</p></div>
-                                </div>
-                            </div>
-
-                            <div class="accordion-card d-none">
-                                <div class="accordion-header" id="collapse-item-6">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                            data-bs-target="#collapse-6" aria-expanded="false" aria-controls="collapse-6">Q6.
-                                        What are the pros and cons of buying a fixer-upper?
-                                    </button>
-                                </div>
-                                <div id="collapse-6" class="accordion-collapse collapse" aria-labelledby="collapse-item-6"
-                                     data-bs-parent="#faqAccordion">
-                                    <div class="accordion-body"><p class="faq-text">The open-concept layout seamlessly connects
-                                            the living room with the fully equipped kitchen, boasting top-of-the-line appliances and
-                                            all the essentials for preparing delicious meals.</p></div>
-                                </div>
-                            </div>
-                            <div class="accordion-card d-none">
-                                <div class="accordion-header" id="collapse-item-7">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                            data-bs-target="#collapse-7" aria-expanded="false" aria-controls="collapse-7">Q7.
-                                        How can I stage my home to sell quickly and for the best price?
-                                    </button>
-                                </div>
-                                <div id="collapse-7" class="accordion-collapse collapse" aria-labelledby="collapse-item-7"
-                                     data-bs-parent="#faqAccordion">
-                                    <div class="accordion-body"><p class="faq-text">The open-concept layout seamlessly connects
-                                            the living room with the fully equipped kitchen, boasting top-of-the-line appliances and
-                                            all the essentials for preparing delicious meals.</p></div>
-                                </div>
-                            </div>
-                            <div class="accordion-card d-none">
-                                <div class="accordion-header" id="collapse-item-8">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                            data-bs-target="#collapse-8" aria-expanded="false" aria-controls="collapse-8">Q8.
-                                        What are the key features to look for when buying a new home?
-                                    </button>
-                                </div>
-                                <div id="collapse-8" class="accordion-collapse collapse" aria-labelledby="collapse-item-8"
-                                     data-bs-parent="#faqAccordion">
-                                    <div class="accordion-body"><p class="faq-text">The open-concept layout seamlessly connects
-                                            the living room with the fully equipped kitchen, boasting top-of-the-line appliances and
-                                            all the essentials for preparing delicious meals.</p></div>
-                                </div>
-                            </div>
-                            <div class="accordion-card d-none">
-                                <div class="accordion-header" id="collapse-item-9">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                            data-bs-target="#collapse-9" aria-expanded="false" aria-controls="collapse-9">Q9.
-                                        How can I ensure my renovation project stays within budget?
-                                    </button>
-                                </div>
-                                <div id="collapse-9" class="accordion-collapse collapse" aria-labelledby="collapse-item-9"
-                                     data-bs-parent="#faqAccordion">
-                                    <div class="accordion-body"><p class="faq-text">The open-concept layout seamlessly connects
-                                            the living room with the fully equipped kitchen, boasting top-of-the-line appliances and
-                                            all the essentials for preparing delicious meals.</p></div>
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
 
 @endsection

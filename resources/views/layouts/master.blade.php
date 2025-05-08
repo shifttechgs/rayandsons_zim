@@ -34,6 +34,9 @@
     <link rel="stylesheet" href="assets/css/fontawesome.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <!-- Toastr CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css">
+
     <style>
 
 
@@ -53,7 +56,7 @@
 <script src="assets/js/vendor/jquery-3.7.1.min.js"></script>
 <script src="assets/js/app.min.js"></script>
 <script src="assets/js/main.js"></script>
-{{--for toasters--}}
+<!--for toasters
 <script>
     @if(Session::has('message'))
         toastr.options =
@@ -101,7 +104,9 @@
         @endif
     });
 
-</script>
+</script>-->
+<!-- Toastr JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
 
 </body>
 

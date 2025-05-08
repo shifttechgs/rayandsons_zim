@@ -29,7 +29,10 @@ class ContactFormMail extends Mailable
      */
     public function build()
     {
-      //  dd(view()->exists('mail.contact_form')); // Replace with your view name
+   // logger()->info('ContactFormMail data:', $this->data);
+      //dd(view()->exists('mail.contact_form')); // Replace with your view name
+     // dd(view('mail.contact_form', ['data' => $this->data])->render());
+
 
         return $this->markdown('mail.contact_form')
             ->with('data', $this->data)

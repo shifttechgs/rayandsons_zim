@@ -4,6 +4,8 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\QuoteController;
 use App\Http\Controllers\PagesController;
 use App\Http\Controllers\ServicesController;
+use App\Mail\ContactFormMail;
+use Illuminate\Support\Facades\Mail;
 
 
 Route::get('/', function () {
@@ -29,3 +31,18 @@ Route::get('reboot',function(){
     Artisan::call('key:generate');
     dd('system rebooted!');
 });
+
+// Route::get('/test-mail', function () {
+//     $data = [
+//         'firstname' => 'Test User',
+//         'email' => 'test@example.com',
+//         'phoneNumber' => '123456789',
+//
+//         'service' => 'Delivery',
+//         'comment' => 'This is a test message.',
+//     ];
+//
+//     Mail::to('info@shifttechgs.com')->send(new ContactFormMail($data));
+//
+//     return 'Test email sent!';
+// });
