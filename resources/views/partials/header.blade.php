@@ -42,9 +42,9 @@
                             <li>
                                 <i class="fas fa-headset" style="color:  whitesmoke"></i> <a href="tel:1234567890">Emergency? Call Now</a>
                             </li>
-                            <li>
-                                <i class="fa fa-user" style="color:  whitesmoke"></i> <a href="contact.html">Portal</a>
-                            </li>
+{{--                            <li>--}}
+{{--                                <i class="fa fa-user" style="color:  whitesmoke"></i> <a href="contact.html">Portal</a>--}}
+{{--                            </li>--}}
                         </ul>
 
                     </div>

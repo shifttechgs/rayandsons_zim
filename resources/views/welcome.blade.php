@@ -119,7 +119,7 @@
             </div>
         </div>
     </div>
-	<div class="bg-title space-extra"  >
+	<div class="bg-title space-extra">
         <div class="container">
 
             <div class="swiper th-slider" id="brandSlider2"
@@ -299,15 +299,15 @@
 {{--                </div>--}}
             </div>
             <div class="row gy-30 filter-active overlay-direction load-more-active">
-                <div class="cat2 col-xl-3 col-md-6 filter-item">
-                    <div class="gallery-card"><a class="box-img popup-image" href="assets/img/gallery/ray1.jpg"><img
-                                src="assets/img/gallery/ray1.jpg" alt="gallery image">
+                <div class="cat4 cat3 col-xl-3 col-md-6 filter-item">
+                    <div class="gallery-card"><a class="box-img popup-image" href="assets/img/gallery/ray5.jpg"><img
+                                src="assets/img/gallery/ray5.jpg" alt="gallery image">
                             <div class="box-content"><span class="box-btn"><i class="fal fa-plus"></i></span></div>
                         </a></div>
                 </div>
-                <div class="cat1 cat5 col-xl-3 col-md-6 filter-item">
-                    <div class="gallery-card"><a class="box-img popup-image" href="assets/img/gallery/ray2.jpg"><img
-                                src="assets/img/gallery/ray2.jpg" alt="gallery image">
+                <div class="cat1 col-xl-3 col-md-6 filter-item">
+                    <div class="gallery-card"><a class="box-img popup-image" href="assets/img/gallery/ray6.jpg"><img
+                                src="assets/img/gallery/ray6.jpg" alt="gallery image">
                             <div class="box-content"><span class="box-btn"><i class="fal fa-plus"></i></span></div>
                         </a></div>
                 </div>
@@ -323,18 +323,7 @@
                             <div class="box-content"><span class="box-btn"><i class="fal fa-plus"></i></span></div>
                         </a></div>
                 </div>
-                <div class="cat4 cat3 col-xl-3 col-md-6 filter-item">
-                    <div class="gallery-card"><a class="box-img popup-image" href="assets/img/gallery/ray5.jpg"><img
-                                src="assets/img/gallery/ray5.jpg" alt="gallery image">
-                            <div class="box-content"><span class="box-btn"><i class="fal fa-plus"></i></span></div>
-                        </a></div>
-                </div>
-                <div class="cat1 col-xl-3 col-md-6 filter-item">
-                    <div class="gallery-card"><a class="box-img popup-image" href="assets/img/gallery/ray6.jpg"><img
-                                src="assets/img/gallery/ray6.jpg" alt="gallery image">
-                            <div class="box-content"><span class="box-btn"><i class="fal fa-plus"></i></span></div>
-                        </a></div>
-                </div>
+
                 <div class="cat5 cat4 col-xl-3 col-md-6 filter-item">
                     <div class="gallery-card"><a class="box-img popup-image" href="assets/img/gallery/ray7.jpg"><img
                                 src="assets/img/gallery/ray7.jpg" alt="gallery image">
