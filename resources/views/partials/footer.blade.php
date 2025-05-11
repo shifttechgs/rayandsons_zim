@@ -163,7 +163,7 @@
     </section>
     <div class="video-sec2" data-bg-src="assets/img/gallery/res_plumber.jpg">
         <div class="container">
-            <div class="video-content2"><a href="https://www.youtube.com/watch?v=_sI_Ps7JSEk"
+            <div class="video-content2"><a href="https://www.youtube.com/shorts/nLOlNFCQaPE"
                                            class="play-btn style3 popup-video"><i class="fa-sharp fa-solid fa-play"></i></a>
                 <h4 class="sec-title text-white"><span class="text-theme">20 Years</span> of Experience in All Residential, Industrial and Commercial Plumbing & Drain Services and Maintenance
                    </h4>
