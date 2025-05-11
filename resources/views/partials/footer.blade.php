@@ -8,7 +8,7 @@
 			 <div class="row justify-content-between align-items-center">
                 <div class="col-md">
                     <div class="title-area text-center text-md-start"><span class="sub-title"><img
-                                src="assets/img/theme-img/title_icon.svg" alt="shape">Working Process</span>
+                                src="assets/img/theme-img/title_icon.svg" class="colored-icon" alt="shape">Working Process</span>
                         <h4 class="sec-title">Our Great Process</h4></div>
                 </div>
                 <div class="col-md-auto">
@@ -59,7 +59,7 @@
             <div class="row justify-content-between align-items-center">
                 <div class="col-md">
                     <div class="title-area text-center text-md-start"><span class="sub-title"><img
-                                src="assets/img/theme-img/title_icon.svg" alt="shape">Testimonial</span>
+                                src="assets/img/theme-img/title_icon.svg" class="colored-icon" alt="shape">Testimonial</span>
                         <h4 class="sec-title">What our clients say</h4></div>
                 </div>
                 <div class="col-md-auto">
@@ -73,7 +73,7 @@
                     <div class="swiper-wrapper">
                         <div class="swiper-slide">
                             <div class="testi-card">
-                                <div class="box-img"><img src="assets/img/testimonial/testi_b_1.jpg" alt="Image"></div>
+                                <div class="box-img"><img src="assets/img/testimonial/gallery_3_3.jpg" alt="Image"></div>
                                 <div class="box-content">
                                     <div class="box-review"><i class="fa-sharp fa-solid fa-star"></i><i
                                             class="fa-sharp fa-solid fa-star"></i><i
@@ -84,8 +84,8 @@
                                         tellus. Est aliquam sit est ac. Felis diam nunc nibh blandit risus ndrerit sed
                                         consectetur quis leo on the  praesent scelerisque.</p>
                                     <div class="box-profile">
-                                        <div class="box-avater"><img src="assets/img/testimonial/testi_1_1.jpg"
-                                                                     alt="Avater"></div>
+{{--                                        <div class="box-avater"><img src="assets/img/logo/rayandsons_logo.png"--}}
+{{--                                                                     alt="Avater"></div>--}}
                                         <div class="media-body"><h3 class="box-title">Sumaiya Zara</h3>
                                             <p class="box-desig">CEO Of Company</p></div>
                                     </div>
@@ -94,7 +94,7 @@
                         </div>
                         <div class="swiper-slide">
                             <div class="testi-card">
-                                <div class="box-img"><img src="assets/img/testimonial/testi_b_2.jpg" alt="Image"></div>
+                                <div class="box-img"><img src="assets/img/testimonial/gallery_3_3.jpg" alt="Image"></div>
                                 <div class="box-content">
                                     <div class="box-review"><i class="fa-sharp fa-solid fa-star"></i><i
                                             class="fa-sharp fa-solid fa-star"></i><i
@@ -105,8 +105,8 @@
                                         tellus. Est aliquam sit est ac. Felis diam nunc nibh blandit risus ndrerit sed
                                         consectetur quis leo on the  praesent in Rakar.</p>
                                     <div class="box-profile">
-                                        <div class="box-avater"><img src="assets/img/testimonial/testi_1_2.jpg"
-                                                                     alt="Avater"></div>
+{{--                                        <div class="box-avater"><img src="assets/img/testimonial/testi_1_2.jpg"--}}
+{{--                                                                     alt="Avater"></div>--}}
                                         <div class="media-body"><h3 class="box-title">Alex Simon</h3>
                                             <p class="box-desig">Managing Director</p></div>
                                     </div>
@@ -115,7 +115,7 @@
                         </div>
                         <div class="swiper-slide">
                             <div class="testi-card">
-                                <div class="box-img"><img src="assets/img/testimonial/testi_b_1.jpg" alt="Image"></div>
+                                <div class="box-img"><img src="assets/img/testimonial/gallery_3_3.jpg" alt="Image"></div>
                                 <div class="box-content">
                                     <div class="box-review"><i class="fa-sharp fa-solid fa-star"></i><i
                                             class="fa-sharp fa-solid fa-star"></i><i
@@ -126,8 +126,8 @@
                                         tellus. Est aliquam sit est ac. Felis diam nunc nibh blandit risus ndrerit sed
                                         consectetur quis leo on the  praesent scelerisque.</p>
                                     <div class="box-profile">
-                                        <div class="box-avater"><img src="assets/img/testimonial/testi_1_1.jpg"
-                                                                     alt="Avater"></div>
+{{--                                        <div class="box-avater"><img src="assets/img/testimonial/testi_1_1.jpg"--}}
+{{--                                                                     alt="Avater"></div>--}}
                                         <div class="media-body"><h3 class="box-title">Agelina Margret</h3>
                                             <p class="box-desig">CEO Of Company</p></div>
                                     </div>
@@ -136,7 +136,7 @@
                         </div>
                         <div class="swiper-slide">
                             <div class="testi-card">
-                                <div class="box-img"><img src="assets/img/testimonial/testi_b_2.jpg" alt="Image"></div>
+                                <div class="box-img"><img src="assets/img/testimonial/gallery_3_3.jpg" alt="Image"></div>
                                 <div class="box-content">
                                     <div class="box-review"><i class="fa-sharp fa-solid fa-star"></i><i
                                             class="fa-sharp fa-solid fa-star"></i><i
@@ -147,8 +147,8 @@
                                         tellus. Est aliquam sit est ac. Felis diam nunc nibh blandit risus ndrerit sed
                                         consectetur quis leo on the  praesent in Rakar.</p>
                                     <div class="box-profile">
-                                        <div class="box-avater"><img src="assets/img/testimonial/testi_1_2.jpg"
-                                                                     alt="Avater"></div>
+{{--                                        <div class="box-avater"><img src="assets/img/testimonial/testi_1_2.jpg"--}}
+{{--                                                                     alt="Avater"></div>--}}
                                         <div class="media-body"><h3 class="box-title">Robert Danials</h3>
                                             <p class="box-desig">Managing Director</p></div>
                                     </div>
@@ -161,7 +161,7 @@
             </div>
         </div>
     </section>
-    <div class="video-sec2" data-bg-src="assets/img/normal/video_2.jpg">
+    <div class="video-sec2" data-bg-src="assets/img/gallery/res_plumber.jpg">
         <div class="container">
             <div class="video-content2"><a href="https://www.youtube.com/watch?v=_sI_Ps7JSEk"
                                            class="play-btn style3 popup-video"><i class="fa-sharp fa-solid fa-play"></i></a>
@@ -221,7 +221,7 @@
                                 <div class="contact-media">
                                     <div class="icon-btn"><i class="fas fa-phone-volume" style="color: white"></i></div>
                                     <div class="media-body"><h4 class="box-label">Call Us:</h4>
-                                        <p class="box-text"><a href="tel:+27 785 575 211">+27 785 575 211</a></p></div>
+                                        <p class="box-text"><a href="tel:+263 78 871 6998">+263 78 871 6998</a></p></div>
                                 </div>
                                 <div class="contact-media">
                                     <div class="icon-btn"><i class="fas fa-envelope" style="color: white"></i></div>
@@ -236,7 +236,7 @@
                     <div class="col-xl-7 text-center text-xl-start">
                         <div class="ps-xxl-4 ms-xl-3">
                             <div class="title-area"><span class="sub-title"><span class="line"></span> <img
-                                        src="assets/img/theme-img/title_icon3.svg" alt="shape">Need a Fix? Book a Plumber Today!</span>
+                                        src="assets/img/theme-img/title_icon3.svg" class="colored-icon" alt="shape">Need a Fix? Book a Plumber Today!</span>
                                 <h2 class="sec-title">Request instant quote</h2></div>
                             <form method="POST" action="{{ url('/instantQuote') }}" class="input-light ">
                                                                         @csrf
@@ -281,51 +281,37 @@
             </div>
         </div>
     </div>
-    <div class="bg-title space-extra" data-bg-src="assets/img/bg/brand_bg_1.png">
-        <div class="container"><h2 class="sec-title text-white text-center mb-35">our trusted Clients</h2>
-            <div class="swiper th-slider" id="brandSlider2"
-                 data-slider-options='{"spaceBetween":45,"breakpoints":{"0":{"slidesPerView":2},"576":{"slidesPerView":"2"},"768":{"slidesPerView":"3"},"992":{"slidesPerView":"4"},"1200":{"slidesPerView":"4"},"1300":{"slidesPerView":"5"},"1500":{"slidesPerView":"6"}}}'>
-                <div class="swiper-wrapper">
-                    <div class="swiper-slide">
-                        <div class="brand-card"><img src="assets/img/brand/brand_2_1.svg" alt="Brand Logo"></div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="brand-card"><img src="assets/img/brand/brand_2_2.svg" alt="Brand Logo"></div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="brand-card"><img src="assets/img/brand/brand_2_3.svg" alt="Brand Logo"></div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="brand-card"><img src="assets/img/brand/brand_2_4.svg" alt="Brand Logo"></div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="brand-card"><img src="assets/img/brand/brand_2_5.svg" alt="Brand Logo"></div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="brand-card"><img src="assets/img/brand/brand_2_6.svg" alt="Brand Logo"></div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="brand-card"><img src="assets/img/brand/brand_2_1.svg" alt="Brand Logo"></div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="brand-card"><img src="assets/img/brand/brand_2_2.svg" alt="Brand Logo"></div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="brand-card"><img src="assets/img/brand/brand_2_3.svg" alt="Brand Logo"></div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="brand-card"><img src="assets/img/brand/brand_2_4.svg" alt="Brand Logo"></div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="brand-card"><img src="assets/img/brand/brand_2_5.svg" alt="Brand Logo"></div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="brand-card"><img src="assets/img/brand/brand_2_6.svg" alt="Brand Logo"></div>
+        <div class="bg-title space-extra"  >
+            <div class="container">
+
+                <div class="swiper th-slider" id="brandSlider2"
+                     data-slider-options='{"spaceBetween":45,"breakpoints":{"0":{"slidesPerView":2},"576":{"slidesPerView":"2"},"768":{"slidesPerView":"3"},"992":{"slidesPerView":"4"},"1200":{"slidesPerView":"4"},"1300":{"slidesPerView":"5"},"1500":{"slidesPerView":"6"}}}'>
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="brand-card"><img src="assets/img/brand/1.png"  alt="Brand Logo"></div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="brand-card"><img src="assets/img/brand/2.png" alt="Brand Logo"></div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="brand-card"><img src="assets/img/brand/3.png"  alt="Brand Logo"></div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="brand-card"><img src="assets/img/brand/4.png"  alt="Brand Logo"></div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="brand-card"><img src="assets/img/brand/5.png"  alt="Brand Logo"></div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="brand-card"><img src="assets/img/brand/6.png"  alt="Brand Logo"></div>
+                        </div>
+
+
                     </div>
                 </div>
             </div>
         </div>
-    </div>
+
     <div class="overflow-hidden space" >
         <div class="container">
             <div class="row flex-row-reverse align-items-center">
@@ -343,7 +329,7 @@
                 <div class="col-xl-6 text-center text-xl-start">
                     <div class="pe-xxl-5">
                         <div class="title-area mb-37"><span class="sub-title"><img src="assets/img/theme-img/title_icon.svg"
-                                                                                   alt="shape">FAQ</span>
+                                                                                   class="colored-icon"   alt="shape">FAQ</span>
                             <h4 class="sec-title">Answers to Common Plumbing Concerns</h4>
                         </div>
                         <div class="accordion-1 accordion load-more-active" id="faqAccordion">
@@ -469,7 +455,7 @@
     </div>
 
 
-<footer class="footer-wrapper footer-layout4" >
+<footer class="footer-wrapper " >
 
     <div class="footer-contact-area">
         <div class="container">
@@ -482,7 +468,7 @@
                 <div class="footer-contact">
                     <div class="box-icon"><i class="fas fa-phone-volume"></i></div>
                     <div class="media-body"><h3 class="box-title">Call Us:</h3>
-                        <p class="box-text"><a href="tel:+27 785 575 211">+27 785 575 211</a></p></div>
+                        <p class="box-text"><a href="tel:+263 78 871 6998">+263 78 871 6998</a></p></div>
                 </div>
                 <div class="divider"></div>
                 <div class="footer-contact">
@@ -513,12 +499,12 @@
                 </div>
                 <div class="col-md-6 col-xl-auto">
                     <div class="widget widget_nav_menu footer-widget"><h3 class="widget_title"><img
-                                src="assets/img/icon/footer_title.svg" alt="icon"> Useful Links</h3>
+                                src="assets/img/theme-img/title_icon.svg" class="colored-icon" alt="icon"> Useful Links</h3>
                         <div class="menu-all-pages-container">
                             <ul class="menu">
                                 <li><a href="{{ route('home') }}">Home</a></li>
                                 <li><a href="{{ route('about-us.index') }}">About Us</a></li>
-                                <li ><a href="{{ route('our-works.index') }}">Our Works</a></li>
+{{--                                <li ><a href="{{ route('our-works.index') }}">Our Works</a></li>--}}
                                 <li ><a href="{{ route('contact-us.index') }}">Talk to Us</a></li>
 
 
@@ -528,7 +514,7 @@
                 </div>
                 <div class="col-md-6 col-xl-auto">
                     <div class="widget widget_nav_menu footer-widget"><h3 class="widget_title"><img
-                                src="assets/img/icon/footer_title.svg" alt="icon"> Our Services</h3>
+                                src="assets/img/theme-img/title_icon.svg" class="colored-icon" alt="icon"> Our Services</h3>
                         <div class="menu-all-pages-container">
                             <ul class="menu">
                                <li><a href="{{ route('plumbing-installations.index') }}">Plumbing Installations</a></li>
@@ -541,7 +527,7 @@
                 </div>
                 <div class="col-md-6 col-xl-auto">
                     <div class="widget newsletter-widget footer-widget"><h3 class="widget_title"><img
-                                src="assets/img/icon/footer_title.svg" alt="icon"> Newsletter</h3>
+                                src="assets/img/theme-img/title_icon.svg" class="colored-icon" alt="icon"> Newsletter</h3>
                         <p class="footer-text">Get latest updates and offers.</p>
                         <form class="newsletter-form"><input class="form-control" type="email"
                                                              placeholder="Enter email address" required="">
@@ -579,5 +565,5 @@
 {{--    </svg>--}}
 {{--</div>--}}
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<a href="https://api.whatsapp.com/send?phone=+27718159118&amp;text=Hi%20Ray.%20I%20am%20on%20your%20website%20and%20need%20some%20help." class="floating" target="_blank"> <i class="fa fa-whatsapp float-button"></i> <div class="chat">Chat With Our Friendly Plumber</div> </a></body>
+<a href="https://api.whatsapp.com/send?phone=+263774631511&amp;text=Hi%20Ray.%20I%20am%20on%20your%20website%20and%20need%20some%20help." class="floating" target="_blank"> <i class="fa fa-whatsapp float-button"></i> <div class="chat">Chat With Our Friendly Plumber</div> </a></body>
 

@@ -50,13 +50,14 @@
 @yield('content')
 
 
-@include("partials.footer")
-
+@unless (isset($hideFooter) && $hideFooter)
+    @include('partials.footer')
+@endunless
 
 <script src="assets/js/vendor/jquery-3.7.1.min.js"></script>
 <script src="assets/js/app.min.js"></script>
 <script src="assets/js/main.js"></script>
-<!--for toasters
+<!--for toasters-->
 <script>
     @if(Session::has('message'))
         toastr.options =
@@ -104,7 +105,7 @@
         @endif
     });
 
-</script>-->
+</script>
 <!-- Toastr JS -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
 

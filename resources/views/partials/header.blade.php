@@ -13,7 +13,7 @@
                         <li><a href="{{ route('plumbing-maintenances.index') }}">Plumbing Maintenance</a></li>
                     </ul>
                 </li>
-                <li ><a href="{{ route('our-works.index') }}">Our Works</a></li>
+{{--                <li ><a href="{{ route('our-works.index') }}">Our Works</a></li>--}}
                 <li ><a href="{{ route('contact-us.index') }}">Talk to Us</a></li>
 
                 </li>
@@ -73,7 +73,7 @@
                                             <li><a href="{{ route('plumbing-maintenances.index') }}">Plumbing Maintenance</a></li>
                                         </ul>
                                     </li>
-                                    <li ><a href="{{ route('our-works.index') }}">Our Works</a></li>
+{{--                                    <li ><a href="{{ route('our-works.index') }}">Our Works</a></li>--}}
                                     <li ><a href="{{ route('contact-us.index') }}">Talk to Us</a></li>
                                 </ul>
                             </nav>

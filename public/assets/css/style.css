@@ -15702,7 +15702,8 @@ span.select2-selection.select2-selection--single:focus {
     -webkit-justify-content: center;
     -ms-flex-pack: center;
     justify-content: center;
-    min-height: 40px
+    max-height: 80px;
+    border-radius: 40px;
 }
 
 .brand-sec3 {
@@ -15718,7 +15719,8 @@ span.select2-selection.select2-selection--single:focus {
 }
 
 .brand-sec3 .brand-card {
-    min-height: 40px
+    min-height: 40px;
+
 }
 
 .brand-sec3 .brand-inner {
@@ -15927,9 +15929,13 @@ span.select2-selection.select2-selection--single:focus {
     -webkit-transition: 0.4s ease-in-out;
     transition: 0.4s ease-in-out
 }
-/*.colored-icon {*/
-/*    filter: brightness(0) saturate(100%) invert(26%) sepia(83%) saturate(5300%) hue-rotate(339deg) brightness(101%) contrast(103%);*/
-/*}*/
+.colored-icon {
+    filter: brightness(0) saturate(100%) invert(24%) sepia(96%) saturate(7493%) hue-rotate(0deg) brightness(104%) contrast(103%);
+}
+
+
+
+
 
 
 .th-video {
@@ -16501,7 +16507,7 @@ span.select2-selection.select2-selection--single:focus {
     -webkit-align-items: center;
     -ms-flex-align: center;
     align-items: center;
-    background-color: rgba(16, 24, 64, 0.8);
+    background-color: rgba(4, 66, 91, 0.41);
     pointer-events: none;
     border-radius: inherit;
     z-index: -1;
@@ -19420,11 +19426,11 @@ span.select2-selection.select2-selection--single:focus {
 }
 
 .space-extra, .space-extra-top {
-    padding-top: calc(var(--section-space) - 30px)
+    padding-top: calc(var(--section-space) - 70px)
 }
 
 .space-extra, .space-extra-bottom {
-    padding-bottom: calc(var(--section-space) - 30px)
+    padding-bottom: calc(var(--section-space) - 70px)
 }
 
 .space-extra2, .space-extra2-top {
@@ -19445,11 +19451,11 @@ span.select2-selection.select2-selection--single:focus {
     }
 
     .space-extra, .space-extra-top {
-        padding-top: calc(var(--section-space-mobile) - 30px)
+        padding-top: calc(var(--section-space-mobile) - 70px)
     }
 
     .space-extra, .space-extra-bottom {
-        padding-bottom: calc(var(--section-space-mobile) - 30px)
+        padding-bottom: calc(var(--section-space-mobile) - 70px)
     }
 
     .space-top-md-none {

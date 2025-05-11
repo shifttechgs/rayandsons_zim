@@ -119,48 +119,32 @@
             </div>
         </div>
     </div>
-	<div class="bg-title space-extra" data-bg-src="assets/img/bg/brand_bg_1.png">
+	<div class="bg-title space-extra"  >
         <div class="container">
 
             <div class="swiper th-slider" id="brandSlider2"
                  data-slider-options='{"spaceBetween":45,"breakpoints":{"0":{"slidesPerView":2},"576":{"slidesPerView":"2"},"768":{"slidesPerView":"3"},"992":{"slidesPerView":"4"},"1200":{"slidesPerView":"4"},"1300":{"slidesPerView":"5"},"1500":{"slidesPerView":"6"}}}'>
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
-                        <div class="brand-card"><img src="assets/img/brand/brand_2_1.svg" alt="Brand Logo"></div>
+                        <div class="brand-card"><img src="assets/img/brand/1.png"  alt="Brand Logo"></div>
                     </div>
                     <div class="swiper-slide">
-                        <div class="brand-card"><img src="assets/img/brand/brand_2_2.svg" alt="Brand Logo"></div>
+                        <div class="brand-card"><img src="assets/img/brand/2.png" alt="Brand Logo"></div>
                     </div>
                     <div class="swiper-slide">
-                        <div class="brand-card"><img src="assets/img/brand/brand_2_3.svg" alt="Brand Logo"></div>
+                        <div class="brand-card"><img src="assets/img/brand/3.png"  alt="Brand Logo"></div>
                     </div>
                     <div class="swiper-slide">
-                        <div class="brand-card"><img src="assets/img/brand/brand_2_4.svg" alt="Brand Logo"></div>
+                        <div class="brand-card"><img src="assets/img/brand/4.png"  alt="Brand Logo"></div>
                     </div>
                     <div class="swiper-slide">
-                        <div class="brand-card"><img src="assets/img/brand/brand_2_5.svg" alt="Brand Logo"></div>
+                        <div class="brand-card"><img src="assets/img/brand/5.png"  alt="Brand Logo"></div>
                     </div>
                     <div class="swiper-slide">
-                        <div class="brand-card"><img src="assets/img/brand/brand_2_6.svg" alt="Brand Logo"></div>
+                        <div class="brand-card"><img src="assets/img/brand/6.png"  alt="Brand Logo"></div>
                     </div>
-                    <div class="swiper-slide">
-                        <div class="brand-card"><img src="assets/img/brand/brand_2_1.svg" alt="Brand Logo"></div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="brand-card"><img src="assets/img/brand/brand_2_2.svg" alt="Brand Logo"></div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="brand-card"><img src="assets/img/brand/brand_2_3.svg" alt="Brand Logo"></div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="brand-card"><img src="assets/img/brand/brand_2_4.svg" alt="Brand Logo"></div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="brand-card"><img src="assets/img/brand/brand_2_5.svg" alt="Brand Logo"></div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="brand-card"><img src="assets/img/brand/brand_2_6.svg" alt="Brand Logo"></div>
-                    </div>
+
+
                 </div>
             </div>
         </div>
@@ -182,7 +166,7 @@
             </div>
             <div class="col-xl-6 text-center text-xl-start">
                 <div class="pe-xxl-5">
-                    <div class="title-area mb-37"><span class="sub-title"><img src="assets/img/theme-img/title_icon.svg"
+                    <div class="title-area mb-37"><span class="sub-title"><img src="assets/img/theme-img/title_icon.svg" class="colored-icon"
                                                                                alt="shape">Who we are</span>
                         <h4 class="sec-title">Residential & Commercial Plumbing Service Provider.</h4>
                         <p class="sec-text">Ray & Sons is a professional plumbing company that offers an extensive range
@@ -203,7 +187,7 @@
                         <div class="call-btn">
                             <div class="play-btn"><i class="fal fa-phone"></i></div>
                             <div class="media-body"><p class="box-label">Call Us 24/7</p><h6 class="box-link"><a
-                                    href="tel:+27 785 575 211">+27 785 575 211</a></h6></div>
+                                    href="tel:+263 78 871 6998">+263 78 871 6998</a></h6></div>
                         </div>
                         <a href="{{ route('contact-us.index') }}" class="th-btn style3">Get Instant Quote
                              <i class="fa fa-arrow-right" style="color: white"></i></a>
@@ -219,7 +203,7 @@
             <div class="row justify-content-center">
                 <div class="col-xl-8 col-md-10">
                     <div class="title-area text-center"><span class="sub-title"><img
-                                src="assets/img/theme-img/title_icon.svg" alt="Icon">Our Services</span>
+                                src="assets/img/theme-img/title_icon.svg" class="colored-icon" alt="Icon">Our Services</span>
                         <h2 class="sec-title">Plumbing services we offer</h2>
                         <p class="sec-text">Ray & Sons is a professional plumbing company that offers an extensive range of general and specialist plumbing services.</p></div>
                 </div>
@@ -238,8 +222,7 @@
 
                                 <p class="box-subtitle">Plumbing Services.</p>
                                 <h3 class="box-title"><a href="{{ route('plumbing-installations.index') }}">Plumbing Installations</a></h3>
-                                <p class="box-text">Our Repair all Services best offers quality help programs for corporate
-                                    zone studying.</p><a href="{{ route('plumbing-installations.index') }}" class="th-btn btn-sm">Read More<i
+                                <p class="box-text">We know how stressful plumbing issues can be — especially in your home...</p><a href="{{ route('plumbing-installations.index') }}" class="th-btn btn-sm">Read More<i
                                         class="fa fa-arrow-right ms-2"></i></a></div>
                         </div>
                         <div class="swiper-slide">
@@ -250,8 +233,7 @@
                                 </div>
                                 <p class="box-subtitle">Plumbing Services</p>
                                 <h3 class="box-title"><a href="{{ route('drainage-services.index') }}">Drainage Services </a></h3>
-                                <p class="box-text">Our Repair all Services best offers quality help programs for corporate
-                                    zone studying.</p><a href="{{ route('drainage-services.index') }}" class="th-btn btn-sm">Read More<i
+                                <p class="box-text">We offer a full range of pipe and drain cleaning services to cater for any and all your sewerage, storm water, effluent, sub..</p><a href="{{ route('drainage-services.index') }}" class="th-btn btn-sm">Read More<i
                                         class="fa fa-arrow-right ms-2"></i></a></div>
                         </div>
                         <div class="swiper-slide">
@@ -262,8 +244,7 @@
                                 </div>
                                 <p class="box-subtitle">Plumbing Services</p>
                                 <h3 class="box-title"><a href="{{ route('plumbing-maintenances.index') }}">Plumbing Maintenance</a></h3>
-                                <p class="box-text">Our Repair all Services best offers quality help programs for corporate
-                                    zone studying.</p><a href="{{ route('plumbing-maintenances.index') }}" class="th-btn btn-sm">Read More<i
+                                <p class="box-text">A leaking geyser in a ceiling from a small drip to a major leak can be...</p><a href="{{ route('plumbing-maintenances.index') }}" class="th-btn btn-sm">Read More<i
                                         class="fa fa-arrow-right ms-2"></i></a></div>
                         </div>
                         <div class="swiper-slide">
@@ -274,8 +255,7 @@
                                 </div>
                                 <p class="box-subtitle">Plumbing Services</p>
                                 <h3 class="box-title"><a href="service-details.html">Emergency Plumbing</a></h3>
-                                <p class="box-text">Our Repair all Services best offers quality help programs for corporate
-                                    zone studying.</p><a href="service-details.html" class="th-btn btn-sm">Read More<i
+                                <p class="box-text">Our 24/7 Emergency team is always on standby to serve you whenever you need a fixing.</p><a href="service-details.html" class="th-btn btn-sm">Read More<i
                                         class="fa fa-arrow-right ms-2"></i></a></div>
                         </div>
 
@@ -295,7 +275,7 @@
             <div class="call-btn">
                 <div class="play-btn"><i class="fal fa-phone"></i></div>
                 <div class="media-body"><p class="box-label text-white">Call Us 24/7</p><h6 class="box-link text-white">
-                    <a href="tel:+27 785 575 211">+27 785 575 211</a></h6></div>
+                    <a href="tel:+263 78 871 6998">+263 78 871 6998</a></h6></div>
             </div>
         </div>
     </div>
@@ -310,123 +290,123 @@
             <div class="row justify-content-between align-items-center">
                 <div class="col-md">
                     <div class="title-area text-center text-md-start"><span class="sub-title"><img
-                                src="assets/img/theme-img/title_icon.svg" alt="shape">Our Projects</span>
+                                src="assets/img/theme-img/title_icon.svg" class="colored-icon" alt="shape">Our Projects</span>
                         <h4 class="sec-title">Our Recent Projects</h4></div>
                 </div>
-                <div class="col-md-auto">
-                    <div class="sec-btn mt-n3 mt-md-0"><a href="{{ route('our-works.index') }}" class="th-btn style4">View All Projects<i
-                                class="fa fa-arrow-right ms-2"></i></a></div>
-                </div>
+{{--                <div class="col-md-auto">--}}
+{{--                    <div class="sec-btn mt-n3 mt-md-0"><a href="" class="th-btn style4">View All Projects<i--}}
+{{--                                class="fa fa-arrow-right ms-2"></i></a></div>--}}
+{{--                </div>--}}
             </div>
             <div class="row gy-30 filter-active overlay-direction load-more-active">
                 <div class="cat2 col-xl-3 col-md-6 filter-item">
-                    <div class="gallery-card"><a class="box-img popup-image" href="assets/img/gallery/gallery_1_1.jpg"><img
-                                src="assets/img/gallery/gallery_1_1.jpg" alt="gallery image">
+                    <div class="gallery-card"><a class="box-img popup-image" href="assets/img/gallery/ray1.jpg"><img
+                                src="assets/img/gallery/ray1.jpg" alt="gallery image">
                             <div class="box-content"><span class="box-btn"><i class="fal fa-plus"></i></span></div>
                         </a></div>
                 </div>
                 <div class="cat1 cat5 col-xl-3 col-md-6 filter-item">
-                    <div class="gallery-card"><a class="box-img popup-image" href="assets/img/gallery/gallery_1_2.jpg"><img
-                                src="assets/img/gallery/gallery_1_2.jpg" alt="gallery image">
+                    <div class="gallery-card"><a class="box-img popup-image" href="assets/img/gallery/ray2.jpg"><img
+                                src="assets/img/gallery/ray2.jpg" alt="gallery image">
                             <div class="box-content"><span class="box-btn"><i class="fal fa-plus"></i></span></div>
                         </a></div>
                 </div>
                 <div class="cat3 cat5 col-xl-6 col-md-6 filter-item">
-                    <div class="gallery-card"><a class="box-img popup-image" href="assets/img/gallery/gallery_1_3.jpg"><img
-                                src="assets/img/gallery/gallery_1_3.jpg" alt="gallery image">
+                    <div class="gallery-card"><a class="box-img popup-image" href="assets/img/gallery/ray3.jpg"><img
+                                src="assets/img/gallery/ray3.jpg" alt="gallery image">
                             <div class="box-content"><span class="box-btn"><i class="fal fa-plus"></i></span></div>
                         </a></div>
                 </div>
                 <div class="cat2 col-xl-6 col-md-6 filter-item">
-                    <div class="gallery-card"><a class="box-img popup-image" href="assets/img/gallery/gallery_1_4.jpg"><img
-                                src="assets/img/gallery/gallery_1_4.jpg" alt="gallery image">
+                    <div class="gallery-card"><a class="box-img popup-image" href="assets/img/gallery/ray4.jpg"><img
+                                src="assets/img/gallery/ray4.jpg" alt="gallery image">
                             <div class="box-content"><span class="box-btn"><i class="fal fa-plus"></i></span></div>
                         </a></div>
                 </div>
                 <div class="cat4 cat3 col-xl-3 col-md-6 filter-item">
-                    <div class="gallery-card"><a class="box-img popup-image" href="assets/img/gallery/gallery_1_5.jpg"><img
-                                src="assets/img/gallery/gallery_1_5.jpg" alt="gallery image">
+                    <div class="gallery-card"><a class="box-img popup-image" href="assets/img/gallery/ray5.jpg"><img
+                                src="assets/img/gallery/ray5.jpg" alt="gallery image">
                             <div class="box-content"><span class="box-btn"><i class="fal fa-plus"></i></span></div>
                         </a></div>
                 </div>
                 <div class="cat1 col-xl-3 col-md-6 filter-item">
-                    <div class="gallery-card"><a class="box-img popup-image" href="assets/img/gallery/gallery_1_6.jpg"><img
-                                src="assets/img/gallery/gallery_1_6.jpg" alt="gallery image">
+                    <div class="gallery-card"><a class="box-img popup-image" href="assets/img/gallery/ray6.jpg"><img
+                                src="assets/img/gallery/ray6.jpg" alt="gallery image">
                             <div class="box-content"><span class="box-btn"><i class="fal fa-plus"></i></span></div>
                         </a></div>
                 </div>
                 <div class="cat5 cat4 col-xl-3 col-md-6 filter-item">
-                    <div class="gallery-card"><a class="box-img popup-image" href="assets/img/gallery/gallery_1_7.jpg"><img
-                                src="assets/img/gallery/gallery_1_7.jpg" alt="gallery image">
+                    <div class="gallery-card"><a class="box-img popup-image" href="assets/img/gallery/ray7.jpg"><img
+                                src="assets/img/gallery/ray7.jpg" alt="gallery image">
                             <div class="box-content"><span class="box-btn"><i class="fal fa-plus"></i></span></div>
                         </a></div>
                 </div>
-                <div class="cat2 col-xl-6 col-md-6 filter-item">
-                    <div class="gallery-card"><a class="box-img popup-image" href="assets/img/gallery/gallery_1_8.jpg"><img
-                                src="assets/img/gallery/gallery_1_8.jpg" alt="gallery image">
-                            <div class="box-content"><span class="box-btn"><i class="fal fa-plus"></i></span></div>
-                        </a></div>
-                </div>
+{{--                <div class="cat2 col-xl-6 col-md-6 filter-item">--}}
+{{--                    <div class="gallery-card"><a class="box-img popup-image" href="assets/img/gallery/ray8.jpg"><img--}}
+{{--                                src="assets/img/gallery/ray8.jpg" alt="gallery image">--}}
+{{--                            <div class="box-content"><span class="box-btn"><i class="fal fa-plus"></i></span></div>--}}
+{{--                        </a></div>--}}
+{{--                </div>--}}
                 <div class="cat1 cat3 col-xl-3 col-md-6 filter-item">
-                    <div class="gallery-card"><a class="box-img popup-image" href="assets/img/gallery/gallery_1_9.jpg"><img
-                                src="assets/img/gallery/gallery_1_9.jpg" alt="gallery image">
+                    <div class="gallery-card"><a class="box-img popup-image" href="assets/img/gallery/ray9.jpg"><img
+                                src="assets/img/gallery/ray9.jpg" alt="gallery image">
                             <div class="box-content"><span class="box-btn"><i class="fal fa-plus"></i></span></div>
                         </a></div>
                 </div>
-                <div class="cat2 col-xl-3 col-md-6 filter-item d-none">
-                    <div class="gallery-card"><a class="box-img popup-image" href="assets/img/gallery/gallery_1_1.jpg"><img
-                                src="assets/img/gallery/gallery_1_1.jpg" alt="gallery image">
-                            <div class="box-content"><span class="box-btn"><i class="fal fa-plus"></i></span></div>
-                        </a></div>
-                </div>
-                <div class="cat1 cat5 col-xl-3 col-md-6 filter-item d-none">
-                    <div class="gallery-card"><a class="box-img popup-image" href="assets/img/gallery/gallery_1_2.jpg"><img
-                                src="assets/img/gallery/gallery_1_2.jpg" alt="gallery image">
-                            <div class="box-content"><span class="box-btn"><i class="fal fa-plus"></i></span></div>
-                        </a></div>
-                </div>
-                <div class="cat3 cat5 col-xl-6 col-md-6 filter-item d-none">
-                    <div class="gallery-card"><a class="box-img popup-image" href="assets/img/gallery/gallery_1_3.jpg"><img
-                                src="assets/img/gallery/gallery_1_3.jpg" alt="gallery image">
-                            <div class="box-content"><span class="box-btn"><i class="fal fa-plus"></i></span></div>
-                        </a></div>
-                </div>
-                <div class="cat2 col-xl-6 col-md-6 filter-item d-none">
-                    <div class="gallery-card"><a class="box-img popup-image" href="assets/img/gallery/gallery_1_4.jpg"><img
-                                src="assets/img/gallery/gallery_1_4.jpg" alt="gallery image">
-                            <div class="box-content"><span class="box-btn"><i class="fal fa-plus"></i></span></div>
-                        </a></div>
-                </div>
-                <div class="cat4 cat3 col-xl-3 col-md-6 filter-item d-none">
-                    <div class="gallery-card"><a class="box-img popup-image" href="assets/img/gallery/gallery_1_5.jpg"><img
-                                src="assets/img/gallery/gallery_1_5.jpg" alt="gallery image">
-                            <div class="box-content"><span class="box-btn"><i class="fal fa-plus"></i></span></div>
-                        </a></div>
-                </div>
-                <div class="cat1 col-xl-3 col-md-6 filter-item d-none">
-                    <div class="gallery-card"><a class="box-img popup-image" href="assets/img/gallery/gallery_1_6.jpg"><img
-                                src="assets/img/gallery/gallery_1_6.jpg" alt="gallery image">
-                            <div class="box-content"><span class="box-btn"><i class="fal fa-plus"></i></span></div>
-                        </a></div>
-                </div>
-                <div class="cat5 cat4 col-xl-3 col-md-6 filter-item d-none">
-                    <div class="gallery-card"><a class="box-img popup-image" href="assets/img/gallery/gallery_1_7.jpg"><img
-                                src="assets/img/gallery/gallery_1_7.jpg" alt="gallery image">
-                            <div class="box-content"><span class="box-btn"><i class="fal fa-plus"></i></span></div>
-                        </a></div>
-                </div>
-                <div class="cat2 col-xl-6 col-md-6 filter-item d-none">
-                    <div class="gallery-card"><a class="box-img popup-image" href="assets/img/gallery/gallery_1_8.jpg"><img
-                                src="assets/img/gallery/gallery_1_8.jpg" alt="gallery image">
-                            <div class="box-content"><span class="box-btn"><i class="fal fa-plus"></i></span></div>
-                        </a></div>
-                </div>
-                <div class="cat1 cat3 col-xl-3 col-md-6 filter-item d-none">
-                    <div class="gallery-card"><a class="box-img popup-image" href="assets/img/gallery/gallery_1_9.jpg"><img
-                                src="assets/img/gallery/gallery_1_9.jpg" alt="gallery image">
-                            <div class="box-content"><span class="box-btn"><i class="fal fa-plus"></i></span></div>
-                        </a></div>
-                </div>
+{{--                <div class="cat2 col-xl-3 col-md-6 filter-item d-none">--}}
+{{--                    <div class="gallery-card"><a class="box-img popup-image" href="assets/img/gallery/ray10.jpg"><img--}}
+{{--                                src="assets/img/gallery/ray10.jpg" alt="gallery image">--}}
+{{--                            <div class="box-content"><span class="box-btn"><i class="fal fa-plus"></i></span></div>--}}
+{{--                        </a></div>--}}
+{{--                </div>--}}
+{{--                <div class="cat1 cat5 col-xl-3 col-md-6 filter-item d-none">--}}
+{{--                    <div class="gallery-card"><a class="box-img popup-image" href="assets/img/gallery/ray12.jpg"><img--}}
+{{--                                src="assets/img/gallery/ray12.jpg" alt="gallery image">--}}
+{{--                            <div class="box-content"><span class="box-btn"><i class="fal fa-plus"></i></span></div>--}}
+{{--                        </a></div>--}}
+{{--                </div>--}}
+{{--                <div class="cat3 cat5 col-xl-6 col-md-6 filter-item d-none">--}}
+{{--                    <div class="gallery-card"><a class="box-img popup-image" href="assets/img/gallery/ray13.jpg"><img--}}
+{{--                                src="assets/img/gallery/ray13.jpg" alt="gallery image">--}}
+{{--                            <div class="box-content"><span class="box-btn"><i class="fal fa-plus"></i></span></div>--}}
+{{--                        </a></div>--}}
+{{--                </div>--}}
+{{--                <div class="cat2 col-xl-6 col-md-6 filter-item d-none">--}}
+{{--                    <div class="gallery-card"><a class="box-img popup-image" href="assets/img/gallery/ray14.jpg"><img--}}
+{{--                                src="assets/img/gallery/ray14.jpg" alt="gallery image">--}}
+{{--                            <div class="box-content"><span class="box-btn"><i class="fal fa-plus"></i></span></div>--}}
+{{--                        </a></div>--}}
+{{--                </div>--}}
+{{--                <div class="cat4 cat3 col-xl-3 col-md-6 filter-item d-none">--}}
+{{--                    <div class="gallery-card"><a class="box-img popup-image" href="assets/img/gallery/ray15.jpg"><img--}}
+{{--                                src="assets/img/gallery/ray15.jpg" alt="gallery image">--}}
+{{--                            <div class="box-content"><span class="box-btn"><i class="fal fa-plus"></i></span></div>--}}
+{{--                        </a></div>--}}
+{{--                </div>--}}
+{{--                <div class="cat1 col-xl-3 col-md-6 filter-item d-none">--}}
+{{--                    <div class="gallery-card"><a class="box-img popup-image" href="assets/img/gallery/ray16.jpg"><img--}}
+{{--                                src="assets/img/gallery/ray16.jpg" alt="gallery image">--}}
+{{--                            <div class="box-content"><span class="box-btn"><i class="fal fa-plus"></i></span></div>--}}
+{{--                        </a></div>--}}
+{{--                </div>--}}
+{{--                <div class="cat5 cat4 col-xl-3 col-md-6 filter-item d-none">--}}
+{{--                    <div class="gallery-card"><a class="box-img popup-image" href="assets/img/gallery/ray17.jpg"><img--}}
+{{--                                src="assets/img/gallery/ray17.jpg" alt="gallery image">--}}
+{{--                            <div class="box-content"><span class="box-btn"><i class="fal fa-plus"></i></span></div>--}}
+{{--                        </a></div>--}}
+{{--                </div>--}}
+{{--                <div class="cat2 col-xl-6 col-md-6 filter-item d-none">--}}
+{{--                    <div class="gallery-card"><a class="box-img popup-image" href="assets/img/gallery/ray18.jpg"><img--}}
+{{--                                src="assets/img/gallery/ray18.jpg" alt="gallery image">--}}
+{{--                            <div class="box-content"><span class="box-btn"><i class="fal fa-plus"></i></span></div>--}}
+{{--                        </a></div>--}}
+{{--                </div>--}}
+{{--                <div class="cat1 cat3 col-xl-3 col-md-6 filter-item d-none">--}}
+{{--                    <div class="gallery-card"><a class="box-img popup-image" href="assets/img/gallery/ray19.jpg"><img--}}
+{{--                                src="assets/img/gallery/ray19.jpg" alt="gallery image">--}}
+{{--                            <div class="box-content"><span class="box-btn"><i class="fal fa-plus"></i></span></div>--}}
+{{--                        </a></div>--}}
+{{--                </div>--}}
             </div>
         </div>
     </section>
