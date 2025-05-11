@@ -63,7 +63,7 @@
                         <h4 class="sec-title">What our clients say</h4></div>
                 </div>
                 <div class="col-md-auto">
-                    <div class="col-auto d-none d-xxl-block"><a href="{{ route('contact-us.index') }}" class="th-btn style3">Rate Our Services<i
+                    <div class="col-auto d-none d-xxl-block"><a href="https://www.google.com/search?q=ray+and+sons&rlz=1C1GCEU_enZA1161ZA1161&oq=RAY+&gs_lcrp=EgZjaHJvbWUqDggCEEUYJxg7GIAEGIoFMgYIABBFGDkyCggBEC4YsQMYgAQyDggCEEUYJxg7GIAEGIoFMgoIAxAuGLEDGIAEMgYIBBBFGDwyBggFEEUYPDIGCAYQRRhBMgYIBxBFGDzSAQg3ODM4ajBqN6gCALACAA&sourceid=chrome&ie=UTF-8&lqi=CgxyYXkgYW5kIHNvbnNI_PHhi4SwgIAIWhoQABABEAIYABgBGAIiDHJheSBhbmQgc29uc3oJQ2FwZSBUb3dukgEHcGx1bWJlcqoBRhABKhAiDHJheSBhbmQgc29ucygAMh4QASIaiibH89_U3MoQtScZaq15dJ1YCyJhpJXq1j4yEBACIgxyYXkgYW5kIHNvbnM#lkt=LocalPoiReviews&rlimm=13658613253164560088" class="th-btn style3">View All Reviews<i
                                 class="fas fa-arrow-right ms-2"></i></a></div>
                 </div>
             </div>
@@ -80,14 +80,19 @@
                                             class="fa-sharp fa-solid fa-star"></i><i
                                             class="fa-sharp fa-solid fa-star"></i><i class="fa-sharp fa-solid fa-star"></i>
                                     </div>
-                                    <p class="box-text">Rakar has most quality services by subtle craftmens, Diam id semper
-                                        tellus. Est aliquam sit est ac. Felis diam nunc nibh blandit risus ndrerit sed
-                                        consectetur quis leo on the  praesent scelerisque.</p>
+                                    <p class="box-text">"Very happy with the service from Ray and Sons. They were able to come out quickly and provided clear guidance and quotation.
+                                        After accepting their quote, they came and gave updates at each step of the repairs."
+{{--                                        as well as indicating where any risks of potential additional--}}
+{{--                                        costs might occur and asked for approval before proceeding.--}}
+{{--                                        Also great communication from the office when making request/arranging timing etc.--}}
+                                    </p>
                                     <div class="box-profile">
 {{--                                        <div class="box-avater"><img src="assets/img/logo/rayandsons_logo.png"--}}
 {{--                                                                     alt="Avater"></div>--}}
-                                        <div class="media-body"><h3 class="box-title">Sumaiya Zara</h3>
-                                            <p class="box-desig">CEO Of Company</p></div>
+                                        <div class="media-body">
+{{--                                            <h3 class="box-title">Ryan Carty</h3>--}}
+                                            <p class="box-desig">Ryan Carty</p>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -101,14 +106,17 @@
                                             class="fa-sharp fa-solid fa-star"></i><i
                                             class="fa-sharp fa-solid fa-star"></i><i class="fa-sharp fa-solid fa-star"></i>
                                     </div>
-                                    <p class="box-text">The most quality services by subtle craftmens, Diam id semper
-                                        tellus. Est aliquam sit est ac. Felis diam nunc nibh blandit risus ndrerit sed
-                                        consectetur quis leo on the  praesent in Rakar.</p>
+                                    <p class="box-text">"Ray and Sons Plumbers were excellent! They solved a problem that other plumbers could not fix.
+                                        Ray even came himself, after hours, to solve an urgent situation that I had to get solved."
+{{--                                        He was willing to go above and beyond and even personally followed up the next day to make sure everything was in order! Highly recommend their services!--}}
+                                    </p>
                                     <div class="box-profile">
 {{--                                        <div class="box-avater"><img src="assets/img/testimonial/testi_1_2.jpg"--}}
 {{--                                                                     alt="Avater"></div>--}}
-                                        <div class="media-body"><h3 class="box-title">Alex Simon</h3>
-                                            <p class="box-desig">Managing Director</p></div>
+                                        <div class="media-body">
+{{--                                            <h3 class="box-title">Joshua Raats</h3>--}}
+                                            <p class="box-desig">Joshua Raats</p>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -122,14 +130,17 @@
                                             class="fa-sharp fa-solid fa-star"></i><i
                                             class="fa-sharp fa-solid fa-star"></i><i class="fa-sharp fa-solid fa-star"></i>
                                     </div>
-                                    <p class="box-text">Rakar has most quality services by subtle craftmens, Diam id semper
-                                        tellus. Est aliquam sit est ac. Felis diam nunc nibh blandit risus ndrerit sed
-                                        consectetur quis leo on the  praesent scelerisque.</p>
+                                    <p class="box-text">"Very professional, polite and patient to hear your issue and during their work,
+                                        kept me up to date in detail as to what is being done. If ever needing emergency assistance,
+                                        I would call on Ray and Son's Plumbers."
+                                    </p>
                                     <div class="box-profile">
 {{--                                        <div class="box-avater"><img src="assets/img/testimonial/testi_1_1.jpg"--}}
 {{--                                                                     alt="Avater"></div>--}}
-                                        <div class="media-body"><h3 class="box-title">Agelina Margret</h3>
-                                            <p class="box-desig">CEO Of Company</p></div>
+                                        <div class="media-body">
+{{--                                            <h3 class="box-title">Benjamin Swile</h3>--}}
+                                            <p class="box-desig">Benjamin Swile</p>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -143,14 +154,14 @@
                                             class="fa-sharp fa-solid fa-star"></i><i
                                             class="fa-sharp fa-solid fa-star"></i><i class="fa-sharp fa-solid fa-star"></i>
                                     </div>
-                                    <p class="box-text">The most quality services by subtle craftmens, Diam id semper
-                                        tellus. Est aliquam sit est ac. Felis diam nunc nibh blandit risus ndrerit sed
-                                        consectetur quis leo on the  praesent in Rakar.</p>
+                                    <p class="box-text">"Saliegh was amazing. Well mannered and his intervention did not feel invasive at all. He did his job marvellously and cleaned up before leaving.
+                                        Great service by great people really add value to a company!"</p>
                                     <div class="box-profile">
 {{--                                        <div class="box-avater"><img src="assets/img/testimonial/testi_1_2.jpg"--}}
 {{--                                                                     alt="Avater"></div>--}}
-                                        <div class="media-body"><h3 class="box-title">Robert Danials</h3>
-                                            <p class="box-desig">Managing Director</p></div>
+                                        <div class="media-body">
+{{--                                            <h3 class="box-title">Arnaud Brunel</h3>--}}
+                                            <p class="box-desig">Arnaud Brunel</p></div>
                                     </div>
                                 </div>
                             </div>
@@ -336,57 +347,48 @@
                             <div class="accordion-card active">
                                 <div class="accordion-header" id="collapse-item-1">
                                     <button class="accordion-button" type="button" data-bs-toggle="collapse"
-                                            data-bs-target="#collapse-1" aria-expanded="true" aria-controls="collapse-1">Q1. How
-                                        do I start the process of renovation a home?
+                                            data-bs-target="#collapse-1" aria-expanded="true" aria-controls="collapse-1">Q1. What plumbing services do you offer?
                                     </button>
                                 </div>
                                 <div id="collapse-1" class="accordion-collapse collapse show" aria-labelledby="collapse-item-1"
                                      data-bs-parent="#faqAccordion">
-                                    <div class="accordion-body"><p class="faq-text">The open-concept layout seamlessly connects
-                                            the living room with the fully equipped kitchen, boasting top-of-the-line appliances and
-                                            all the essentials for preparing delicious meals.</p></div>
+                                    <div class="accordion-body"><p class="faq-text">We provide residential, commercial, and industrial plumbing services including leak detection, pipe repair, drain cleaning, water heater installation, sewer line repair, bathroom and kitchen plumbing, and emergency services.</p></div>
                                 </div>
                             </div>
                             <div class="accordion-card">
                                 <div class="accordion-header" id="collapse-item-2">
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                             data-bs-target="#collapse-2" aria-expanded="false" aria-controls="collapse-2">Q2.
-                                        What factors should I consider when choosing a neighborhood?
+                                        Are your plumbers licensed and insured?
                                     </button>
                                 </div>
                                 <div id="collapse-2" class="accordion-collapse collapse" aria-labelledby="collapse-item-2"
                                      data-bs-parent="#faqAccordion">
-                                    <div class="accordion-body"><p class="faq-text">The open-concept layout seamlessly connects
-                                            the living room with the fully equipped kitchen, boasting top-of-the-line appliances and
-                                            all the essentials for preparing delicious meals.</p></div>
+                                    <div class="accordion-body"><p class="faq-text">Yes, all of our plumbers are fully licensed, insured, and trained to handle a wide range of plumbing issues safely and professionally.</p></div>
                                 </div>
                             </div>
                             <div class="accordion-card">
                                 <div class="accordion-header" id="collapse-item-3">
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                             data-bs-target="#collapse-3" aria-expanded="false" aria-controls="collapse-3">Q3.
-                                        How can I determine the right price for selling my property?
+                                        Do you offer emergency plumbing services?
                                     </button>
                                 </div>
                                 <div id="collapse-3" class="accordion-collapse collapse" aria-labelledby="collapse-item-3"
                                      data-bs-parent="#faqAccordion">
-                                    <div class="accordion-body"><p class="faq-text">The open-concept layout seamlessly connects
-                                            the living room with the fully equipped kitchen, boasting top-of-the-line appliances and
-                                            all the essentials for preparing delicious meals.</p></div>
+                                    <div class="accordion-body"><p class="faq-text">Absolutely! We offer 24/7 emergency plumbing services for urgent issues like burst pipes, overflowing toilets, and major leaks.</p></div>
                                 </div>
                             </div>
                             <div class="accordion-card">
                                 <div class="accordion-header" id="collapse-item-4">
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                             data-bs-target="#collapse-4" aria-expanded="false" aria-controls="collapse-4">Q4.
-                                        What are closing costs and who is responsible for paying them?
+                                        How much do you charge for plumbing services?
                                     </button>
                                 </div>
                                 <div id="collapse-4" class="accordion-collapse collapse" aria-labelledby="collapse-item-4"
                                      data-bs-parent="#faqAccordion">
-                                    <div class="accordion-body"><p class="faq-text">The open-concept layout seamlessly connects
-                                            the living room with the fully equipped kitchen, boasting top-of-the-line appliances and
-                                            all the essentials for preparing delicious meals.</p></div>
+                                    <div class="accordion-body"><p class="faq-text">Pricing depends on the type and complexity of the job. We offer upfront estimates after inspecting the issue and ensure there are no hidden fees.</p></div>
                                 </div>
                             </div>
 
@@ -394,56 +396,48 @@
                                 <div class="accordion-header" id="collapse-item-6">
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                             data-bs-target="#collapse-6" aria-expanded="false" aria-controls="collapse-6">Q6.
-                                        What are the pros and cons of buying a fixer-upper?
+                                        Do you install and repair water heaters?
                                     </button>
                                 </div>
                                 <div id="collapse-6" class="accordion-collapse collapse" aria-labelledby="collapse-item-6"
                                      data-bs-parent="#faqAccordion">
-                                    <div class="accordion-body"><p class="faq-text">The open-concept layout seamlessly connects
-                                            the living room with the fully equipped kitchen, boasting top-of-the-line appliances and
-                                            all the essentials for preparing delicious meals.</p></div>
+                                    <div class="accordion-body"><p class="faq-text">Yes. We install, repair, and maintain both tank and tankless water heaters. We also provide guidance on choosing the best unit for your needs.</p></div>
                                 </div>
                             </div>
                             <div class="accordion-card d-none">
                                 <div class="accordion-header" id="collapse-item-7">
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                             data-bs-target="#collapse-7" aria-expanded="false" aria-controls="collapse-7">Q7.
-                                        How can I stage my home to sell quickly and for the best price?
+                                        Do you provide maintenance plans?
                                     </button>
                                 </div>
                                 <div id="collapse-7" class="accordion-collapse collapse" aria-labelledby="collapse-item-7"
                                      data-bs-parent="#faqAccordion">
-                                    <div class="accordion-body"><p class="faq-text">The open-concept layout seamlessly connects
-                                            the living room with the fully equipped kitchen, boasting top-of-the-line appliances and
-                                            all the essentials for preparing delicious meals.</p></div>
+                                    <div class="accordion-body"><p class="faq-text">Yes, we offer scheduled maintenance plans to help prevent plumbing issues and extend the life of your systems.</p></div>
                                 </div>
                             </div>
                             <div class="accordion-card d-none">
                                 <div class="accordion-header" id="collapse-item-8">
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                             data-bs-target="#collapse-8" aria-expanded="false" aria-controls="collapse-8">Q8.
-                                        What are the key features to look for when buying a new home?
+                                        How do I schedule an appointment?
                                     </button>
                                 </div>
                                 <div id="collapse-8" class="accordion-collapse collapse" aria-labelledby="collapse-item-8"
                                      data-bs-parent="#faqAccordion">
-                                    <div class="accordion-body"><p class="faq-text">The open-concept layout seamlessly connects
-                                            the living room with the fully equipped kitchen, boasting top-of-the-line appliances and
-                                            all the essentials for preparing delicious meals.</p></div>
+                                    <div class="accordion-body"><p class="faq-text">You can call us directly, send us a message through our website, or email us to schedule a service at your convenience.</p></div>
                                 </div>
                             </div>
                             <div class="accordion-card d-none">
                                 <div class="accordion-header" id="collapse-item-9">
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                             data-bs-target="#collapse-9" aria-expanded="false" aria-controls="collapse-9">Q9.
-                                        How can I ensure my renovation project stays within budget?
+                                        What should I do in case of a major leak or burst pipe?
                                     </button>
                                 </div>
                                 <div id="collapse-9" class="accordion-collapse collapse" aria-labelledby="collapse-item-9"
                                      data-bs-parent="#faqAccordion">
-                                    <div class="accordion-body"><p class="faq-text">The open-concept layout seamlessly connects
-                                            the living room with the fully equipped kitchen, boasting top-of-the-line appliances and
-                                            all the essentials for preparing delicious meals.</p></div>
+                                    <div class="accordion-body"><p class="faq-text">Turn off the main water supply immediately and call our emergency number. We’ll dispatch a licensed plumber as quickly as possible.</p></div>
                                 </div>
                             </div>
 

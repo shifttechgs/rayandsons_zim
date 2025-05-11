@@ -269,12 +269,12 @@
                                 <h3 class="box-title">Need a Plumber? We're Just a Call Away.</h3>
 
                                 <h3 class="box-link">
-                                    <a href="tel:+27785575211">+27 785 575 211</a>
+                                    <a href="tel:+27785575211">+263 78 871 6998</a>
                                 </h3>
 
                                 <p class="box-title text-center fw-semibold">Or</p>
 
-                                <a href="contact.html" class="th-btn style3">
+                                <a href="{{ route('contact-us.index') }}" class="th-btn style3">
                                     Get Instant Quote <i class="fa fa-arrow-right ms-2"></i>
                                 </a>
                             </div>
@@ -290,18 +290,18 @@
  <section class="cta-sec1" data-bg-src="assets/img/bg/pattern_bg_3.png">
     <div class="cta-img1"><img src="assets/img/normal/cta_1.png" alt="CTA"></div>
     <div class="cta-content"><h5 class="sec-title text-white mb-37">Need a Fix? Get Reliable Emergency Plumbing Service with Fair rates.</h5>
-        <div class="btn-group justify-content-center"><a href="contact.html" class="th-btn style3">Get Instant Quote <i
+        <div class="btn-group justify-content-center"><a href="{{ route('contact-us.index') }}" class="th-btn style3">Get Instant Quote <i
                 class="fa fa-arrow-right"></i></a>
             <div class="call-btn">
                 <div class="play-btn"><i class="fal fa-phone"></i></div>
                 <div class="media-body"><p class="box-label text-white">Call Us 24/7</p><h6 class="box-link text-white">
-                    <a href="tel:+27 785 575 211">+27 785 575 211</a></h6></div>
+                    <a href="tel:+263 78 871 6998">+263 78 871 6998</a></h6></div>
             </div>
         </div>
     </div>
 </section>
 
-   
+
     <script>
         function activateTab(tabId) {
             // Remove 'active' class from all buttons

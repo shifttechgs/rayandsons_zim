@@ -267,10 +267,10 @@
     </section>
 
 
-<section class="cta-sec1" data-bg-src="assets/img/bg/pattern_bg_3.png">
-    <div class="cta-img1"><img src="assets/img/normal/cta_1.png" alt="CTA"></div>
+<section class="cta-sec1" >
+    <div class="cta-img1"><img src="assets/img/normal/black.jpg" alt="CTA"></div>
     <div class="cta-content"><h5 class="sec-title text-white mb-37">Need a Fix? Get Reliable Emergency Plumbing Service with Fair rates.</h5>
-        <div class="btn-group justify-content-center"><a href="contact.html" class="th-btn style3">Get Instant Quote <i
+        <div class="btn-group justify-content-center"><a href="{{ route('contact-us.index') }}" class="th-btn style3" style="background-color: whitesmoke"><span style="color: #04425b">Get Instant Quote</span> <i
                 class="fa fa-arrow-right"></i></a>
             <div class="call-btn">
                 <div class="play-btn"><i class="fal fa-phone"></i></div>

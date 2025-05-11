@@ -16944,6 +16944,7 @@ span.select2-selection.select2-selection--single:focus {
 }
 
 .cta-sec1 {
+    height: 250px;
     background-size: auto;
     background-position: center right;
     background-color: var(--theme-color);
@@ -17001,7 +17002,7 @@ span.select2-selection.select2-selection--single:focus {
 }
 
 .cta-sec1 .cta-content {
-    padding: 40px 12px;
+    padding: 10px 42px;
     -webkit-align-self: center;
     -ms-flex-item-align: center;
     align-self: center
