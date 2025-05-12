@@ -119,8 +119,8 @@
             </div>
         </div>
     </div>
-	<div class="bg-title space-extra">
-        <div class="container">
+	<div class="bg-title space-extra" >
+        <div class="container" style="background-color: #ffffff; border-radius: 10px" >
 
             <div class="swiper th-slider" id="brandSlider2"
                  data-slider-options='{"spaceBetween":45,"breakpoints":{"0":{"slidesPerView":2},"576":{"slidesPerView":"2"},"768":{"slidesPerView":"3"},"992":{"slidesPerView":"4"},"1200":{"slidesPerView":"4"},"1300":{"slidesPerView":"5"},"1500":{"slidesPerView":"6"}}}'>
@@ -170,7 +170,7 @@
                                                                                alt="shape">Who we are</span>
                         <h4 class="sec-title">Residential & Commercial Plumbing Service Provider.</h4>
                         <p class="sec-text">Ray & Sons is a professional plumbing company that offers an extensive range
-                            of general and specialist plumbing services to clients across the greater Harare area.
+                            of general and specialist plumbing services to clients across the greater of Harare and others cities in Zimbabwe and South Africa in CapeTown.
                            </p></div>
                     <div class="checklist list-two-column">
                         <ul>
@@ -268,7 +268,7 @@
 
 
 <section class="cta-sec1" >
-    <div class="cta-img1"><img src="assets/img/normal/black.jpg" alt="CTA"></div>
+    <div class="cta-img1"><img src="assets/img/normal/black2.jpg" alt="CTA"></div>
     <div class="cta-content"><h5 class="sec-title text-white mb-37">Need a Fix? Get Reliable Emergency Plumbing Service with Fair rates.</h5>
         <div class="btn-group justify-content-center"><a href="{{ route('contact-us.index') }}" class="th-btn style3" style="background-color: whitesmoke"><span style="color: #04425b">Get Instant Quote</span> <i
                 class="fa fa-arrow-right"></i></a>

@@ -1,6 +1,6 @@
 @extends("layouts.master")
 @section("content")
-    <div class="breadcumb-wrapper" data-bg-src="assets/img/bg/contact_bg_6.jpg">
+    <div class="breadcumb-wrapper" style="background-color: #04425b;">
         <div class="container">
             <div class="breadcumb-content"><h1 class="breadcumb-title">Our Plumbing Services</h1>
                 <ul class="breadcumb-menu">
@@ -264,7 +264,7 @@
                                 <a class="tab-btn" data-tab="showerReplacements" href="javascript:void(0)">Shower Replacements</a>
                             </div>
                         </div>
-                        <div class="widget widget_banner" id="residential" data-bg-src="assets/img/bg/widget_banner.jpg">
+                        <div class="widget widget_banner" id="residential" data-bg-src="assets/img/normal/black.jpg">
                             <div class="widget-banner">
                                 <h3 class="box-title">Need a Plumber? We're Just a Call Away.</h3>
 
@@ -287,19 +287,19 @@
             </div>
         </div>
     </section>
- <section class="cta-sec1" data-bg-src="assets/img/bg/pattern_bg_3.png">
-    <div class="cta-img1"><img src="assets/img/normal/cta_1.png" alt="CTA"></div>
-    <div class="cta-content"><h5 class="sec-title text-white mb-37">Need a Fix? Get Reliable Emergency Plumbing Service with Fair rates.</h5>
-        <div class="btn-group justify-content-center"><a href="{{ route('contact-us.index') }}" class="th-btn style3">Get Instant Quote <i
-                class="fa fa-arrow-right"></i></a>
-            <div class="call-btn">
-                <div class="play-btn"><i class="fal fa-phone"></i></div>
-                <div class="media-body"><p class="box-label text-white">Call Us 24/7</p><h6 class="box-link text-white">
-                    <a href="tel:+263 78 871 6998">+263 78 871 6998</a></h6></div>
-            </div>
-        </div>
-    </div>
-</section>
+{{-- <section class="cta-sec1" data-bg-src="assets/img/bg/pattern_bg_3.png">--}}
+{{--    <div class="cta-img1"><img src="assets/img/normal/cta_1.png" alt="CTA"></div>--}}
+{{--    <div class="cta-content"><h5 class="sec-title text-white mb-37">Need a Fix? Get Reliable Emergency Plumbing Service with Fair rates.</h5>--}}
+{{--        <div class="btn-group justify-content-center"><a href="{{ route('contact-us.index') }}" class="th-btn style3">Get Instant Quote <i--}}
+{{--                class="fa fa-arrow-right"></i></a>--}}
+{{--            <div class="call-btn">--}}
+{{--                <div class="play-btn"><i class="fal fa-phone"></i></div>--}}
+{{--                <div class="media-body"><p class="box-label text-white">Call Us 24/7</p><h6 class="box-link text-white">--}}
+{{--                    <a href="tel:+263 78 871 6998">+263 78 871 6998</a></h6></div>--}}
+{{--            </div>--}}
+{{--        </div>--}}
+{{--    </div>--}}
+{{--</section>--}}
 
 
     <script>

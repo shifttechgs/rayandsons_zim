@@ -1,6 +1,6 @@
 @extends("layouts.master")
 @section("content")
-    <div class="breadcumb-wrapper" data-bg-src="assets/img/bg/contact_bg_6.jpg">
+    <div class="breadcumb-wrapper" style="background-color: #04425b;">
         <div class="container">
             <div class="breadcumb-content"><h1 class="breadcumb-title">About Ray and Sons Plumbing</h1>
                 <ul class="breadcumb-menu">
@@ -26,7 +26,7 @@
                             <li>An Affordable Pricing Plans</li>
                         </ul>
                     </div>
-                    <div class="btn-group justify-content-center btn-mr"><a href="about.html" class="th-btn style4">Get Instant Quote<i class="fal fa-arrow-right ms-2"></i></a>
+                    <div class="btn-group justify-content-center btn-mr"><a href="" class="th-btn style4">Get Instant Quote<i class="fal fa-arrow-right ms-2"></i></a>
                         <div class="call-btn">
                             <div class="play-btn"><i class="fal fa-phone"></i></div>
                             <div class="media-body"><p class="box-label">Call Us 24/7</p><h6 class="box-link"><a
@@ -35,7 +35,7 @@
                     </div>
                 </div>
                 <div class="col-xl-4 my-5 my-xl-0">
-                    <div class="rounded-img1"><img class="w-100" src="assets/img/normal/about_3.jpg" alt="About"></div>
+                    <div class="rounded-img1"><img class="w-100" src="assets/img/normal/black.jpg" alt="About"></div>
                 </div>
                 <div class="col-xl-4">
 

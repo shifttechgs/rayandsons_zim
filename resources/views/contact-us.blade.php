@@ -1,7 +1,7 @@
 @php($hideFooter = true)
 @extends("layouts.master")
 @section("content")
-    <div class="breadcumb-wrapper" data-bg-src="assets/img/bg/contact_bg_6.jpg">
+    <div class="breadcumb-wrapper" style="background-color: #04425b;">
         <div class="container">
             <div class="breadcumb-content"><h1 class="breadcumb-title">Talk to us</h1>
                 <ul class="breadcumb-menu">
@@ -20,29 +20,48 @@
                 <div class="col-xl-4 col-md-6">
                     <div class="team-contact">
                         <div class="icon-btn"><i class="fas fa-location-dot"></i></div>
-                        <div class="media-body"><h5 class="box-title">Our Address</h5>
-                            <p class="box-text">45 Workington Rd, Harare Zimbabwe</p></div>
+                        <div class="media-body">
+{{--                            <h5 class="box-title">Our Addresses</h5>--}}
+                            <h5 class="box-title">Harare Branch:</h5>
+                            <p class="box-text"> 45 Workington Rd, Harare Zimbabwe.</p>
+                            <h5 class="box-title">CapeTown Branch:</h5>
+                            <p class="box-text"> 37 Morningside Street Millside Park Offices Ndabeni,Cape Town, 7405.</p>
+
+                        </div>
                     </div>
                 </div>
                 <div class="col-xl-4 col-md-6">
                     <div class="team-contact">
                         <div class="icon-btn"><i class="fas fa-phone"></i></div>
-                        <div class="media-body"><h5 class="box-title">Phone Number</h5>
-                            <p class="box-text"><a href="tel:+263788716998">+263 78 871 6998</a> <a href="tel:+263774631511">+263 77 463 1511</a></p></div>
+                        <div class="media-body">
+{{--                            <h5 class="box-title">Phone Numbers</h5>--}}
+                            <h5 class="box-title">Harare Branch:</h5>
+                            <p class="box-text"><a href="tel:+263788716998">+263 78 871 6998</a>
+                                <a href="tel:+263774631511">+263 77 463 1511</a></p><br>
+                            <h5 class="box-title">Cape Town Branch:</h5>
+                            <p class="box-text"><a href="tel:+27785575211">+27 785 575 211</a>
+                                <a href="tel:+27718159118">+27718159118</a></p>
+                        </div>
                     </div>
                 </div>
                 <div class="col-xl-4 col-md-6">
                     <div class="team-contact">
                         <div class="icon-btn"><i class="fas fa-envelope"></i></div>
-                        <div class="media-body"><h5 class="box-title">Email Address</h5>
+                        <div class="media-body">
+                            <h5 class="box-title">Harare Branch</h5>
                             <p class="box-text"><a href="mailto:info@rayandsons.co.zw">info@rayandsons.co.zw</a> <a
-                                    href="mailto:contracts@rayandsons.co.zw">contracts@rayandsons.co.zw</a></p></div>
+                                    href="mailto:contracts@rayandsons.co.zw">contracts@rayandsons.co.zw</a></p><br>
+
+                            <h5 class="box-title">Cape Town Branch:</h5>
+                            <p class="box-text"><a href="mailto:info@rayandsons.co.za">nfo@rayandsons.co.za</a> <a
+                                    href="mailto:contracts@rayandsons.co.za">contracts@rayandsons.co.za</a></p>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <div class="space" data-bg-src="assets/img/bg/contact_bg_6.jpg">
+    <div class="space" data-bg-src="assets/img/gallery/res_plumber.jpg">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-xl-6 text-center text-xl-start">
@@ -122,7 +141,7 @@
                             <div class="th-widget-about">
                                 <div class="about-logo"><a href="home-handyman.html"><img src="assets/img/logo/rayandsons_logo.png"
                                                                                           alt="Ray and Sons"></a></div>
-                                <p class="about-text">Ray & Sons is a professional plumbing company that offers an extensive range of general and specialist plumbing services to clients across the greater Harare area.</p>
+                                <p class="about-text" >Ray & Sons is a professional plumbing company that offers an extensive range of general and specialist plumbing services to clients across the greater of Harare and others cities in Zimbabwe and South Africa in CapeTown.</p>
                                 <div class="th-social">
                                     <a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
                                     <a href="https://www.twitter.com/"><i class="fab fa-twitter"></i></a>

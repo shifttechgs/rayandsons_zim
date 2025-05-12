@@ -294,7 +294,7 @@
     </div>
         <div class="bg-title space-extra"  >
             <div class="container">
-
+                <h2 class="sec-title text-white text-center mb-35">our trusted Clients</h2>
                 <div class="swiper th-slider" id="brandSlider2"
                      data-slider-options='{"spaceBetween":45,"breakpoints":{"0":{"slidesPerView":2},"576":{"slidesPerView":"2"},"768":{"slidesPerView":"3"},"992":{"slidesPerView":"4"},"1200":{"slidesPerView":"4"},"1300":{"slidesPerView":"5"},"1500":{"slidesPerView":"6"}}}'>
                     <div class="swiper-wrapper">
@@ -456,7 +456,10 @@
             <div class="footer-contact-wrap">
                 <div class="footer-contact">
                     <div class="box-icon"><i class="fas fa-location-dot"></i></div>
-                    <div class="media-body"><p class="box-text">45 Workington Rd, Harare Zimbabwe</p></div>
+                    <div class="media-body">
+                        <p class="box-text">45 Workington Rd, Harare Zimbabwe</p>
+{{--                        <p class="box-text">37 Morningside Street Millside Park Offices Ndabeni,Cape Town, 7405.</p>--}}
+                    </div>
                 </div>
                 <div class="divider"></div>
                 <div class="footer-contact">
@@ -481,7 +484,8 @@
                         <div class="th-widget-about">
                             <div class="about-logo"><a href="home-handyman.html"><img src="assets/img/logo/rayandsons_logo.png"
                                                                                       alt="Ray and Sons"></a></div>
-                            <p class="about-text">Ray & Sons is a professional plumbing company that offers an extensive range of general and specialist plumbing services to clients across the greater Harare area.</p>
+                            <p class="about-text" >Ray & Sons is a professional plumbing company that offers an extensive range of general and specialist plumbing services to clients across the greater of Harare and others cities in Zimbabwe and South Africa in CapeTown.</p>
+
                             <div class="th-social">
 							    <a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
                                 <a href="https://www.twitter.com/"><i class="fab fa-twitter"></i></a>
@@ -552,12 +556,6 @@
         </div>
     </div>
 </footer>
-{{--<div class="scroll-top">--}}
-{{--    <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">--}}
-{{--        <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98"--}}
-{{--              style="transition: stroke-dashoffset 10ms linear 0s; stroke-dasharray: 307.919, 307.919; stroke-dashoffset: 307.919;"></path>--}}
-{{--    </svg>--}}
-{{--</div>--}}
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <a href="https://api.whatsapp.com/send?phone=+263774631511&amp;text=Hi%20Ray.%20I%20am%20on%20your%20website%20and%20need%20some%20help." class="floating" target="_blank"> <i class="fa fa-whatsapp float-button"></i> <div class="chat">Chat With Our Friendly Plumber</div> </a></body>
 
