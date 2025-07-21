@@ -21,12 +21,7 @@
                                         <p class="" style="color: white" data-ani="slideinup" style="color:#04425b" data-ani-delay="0.8s">
                                             Trusted by property owners since 2006 — from emergency repairs to full installations, Ray & Sons delivers fast, professional service you can count on.
                                         </p>
-{{--                                        <a href="service.html" class="th-btn style3" data-ani="slideinup" data-ani-delay="1s">--}}
-{{--                                            <i class="fas fa-headset"></i> Emergency Plumbing? Call Now</i>--}}
-{{--                                        </a>--}}
-{{--                                        <a href="service.html" class="th-btn style3" data-ani="slideinup" data-ani-delay="1s">--}}
-{{--                                            <i class="fas fa-search"></i> Explore Services</i>--}}
-{{--                                        </a>--}}
+
 
                                         <div class="btn-group" data-ani="slideinup" data-ani-delay="0.8s">
 
@@ -41,30 +36,7 @@
 
 
 
-                                        <div class="hero-social-proof mt-4 d-flex align-items-center gap-4" data-ani="fadeinup" data-ani-delay="1.2s">
-                                            <div class="row align-items-center">
-                                                <!-- Left: Stacked Avatars -->
-{{--                                                <div class="col-auto">--}}
-{{--                                                    <div class="d-flex">--}}
-{{--                                                        <img src="assets/img/testimonial/testi_1_2.jpg" class="rounded-circle" style="width:40px; height:40px; margin-right: -10px; border: 2px solid #fff;" alt="User">--}}
-{{--                                                        <img src="assets/img/testimonial/testi_1_1.jpg" class="rounded-circle" style="width:40px; height:40px; margin-right: -10px; border: 2px solid #fff;" alt="User">--}}
-{{--                                                        <img src="assets/img/testimonial/testi_2_3.jpg" class="rounded-circle" style="width:40px; height:40px; margin-right: -10px; border: 2px solid #fff;" alt="User">--}}
-{{--                                                        <img src="assets/img/testimonial/testi_2_4.jpg" class="rounded-circle" style="width:40px; height:40px; border: 2px solid #fff;" alt="User">--}}
-{{--                                                    </div>--}}
-{{--                                                </div>--}}
 
-                                                <!-- Right: Rating & Text -->
-{{--                                                <div class="col ps-3">--}}
-{{--                                                    <div class="d-flex flex-column">--}}
-{{--                                                        <div class="d-flex align-items-center text-warning">--}}
-{{--                                                            <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>--}}
-{{--                                                            <span class="ms-2 text-muted " style="color: white">4.9 Rating</span>--}}
-{{--                                                        </div>--}}
-{{--                                                        <p class="mb-0 text-muted" style="color: white">Trusted by 5000+ Customers</p>--}}
-{{--                                                    </div>--}}
-{{--                                                </div>--}}
-                                            </div>
-                                        </div>
                                     </div>
                                 </div>
 
@@ -120,28 +92,39 @@
         </div>
     </div>
 	<div class="bg-title space-extra" >
-        <div class="container" style="background-color: #ffffff; border-radius: 10px" >
+        <div class="container" style="background-color: #ffffff; border-radius: 8px" >
 
             <div class="swiper th-slider" id="brandSlider2"
                  data-slider-options='{"spaceBetween":45,"breakpoints":{"0":{"slidesPerView":2},"576":{"slidesPerView":"2"},"768":{"slidesPerView":"3"},"992":{"slidesPerView":"4"},"1200":{"slidesPerView":"4"},"1300":{"slidesPerView":"5"},"1500":{"slidesPerView":"6"}}}'>
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
-                        <div class="brand-card"><img src="assets/img/brand/1.png"  alt="Brand Logo"></div>
+                        <div class="brand-card"><img src="assets/img/brand/ok_shop.png" style=" border-radius: 8px;" alt="Brand Logo"></div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="brand-card"><img src="assets/img/brand/dourich.png" style=" border-radius: 8px;" alt="Brand Logo"></div>
                     </div>
                     <div class="swiper-slide">
-                        <div class="brand-card"><img src="assets/img/brand/2.png" alt="Brand Logo"></div>
+                        <div class="brand-card"><img src="assets/img/brand/global_shopfitters.jpg" style=" border-radius: 8px;" alt="Brand Logo"></div>
                     </div>
                     <div class="swiper-slide">
-                        <div class="brand-card"><img src="assets/img/brand/3.png"  alt="Brand Logo"></div>
+                        <div class="brand-card"><img src="assets/img/brand/zunzanyika.png" style=" border-radius: 8px;" alt="Brand Logo"></div>
                     </div>
                     <div class="swiper-slide">
-                        <div class="brand-card"><img src="assets/img/brand/4.png"  alt="Brand Logo"></div>
+                        <div class="brand-card"><img src="assets/img/brand/masimba.png" style=" border-radius: 8px;"  alt="Brand Logo"></div>
                     </div>
                     <div class="swiper-slide">
-                        <div class="brand-card"><img src="assets/img/brand/5.png"  alt="Brand Logo"></div>
+                        <div class="brand-card"><img src="assets/img/brand/nengo.png" style=" border-radius: 8px;" alt="Brand Logo"></div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="brand-card"><img src="assets/img/brand/old_mutual.png" style=" border-radius: 8px;" alt="Brand Logo"></div>
                     </div>
                     <div class="swiper-slide">
-                        <div class="brand-card"><img src="assets/img/brand/6.png"  alt="Brand Logo"></div>
+                        <div class="brand-card"><img src="assets/img/brand/zimre.png" style=" border-radius: 8px;"  alt="Brand Logo"></div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="brand-card"><img src="assets/img/brand/inkaba.png" style=" border-radius: 8px;"  alt="Brand Logo"></div>
                     </div>
 
 

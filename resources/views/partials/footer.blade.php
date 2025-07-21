@@ -301,22 +301,33 @@
                      data-slider-options='{"spaceBetween":45,"breakpoints":{"0":{"slidesPerView":2},"576":{"slidesPerView":"2"},"768":{"slidesPerView":"3"},"992":{"slidesPerView":"4"},"1200":{"slidesPerView":"4"},"1300":{"slidesPerView":"5"},"1500":{"slidesPerView":"6"}}}'>
                     <div class="swiper-wrapper">
                         <div class="swiper-slide">
-                            <div class="brand-card"><img src="assets/img/brand/1.png" style=" border-radius: 8px;"  alt="Brand Logo"></div>
+                            <div class="brand-card"><img src="assets/img/brand/ok_shop.png" style=" border-radius: 8px;" alt="Brand Logo"></div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="brand-card"><img src="assets/img/brand/dourich.png" style=" border-radius: 8px;" alt="Brand Logo"></div>
                         </div>
                         <div class="swiper-slide">
-                            <div class="brand-card"><img src="assets/img/brand/2.png" style=" border-radius: 8px;" alt="Brand Logo"></div>
+                            <div class="brand-card"><img src="assets/img/brand/global_shopfitters.jpg" style=" border-radius: 8px;" alt="Brand Logo"></div>
                         </div>
                         <div class="swiper-slide">
-                            <div class="brand-card"><img src="assets/img/brand/3.png" style=" border-radius: 8px;"  alt="Brand Logo"></div>
+                            <div class="brand-card"><img src="assets/img/brand/zunzanyika.png" style=" border-radius: 8px;" alt="Brand Logo"></div>
                         </div>
                         <div class="swiper-slide">
-                            <div class="brand-card"><img src="assets/img/brand/4.png" style=" border-radius: 8px;" alt="Brand Logo"></div>
+                            <div class="brand-card"><img src="assets/img/brand/masimba.png" style=" border-radius: 8px;"  alt="Brand Logo"></div>
                         </div>
                         <div class="swiper-slide">
-                            <div class="brand-card"><img src="assets/img/brand/5.png" style=" border-radius: 8px;"  alt="Brand Logo"></div>
+                            <div class="brand-card"><img src="assets/img/brand/nengo.png" style=" border-radius: 8px;" alt="Brand Logo"></div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="brand-card"><img src="assets/img/brand/old_mutual.png" style=" border-radius: 8px;" alt="Brand Logo"></div>
                         </div>
                         <div class="swiper-slide">
-                            <div class="brand-card"><img src="assets/img/brand/6.png" style=" border-radius: 8px;"  alt="Brand Logo"></div>
+                            <div class="brand-card"><img src="assets/img/brand/zimre.png" style=" border-radius: 8px;"  alt="Brand Logo"></div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="brand-card"><img src="assets/img/brand/inkaba.png" style=" border-radius: 8px;"  alt="Brand Logo"></div>
                         </div>
 
 
