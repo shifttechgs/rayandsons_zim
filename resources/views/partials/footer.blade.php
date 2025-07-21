@@ -216,8 +216,8 @@
     </div>
     </div>
     <div class="overflow-hidden space-bottom">
-        <div class="shape-mockup moving d-none d-xxl-block" data-bottom="0%" data-right="0%"><img
-                src="assets/img/shape/man_shape_2.png" alt="shape"></div>
+{{--        <div class="shape-mockup moving d-none d-xxl-block" data-bottom="0%" data-right="0%"><img--}}
+{{--                src="assets/img/shape/man_shape_2.png" alt="shape"></div>--}}
         <div class="container">
             <div class="contact-area area-rounded">
                 <div class="row">
@@ -232,7 +232,7 @@
                                 <div class="contact-media">
                                     <div class="icon-btn"><i class="fas fa-phone-volume" style="color: white"></i></div>
                                     <div class="media-body"><h4 class="box-label">Call Us:</h4>
-                                        <p class="box-text"><a href="tel:+263 78 871 6998">+263 78 871 6998</a></p></div>
+                                        <p class="box-text"><a href="tel:+263 77 463 1511">+263 77 463 1511</a></p></div>
                                 </div>
                                 <div class="contact-media">
                                     <div class="icon-btn"><i class="fas fa-envelope" style="color: white"></i></div>
@@ -292,34 +292,37 @@
             </div>
         </div>
     </div>
-        <div class="bg-title space-extra"  >
-            <div class="container">
+
+        <div class="bg-title space-extra "  >
+            <div class="container"> <br>
+
                 <h2 class="sec-title text-white text-center mb-35">our trusted Clients</h2>
                 <div class="swiper th-slider" id="brandSlider2"
                      data-slider-options='{"spaceBetween":45,"breakpoints":{"0":{"slidesPerView":2},"576":{"slidesPerView":"2"},"768":{"slidesPerView":"3"},"992":{"slidesPerView":"4"},"1200":{"slidesPerView":"4"},"1300":{"slidesPerView":"5"},"1500":{"slidesPerView":"6"}}}'>
                     <div class="swiper-wrapper">
                         <div class="swiper-slide">
-                            <div class="brand-card"><img src="assets/img/brand/1.png"  alt="Brand Logo"></div>
+                            <div class="brand-card"><img src="assets/img/brand/1.png" style=" border-radius: 8px;"  alt="Brand Logo"></div>
                         </div>
                         <div class="swiper-slide">
-                            <div class="brand-card"><img src="assets/img/brand/2.png" alt="Brand Logo"></div>
+                            <div class="brand-card"><img src="assets/img/brand/2.png" style=" border-radius: 8px;" alt="Brand Logo"></div>
                         </div>
                         <div class="swiper-slide">
-                            <div class="brand-card"><img src="assets/img/brand/3.png"  alt="Brand Logo"></div>
+                            <div class="brand-card"><img src="assets/img/brand/3.png" style=" border-radius: 8px;"  alt="Brand Logo"></div>
                         </div>
                         <div class="swiper-slide">
-                            <div class="brand-card"><img src="assets/img/brand/4.png"  alt="Brand Logo"></div>
+                            <div class="brand-card"><img src="assets/img/brand/4.png" style=" border-radius: 8px;" alt="Brand Logo"></div>
                         </div>
                         <div class="swiper-slide">
-                            <div class="brand-card"><img src="assets/img/brand/5.png"  alt="Brand Logo"></div>
+                            <div class="brand-card"><img src="assets/img/brand/5.png" style=" border-radius: 8px;"  alt="Brand Logo"></div>
                         </div>
                         <div class="swiper-slide">
-                            <div class="brand-card"><img src="assets/img/brand/6.png"  alt="Brand Logo"></div>
+                            <div class="brand-card"><img src="assets/img/brand/6.png" style=" border-radius: 8px;"  alt="Brand Logo"></div>
                         </div>
 
 
                     </div>
                 </div>
+                <br>
             </div>
         </div>
 
@@ -329,8 +332,8 @@
                 <div class="col-xl-6 mb-35 mb-xl-0">
                     <div class="img-box4">
                         <div class="comparison-img"  style="border-radius: 10px">
-                            <div class="img background-img" data-bg-src="assets/img/normal/doing_job.jpg"></div>
-                            <div class="img foreground-img" data-bg-src="assets/img/normal/assessing_job.jpg"></div>
+                            <div class="img background-img" data-bg-src="assets/img/gallery/ray4.jpg"></div>
+                            <div class="img foreground-img" data-bg-src="assets/img/gallery/ray12.jpg"></div>
                             <input type="range" min="1" max="100" value="50" class="compslider" name="compslider"
                                    id="compslider">
                             <div class="slider-button" style="left: calc(50% - 28px);"></div>
@@ -465,7 +468,7 @@
                 <div class="footer-contact">
                     <div class="box-icon"><i class="fas fa-phone-volume"></i></div>
                     <div class="media-body"><h3 class="box-title">Call Us:</h3>
-                        <p class="box-text"><a href="tel:+263 78 871 6998">+263 78 871 6998</a></p></div>
+                        <p class="box-text"><a href="tel:+263 77 463 1511">+263 77 463 1511</a></p></div>
                 </div>
                 <div class="divider"></div>
                 <div class="footer-contact">

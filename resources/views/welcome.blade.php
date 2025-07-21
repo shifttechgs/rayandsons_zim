@@ -44,25 +44,25 @@
                                         <div class="hero-social-proof mt-4 d-flex align-items-center gap-4" data-ani="fadeinup" data-ani-delay="1.2s">
                                             <div class="row align-items-center">
                                                 <!-- Left: Stacked Avatars -->
-                                                <div class="col-auto">
-                                                    <div class="d-flex">
-                                                        <img src="assets/img/testimonial/testi_1_2.jpg" class="rounded-circle" style="width:40px; height:40px; margin-right: -10px; border: 2px solid #fff;" alt="User">
-                                                        <img src="assets/img/testimonial/testi_1_1.jpg" class="rounded-circle" style="width:40px; height:40px; margin-right: -10px; border: 2px solid #fff;" alt="User">
-                                                        <img src="assets/img/testimonial/testi_2_3.jpg" class="rounded-circle" style="width:40px; height:40px; margin-right: -10px; border: 2px solid #fff;" alt="User">
-                                                        <img src="assets/img/testimonial/testi_2_4.jpg" class="rounded-circle" style="width:40px; height:40px; border: 2px solid #fff;" alt="User">
-                                                    </div>
-                                                </div>
+{{--                                                <div class="col-auto">--}}
+{{--                                                    <div class="d-flex">--}}
+{{--                                                        <img src="assets/img/testimonial/testi_1_2.jpg" class="rounded-circle" style="width:40px; height:40px; margin-right: -10px; border: 2px solid #fff;" alt="User">--}}
+{{--                                                        <img src="assets/img/testimonial/testi_1_1.jpg" class="rounded-circle" style="width:40px; height:40px; margin-right: -10px; border: 2px solid #fff;" alt="User">--}}
+{{--                                                        <img src="assets/img/testimonial/testi_2_3.jpg" class="rounded-circle" style="width:40px; height:40px; margin-right: -10px; border: 2px solid #fff;" alt="User">--}}
+{{--                                                        <img src="assets/img/testimonial/testi_2_4.jpg" class="rounded-circle" style="width:40px; height:40px; border: 2px solid #fff;" alt="User">--}}
+{{--                                                    </div>--}}
+{{--                                                </div>--}}
 
                                                 <!-- Right: Rating & Text -->
-                                                <div class="col ps-3">
-                                                    <div class="d-flex flex-column">
-                                                        <div class="d-flex align-items-center text-warning">
-                                                            <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
-                                                            <span class="ms-2 text-muted " style="color: white">4.9 Rating</span>
-                                                        </div>
-                                                        <p class="mb-0 text-muted" style="color: white">Trusted by 5000+ Customers</p>
-                                                    </div>
-                                                </div>
+{{--                                                <div class="col ps-3">--}}
+{{--                                                    <div class="d-flex flex-column">--}}
+{{--                                                        <div class="d-flex align-items-center text-warning">--}}
+{{--                                                            <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>--}}
+{{--                                                            <span class="ms-2 text-muted " style="color: white">4.9 Rating</span>--}}
+{{--                                                        </div>--}}
+{{--                                                        <p class="mb-0 text-muted" style="color: white">Trusted by 5000+ Customers</p>--}}
+{{--                                                    </div>--}}
+{{--                                                </div>--}}
                                             </div>
                                         </div>
                                     </div>
@@ -156,8 +156,8 @@
             <div class="col-xl-6 mb-35 mb-xl-0">
                 <div class="img-box4" >
                     <div class="comparison-img"  style="border-radius: 10px">
-                        <div class="img background-img" data-bg-src="assets/img/normal/doing_job.jpg"></div>
-                        <div class="img foreground-img" data-bg-src="assets/img/normal/assessing_job.jpg"></div>
+                        <div class="img background-img" data-bg-src="assets/img/gallery/ray4.jpg"></div>
+                        <div class="img foreground-img" data-bg-src="assets/img/gallery/ray12.jpg"></div>
                         <input type="range" min="1" max="100" value="50" class="compslider" name="compslider"
                                id="compslider">
                         <div class="slider-button" style="left: calc(50% - 28px);"></div>
@@ -187,7 +187,7 @@
                         <div class="call-btn">
                             <div class="play-btn"><i class="fal fa-phone"></i></div>
                             <div class="media-body"><p class="box-label">Call Us 24/7</p><h6 class="box-link"><a
-                                    href="tel:+263 78 871 6998">+263 78 871 6998</a></h6></div>
+                                    href="tel:+263 77 463 1511">+263 77 463 1511</a></h6></div>
                         </div>
                         <a href="{{ route('contact-us.index') }}" class="th-btn style3">Get Instant Quote
                              <i class="fa fa-arrow-right" style="color: white"></i></a>
@@ -275,7 +275,7 @@
             <div class="call-btn">
                 <div class="play-btn"><i class="fal fa-phone"></i></div>
                 <div class="media-body"><p class="box-label text-white">Call Us 24/7</p><h6 class="box-link text-white">
-                    <a href="tel:+263 78 871 6998">+263 78 871 6998</a></h6></div>
+                    <a href="tel:+263 77 463 1511">+263 77 463 1511</a></h6></div>
             </div>
         </div>
     </div>
