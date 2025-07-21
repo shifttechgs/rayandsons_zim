@@ -269,7 +269,7 @@
                                 <h3 class="box-title">Need a Plumber? We're Just a Call Away.</h3>
 
                                 <h3 class="box-link">
-                                    <a href="tel:+27785575211">+263 78 871 6998</a>
+                                    <a href="tel:+263 77 463 1511">+263 77 463 1511</a>
                                 </h3>
 
                                 <p class="box-title text-center fw-semibold">Or</p>
@@ -295,7 +295,7 @@
 {{--            <div class="call-btn">--}}
 {{--                <div class="play-btn"><i class="fal fa-phone"></i></div>--}}
 {{--                <div class="media-body"><p class="box-label text-white">Call Us 24/7</p><h6 class="box-link text-white">--}}
-{{--                    <a href="tel:+263 78 871 6998">+263 78 871 6998</a></h6></div>--}}
+{{--                    <a href="tel:+263 77 463 1511">+263 77 463 1511</a></h6></div>--}}
 {{--            </div>--}}
 {{--        </div>--}}
 {{--    </div>--}}

@@ -18,7 +18,7 @@
                     <div class="title-area mb-37"><span class="sub-title"><img src="assets/img/theme-img/title_icon2.svg"
                                                                                alt="shape">About Us</span>
                         <h2 class="sec-title">Give everything to Ray and Sons.</h2>
-                        <p class="sec-text">Ray & Sons is a professional plumbing company that offers an extensive range of general and specialist plumbing services to clients across the greater Cape Town area. Whether your drain needs to be unblocked, your water pressure needs to be fixed, you need a new geyser installed, or your toilet is leaking, you can count on our team as we are leading plumbers in Cape Town.</p></div>
+                        <p class="sec-text">Ray & Sons is a professional plumbing company that offers an extensive range of general and specialist plumbing services to clients across the greater of Harare and others cities in Zimbabwe and South Africa in CapeTown.</p></div>
                     <div class="checklist mb-45">
                         <ul>
                             <li>100% quality work</li>
@@ -30,7 +30,7 @@
                         <div class="call-btn">
                             <div class="play-btn"><i class="fal fa-phone"></i></div>
                             <div class="media-body"><p class="box-label">Call Us 24/7</p><h6 class="box-link"><a
-                                        href="tel:+0123456789">+27 785 575 211</a></h6></div>
+                                        href="tel:+263 77 463 1511">+263 77 463 1511</a></h6></div>
                         </div>
                     </div>
                 </div>
