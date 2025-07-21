@@ -39,7 +39,7 @@
 
                                     </div>
                                 </div>
-<br>
+
                                 <!-- Right Side: Form -->
                                 <div class="col-xl-5 col-lg-6">
                                     <div class="hero-form p-4 p-md-5 color-theme  shadow-lg" style="border-radius: 10px; background-color: #F8F8F8;" data-ani="slideinright" data-ani-delay="0.2s">
