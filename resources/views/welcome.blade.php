@@ -39,7 +39,7 @@
 
                                     </div>
                                 </div>
-
+<br>
                                 <!-- Right Side: Form -->
                                 <div class="col-xl-5 col-lg-6">
                                     <div class="hero-form p-4 p-md-5 color-theme  shadow-lg" style="border-radius: 10px; background-color: #F8F8F8;" data-ani="slideinright" data-ani-delay="0.2s">
@@ -125,6 +125,12 @@
                     </div>
                     <div class="swiper-slide">
                         <div class="brand-card"><img src="assets/img/brand/inkaba.png" style=" border-radius: 8px;"  alt="Brand Logo"></div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="brand-card"><img src="assets/img/brand/ocm.png" style=" border-radius: 8px;"  alt="Brand Logo"></div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="brand-card"><img src="assets/img/brand/cebre.png" style=" border-radius: 8px;"  alt="Brand Logo"></div>
                     </div>
 
 

@@ -329,6 +329,12 @@
                         <div class="swiper-slide">
                             <div class="brand-card"><img src="assets/img/brand/inkaba.png" style=" border-radius: 8px;"  alt="Brand Logo"></div>
                         </div>
+                        <div class="swiper-slide">
+                            <div class="brand-card"><img src="assets/img/brand/ocm.png" style=" border-radius: 8px;"  alt="Brand Logo"></div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="brand-card"><img src="assets/img/brand/cebre.png" style=" border-radius: 8px;"  alt="Brand Logo"></div>
+                        </div>
 
 
                     </div>
@@ -341,13 +347,13 @@
         <div class="container">
             <div class="row flex-row-reverse align-items-center">
                 <div class="col-xl-6 mb-35 mb-xl-0">
-                    <div class="img-box4">
+                    <div class="img-box4" >
                         <div class="comparison-img"  style="border-radius: 10px">
-                            <div class="img background-img" data-bg-src="assets/img/gallery/ray4.jpg"></div>
-                            <div class="img foreground-img" data-bg-src="assets/img/gallery/ray12.jpg"></div>
-                            <input type="range" min="1" max="100" value="50" class="compslider" name="compslider"
-                                   id="compslider">
-                            <div class="slider-button" style="left: calc(50% - 28px);"></div>
+{{--                            <div class="img background-img" data-bg-src="assets/img/gallery/ray4.jpg"></div>--}}
+                            <div class="img background-img" data-bg-src="assets/img/gallery/ray12.jpg"></div>
+{{--                            <input type="range" min="1" max="100" value="50" class="compslider" name="compslider"--}}
+{{--                                   id="compslider">--}}
+{{--                            <div class="slider-button" style="left: calc(50% - 28px);"></div>--}}
                         </div>
                     </div>
                 </div>
@@ -468,26 +474,40 @@
     <div class="footer-contact-area">
         <div class="container">
             <div class="footer-contact-wrap">
-                <div class="footer-contact">
-                    <div class="box-icon"><i class="fas fa-location-dot"></i></div>
+                <!-- Address Block -->
+                <div class="footer-contact flex items-start gap-4 mb-4">
+                    <div class="box-icon text-xl text-theme"><i class="fas fa-location-dot"></i></div>
                     <div class="media-body">
-                        <p class="box-text">45 Workington Rd, Harare Zimbabwe</p>
-{{--                        <p class="box-text">37 Morningside Street Millside Park Offices Ndabeni,Cape Town, 7405.</p>--}}
+                        <p class="box-text">45 Workington Rd, Harare, Zimbabwe</p>
+{{--                        <p class="box-text">37 Morningside Street, Millside Park Offices, Ndabeni, Cape Town, 7405</p>--}}
                     </div>
                 </div>
-                <div class="divider"></div>
-                <div class="footer-contact">
-                    <div class="box-icon"><i class="fas fa-phone-volume"></i></div>
-                    <div class="media-body"><h3 class="box-title">Call Us:</h3>
-                        <p class="box-text"><a href="tel:+263 77 463 1511">+263 77 463 1511</a></p></div>
+
+                <div class="divider my-2 border-t border-gray-300"></div>
+
+                <!-- Phone Block -->
+                <div class="footer-contact flex items-start gap-4 mb-4">
+                    <div class="box-icon text-xl text-theme"><i class="fas fa-phone-volume"></i></div>
+                    <div class="media-body">
+                        <h3 class="box-title font-semibold">Call Us:</h3>
+                        <p class="box-text"><a href="tel:+263774631511">+263 77 463 1511</a></p>
+{{--                        <p class="box-text"><a href="tel:+27718159118">+27 718 159 118</a></p>--}}
+                    </div>
                 </div>
-                <div class="divider"></div>
-                <div class="footer-contact">
-                    <div class="box-icon"><i class="fas fa-envelope"></i></div>
-                    <div class="media-body"><h3 class="box-title">Email Us:</h3>
-                        <p class="box-text"><a href="mailto:info@rayandsons.co.za">info@rayandsons.co.zw</a></p></div>
+
+                <div class="divider my-2 border-t border-gray-300"></div>
+
+                <!-- Email Block -->
+                <div class="footer-contact flex items-start gap-4">
+                    <div class="box-icon text-xl text-theme"><i class="fas fa-envelope"></i></div>
+                    <div class="media-body">
+                        <h3 class="box-title font-semibold">Email Us:</h3>
+                        <p class="box-text"><a href="mailto:info@rayandsons.co.zw">info@rayandsons.co.zw</a></p>
+{{--                        <p class="box-text"><a href="mailto:rayandsonsplumbers15@gmail.com">rayandsonsplumbers15@gmail.com</a></p>--}}
+                    </div>
                 </div>
             </div>
+
         </div>
     </div>
     <div class="widget-area">
