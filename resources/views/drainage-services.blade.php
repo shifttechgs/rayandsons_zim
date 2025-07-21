@@ -36,30 +36,30 @@
 
                                         </ul>
                                     </div>
-                                    <div class="hero-social-proof mt-4 d-flex align-items-center gap-4" data-ani="fadeinup" data-ani-delay="1.2s">
-                                        <div class="row align-items-center">
-                                            <!-- Left: Stacked Avatars -->
-                                            <div class="col-auto">
-                                                <div class="d-flex">
-                                                    <img src="assets/img/testimonial/testi_1_2.jpg" class="rounded-circle" style="width:40px; height:40px; margin-right: -10px; border: 2px solid #fff;" alt="User">
-                                                    <img src="assets/img/testimonial/testi_1_1.jpg" class="rounded-circle" style="width:40px; height:40px; margin-right: -10px; border: 2px solid #fff;" alt="User">
-                                                    <img src="assets/img/testimonial/testi_2_3.jpg" class="rounded-circle" style="width:40px; height:40px; margin-right: -10px; border: 2px solid #fff;" alt="User">
-                                                    <img src="assets/img/testimonial/testi_2_4.jpg" class="rounded-circle" style="width:40px; height:40px; border: 2px solid #fff;" alt="User">
-                                                </div>
-                                            </div>
+{{--                                    <div class="hero-social-proof mt-4 d-flex align-items-center gap-4" data-ani="fadeinup" data-ani-delay="1.2s">--}}
+{{--                                        <div class="row align-items-center">--}}
+{{--                                            <!-- Left: Stacked Avatars -->--}}
+{{--                                            <div class="col-auto">--}}
+{{--                                                <div class="d-flex">--}}
+{{--                                                    <img src="assets/img/testimonial/testi_1_2.jpg" class="rounded-circle" style="width:40px; height:40px; margin-right: -10px; border: 2px solid #fff;" alt="User">--}}
+{{--                                                    <img src="assets/img/testimonial/testi_1_1.jpg" class="rounded-circle" style="width:40px; height:40px; margin-right: -10px; border: 2px solid #fff;" alt="User">--}}
+{{--                                                    <img src="assets/img/testimonial/testi_2_3.jpg" class="rounded-circle" style="width:40px; height:40px; margin-right: -10px; border: 2px solid #fff;" alt="User">--}}
+{{--                                                    <img src="assets/img/testimonial/testi_2_4.jpg" class="rounded-circle" style="width:40px; height:40px; border: 2px solid #fff;" alt="User">--}}
+{{--                                                </div>--}}
+{{--                                            </div>--}}
 
-                                            <!-- Right: Rating & Text -->
-                                            <div class="col ps-3">
-                                                <div class="d-flex flex-column">
-                                                    <div class="d-flex align-items-center text-warning">
-                                                        <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
-                                                        <span class="ms-2 fw-bold text-dark">4.9 Rating</span>
-                                                    </div>
-                                                    <p class="mb-0 text-muted">Trusted by 5000+ Customers</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
+{{--                                            <!-- Right: Rating & Text -->--}}
+{{--                                            <div class="col ps-3">--}}
+{{--                                                <div class="d-flex flex-column">--}}
+{{--                                                    <div class="d-flex align-items-center text-warning">--}}
+{{--                                                        <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>--}}
+{{--                                                        <span class="ms-2 fw-bold text-dark">4.9 Rating</span>--}}
+{{--                                                    </div>--}}
+{{--                                                    <p class="mb-0 text-muted">Trusted by 5000+ Customers</p>--}}
+{{--                                                </div>--}}
+{{--                                            </div>--}}
+{{--                                        </div>--}}
+{{--                                    </div>--}}
                                 </div>
                                 {{--                                <h4 class="mt-40 mb-4">Our residential services include:</h4>--}}
 
@@ -111,30 +111,30 @@
 
                                         </ul>
                                     </div>
-                                    <div class="hero-social-proof mt-4 d-flex align-items-center gap-4" data-ani="fadeinup" data-ani-delay="1.2s">
-                                        <div class="row align-items-center">
-                                            <!-- Left: Stacked Avatars -->
-                                            <div class="col-auto">
-                                                <div class="d-flex">
-                                                    <img src="assets/img/testimonial/testi_1_2.jpg" class="rounded-circle" style="width:40px; height:40px; margin-right: -10px; border: 2px solid #fff;" alt="User">
-                                                    <img src="assets/img/testimonial/testi_1_1.jpg" class="rounded-circle" style="width:40px; height:40px; margin-right: -10px; border: 2px solid #fff;" alt="User">
-                                                    <img src="assets/img/testimonial/testi_2_3.jpg" class="rounded-circle" style="width:40px; height:40px; margin-right: -10px; border: 2px solid #fff;" alt="User">
-                                                    <img src="assets/img/testimonial/testi_2_4.jpg" class="rounded-circle" style="width:40px; height:40px; border: 2px solid #fff;" alt="User">
-                                                </div>
-                                            </div>
+{{--                                    <div class="hero-social-proof mt-4 d-flex align-items-center gap-4" data-ani="fadeinup" data-ani-delay="1.2s">--}}
+{{--                                        <div class="row align-items-center">--}}
+{{--                                            <!-- Left: Stacked Avatars -->--}}
+{{--                                            <div class="col-auto">--}}
+{{--                                                <div class="d-flex">--}}
+{{--                                                    <img src="assets/img/testimonial/testi_1_2.jpg" class="rounded-circle" style="width:40px; height:40px; margin-right: -10px; border: 2px solid #fff;" alt="User">--}}
+{{--                                                    <img src="assets/img/testimonial/testi_1_1.jpg" class="rounded-circle" style="width:40px; height:40px; margin-right: -10px; border: 2px solid #fff;" alt="User">--}}
+{{--                                                    <img src="assets/img/testimonial/testi_2_3.jpg" class="rounded-circle" style="width:40px; height:40px; margin-right: -10px; border: 2px solid #fff;" alt="User">--}}
+{{--                                                    <img src="assets/img/testimonial/testi_2_4.jpg" class="rounded-circle" style="width:40px; height:40px; border: 2px solid #fff;" alt="User">--}}
+{{--                                                </div>--}}
+{{--                                            </div>--}}
 
-                                            <!-- Right: Rating & Text -->
-                                            <div class="col ps-3">
-                                                <div class="d-flex flex-column">
-                                                    <div class="d-flex align-items-center text-warning">
-                                                        <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
-                                                        <span class="ms-2 fw-bold text-dark">4.9 Rating</span>
-                                                    </div>
-                                                    <p class="mb-0 text-muted">Trusted by 5000+ Customers</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
+{{--                                            <!-- Right: Rating & Text -->--}}
+{{--                                            <div class="col ps-3">--}}
+{{--                                                <div class="d-flex flex-column">--}}
+{{--                                                    <div class="d-flex align-items-center text-warning">--}}
+{{--                                                        <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>--}}
+{{--                                                        <span class="ms-2 fw-bold text-dark">4.9 Rating</span>--}}
+{{--                                                    </div>--}}
+{{--                                                    <p class="mb-0 text-muted">Trusted by 5000+ Customers</p>--}}
+{{--                                                </div>--}}
+{{--                                            </div>--}}
+{{--                                        </div>--}}
+{{--                                    </div>--}}
                                 </div>
 
 
@@ -169,30 +169,30 @@
 
                                         </ul>
                                     </div>
-                                    <div class="hero-social-proof mt-4 d-flex align-items-center gap-4" data-ani="fadeinup" data-ani-delay="1.2s">
-                                        <div class="row align-items-center">
-                                            <!-- Left: Stacked Avatars -->
-                                            <div class="col-auto">
-                                                <div class="d-flex">
-                                                    <img src="assets/img/testimonial/testi_1_2.jpg" class="rounded-circle" style="width:40px; height:40px; margin-right: -10px; border: 2px solid #fff;" alt="User">
-                                                    <img src="assets/img/testimonial/testi_1_1.jpg" class="rounded-circle" style="width:40px; height:40px; margin-right: -10px; border: 2px solid #fff;" alt="User">
-                                                    <img src="assets/img/testimonial/testi_2_3.jpg" class="rounded-circle" style="width:40px; height:40px; margin-right: -10px; border: 2px solid #fff;" alt="User">
-                                                    <img src="assets/img/testimonial/testi_2_4.jpg" class="rounded-circle" style="width:40px; height:40px; border: 2px solid #fff;" alt="User">
-                                                </div>
-                                            </div>
+{{--                                    <div class="hero-social-proof mt-4 d-flex align-items-center gap-4" data-ani="fadeinup" data-ani-delay="1.2s">--}}
+{{--                                        <div class="row align-items-center">--}}
+{{--                                            <!-- Left: Stacked Avatars -->--}}
+{{--                                            <div class="col-auto">--}}
+{{--                                                <div class="d-flex">--}}
+{{--                                                    <img src="assets/img/testimonial/testi_1_2.jpg" class="rounded-circle" style="width:40px; height:40px; margin-right: -10px; border: 2px solid #fff;" alt="User">--}}
+{{--                                                    <img src="assets/img/testimonial/testi_1_1.jpg" class="rounded-circle" style="width:40px; height:40px; margin-right: -10px; border: 2px solid #fff;" alt="User">--}}
+{{--                                                    <img src="assets/img/testimonial/testi_2_3.jpg" class="rounded-circle" style="width:40px; height:40px; margin-right: -10px; border: 2px solid #fff;" alt="User">--}}
+{{--                                                    <img src="assets/img/testimonial/testi_2_4.jpg" class="rounded-circle" style="width:40px; height:40px; border: 2px solid #fff;" alt="User">--}}
+{{--                                                </div>--}}
+{{--                                            </div>--}}
 
-                                            <!-- Right: Rating & Text -->
-                                            <div class="col ps-3">
-                                                <div class="d-flex flex-column">
-                                                    <div class="d-flex align-items-center text-warning">
-                                                        <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
-                                                        <span class="ms-2 fw-bold text-dark">4.9 Rating</span>
-                                                    </div>
-                                                    <p class="mb-0 text-muted">Trusted by 5000+ Customers</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
+{{--                                            <!-- Right: Rating & Text -->--}}
+{{--                                            <div class="col ps-3">--}}
+{{--                                                <div class="d-flex flex-column">--}}
+{{--                                                    <div class="d-flex align-items-center text-warning">--}}
+{{--                                                        <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>--}}
+{{--                                                        <span class="ms-2 fw-bold text-dark">4.9 Rating</span>--}}
+{{--                                                    </div>--}}
+{{--                                                    <p class="mb-0 text-muted">Trusted by 5000+ Customers</p>--}}
+{{--                                                </div>--}}
+{{--                                            </div>--}}
+{{--                                        </div>--}}
+{{--                                    </div>--}}
                                 </div>
 
 
@@ -223,30 +223,30 @@
 
                                         </ul>
                                     </div>
-                                    <div class="hero-social-proof mt-4 d-flex align-items-center gap-4" data-ani="fadeinup" data-ani-delay="1.2s">
-                                        <div class="row align-items-center">
-                                            <!-- Left: Stacked Avatars -->
-                                            <div class="col-auto">
-                                                <div class="d-flex">
-                                                    <img src="assets/img/testimonial/testi_1_2.jpg" class="rounded-circle" style="width:40px; height:40px; margin-right: -10px; border: 2px solid #fff;" alt="User">
-                                                    <img src="assets/img/testimonial/testi_1_1.jpg" class="rounded-circle" style="width:40px; height:40px; margin-right: -10px; border: 2px solid #fff;" alt="User">
-                                                    <img src="assets/img/testimonial/testi_2_3.jpg" class="rounded-circle" style="width:40px; height:40px; margin-right: -10px; border: 2px solid #fff;" alt="User">
-                                                    <img src="assets/img/testimonial/testi_2_4.jpg" class="rounded-circle" style="width:40px; height:40px; border: 2px solid #fff;" alt="User">
-                                                </div>
-                                            </div>
+{{--                                    <div class="hero-social-proof mt-4 d-flex align-items-center gap-4" data-ani="fadeinup" data-ani-delay="1.2s">--}}
+{{--                                        <div class="row align-items-center">--}}
+{{--                                            <!-- Left: Stacked Avatars -->--}}
+{{--                                            <div class="col-auto">--}}
+{{--                                                <div class="d-flex">--}}
+{{--                                                    <img src="assets/img/testimonial/testi_1_2.jpg" class="rounded-circle" style="width:40px; height:40px; margin-right: -10px; border: 2px solid #fff;" alt="User">--}}
+{{--                                                    <img src="assets/img/testimonial/testi_1_1.jpg" class="rounded-circle" style="width:40px; height:40px; margin-right: -10px; border: 2px solid #fff;" alt="User">--}}
+{{--                                                    <img src="assets/img/testimonial/testi_2_3.jpg" class="rounded-circle" style="width:40px; height:40px; margin-right: -10px; border: 2px solid #fff;" alt="User">--}}
+{{--                                                    <img src="assets/img/testimonial/testi_2_4.jpg" class="rounded-circle" style="width:40px; height:40px; border: 2px solid #fff;" alt="User">--}}
+{{--                                                </div>--}}
+{{--                                            </div>--}}
 
-                                            <!-- Right: Rating & Text -->
-                                            <div class="col ps-3">
-                                                <div class="d-flex flex-column">
-                                                    <div class="d-flex align-items-center text-warning">
-                                                        <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
-                                                        <span class="ms-2 fw-bold text-dark">4.9 Rating</span>
-                                                    </div>
-                                                    <p class="mb-0 text-muted">Trusted by 5000+ Customers</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
+{{--                                            <!-- Right: Rating & Text -->--}}
+{{--                                            <div class="col ps-3">--}}
+{{--                                                <div class="d-flex flex-column">--}}
+{{--                                                    <div class="d-flex align-items-center text-warning">--}}
+{{--                                                        <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>--}}
+{{--                                                        <span class="ms-2 fw-bold text-dark">4.9 Rating</span>--}}
+{{--                                                    </div>--}}
+{{--                                                    <p class="mb-0 text-muted">Trusted by 5000+ Customers</p>--}}
+{{--                                                </div>--}}
+{{--                                            </div>--}}
+{{--                                        </div>--}}
+{{--                                    </div>--}}
                                 </div>
 
 
