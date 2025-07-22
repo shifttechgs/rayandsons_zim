@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Ray and Sons - Plumbing Service Provider</title>
+    <title>Ray & Sons - Plumbing Service Provider</title>
     <meta name="author" content="Ray and Sons">
     <meta name="description" content="Ray and Sons - Plumbing Service ProviderSons">
     <meta name="keywords" content="Ray and Sons - Plumbing Service ProviderSons">

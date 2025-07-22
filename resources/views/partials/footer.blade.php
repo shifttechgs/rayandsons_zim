@@ -574,13 +574,13 @@
     <div class="copyright-wrap">
         <div class="container">
             <div class="row gy-2 align-items-center">
-                <div class="col-md-6"><p class="copyright-text">Copyright <i class="fal fa-copyright"></i> <script>document.write(new Date().getFullYear())</script>
-                    <a
+                <div class="col-md-6"><p  class="copyright-text">Copyright <i class="fal fa-copyright"></i> <script>document.write(new Date().getFullYear())</script>
+                    <a style="color: white"
                             href="">Ray and Sons Plumbing (Pty) Ltd.</a> All Rights Reserved.</p></div>
                 <div class="col-md-6 text-center text-md-end">
                     <div class="footer-links">
                         <ul>
-                            <li><a href="https://shifttechgs.com/">Powered By ShiftTech</a></li>
+                            <li><a style="color: white" href="https://shifttechgs.com/">Powered By ShiftTech</a></li>
 
 
                         </ul>

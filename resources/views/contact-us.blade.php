@@ -40,7 +40,7 @@
                                 <a href="tel:+263774631511">+263 77 463 1511</a></p><br>
                             <h5 class="box-title">Cape Town Branch:</h5>
                             <p class="box-text"><a href="tel:+27785575211">+27 785 575 211</a>
-                                <a href="tel:+27718159118">+27718159118</a></p>
+                                <a href="tel:+27718159118">+27 718 159 118</a></p>
                         </div>
                     </div>
                 </div>
@@ -53,8 +53,8 @@
                                     href="mailto:contracts@rayandsons.co.zw">contracts@rayandsons.co.zw</a></p><br>
 
                             <h5 class="box-title">Cape Town Branch:</h5>
-                            <p class="box-text"><a href="mailto:info@rayandsons.co.za">nfo@rayandsons.co.za</a> <a
-                                    href="mailto:contracts@rayandsons.co.za">contracts@rayandsons.co.za</a></p>
+{{--                            <p class="box-text"><a href="mailto:info@rayandsons.co.za">info@rayandsons.co.za</a>--}}
+                            <a href="mailto:rayandsonsplumbers15@gmail.com">rayandsonsplumbers15@gmail.com</a></p>
                         </div>
                     </div>
                 </div>
@@ -99,7 +99,7 @@
                         <p class="form-messages mb-0 mt-3"></p></form>
                 </div>
                 <div class="col-xl-6 mt-5 mt-xl-0">
-                    <div class="text-center"><a href="https://www.youtube.com/watch?v=_sI_Ps7JSEk"
+                    <div class="text-center"><a href="https://youtube.com/shorts/Mls0rreBngw"
                                                 class="play-btn style4 popup-video"><i
                                 class="fa-sharp fa-solid fa-play"></i></a></div>
                 </div>
@@ -122,7 +122,7 @@
                     <div class="footer-contact">
                         <div class="box-icon"><i class="fas fa-phone-volume"></i></div>
                         <div class="media-body"><h3 class="box-title">Call Us:</h3>
-                            <p class="box-text"><a href="tel:+263 78 871 6998">+263 78 871 6998</a></p></div>
+                            <p class="box-text"><a href="tel:+263 77 463 1511">+263 77 463 1511</a></p></div>
                     </div>
                     <div class="divider"></div>
                     <div class="footer-contact">
