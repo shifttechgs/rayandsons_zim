@@ -336,6 +336,11 @@
                             <div class="brand-card"><img src="assets/img/brand/cebre.png" style=" border-radius: 8px;"  alt="Brand Logo"></div>
                         </div>
 
+                        <div class="swiper-slide">
+                            <div class="brand-card"><img src="assets/img/brand/rio_duo.png" style=" border-radius: 8px;"  alt="Brand Logo"></div>
+                        </div>
+
+
 
                     </div>
                 </div>
